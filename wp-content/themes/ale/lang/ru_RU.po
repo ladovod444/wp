@@ -1,0 +1,6241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ale\n"
+"POT-Creation-Date: 2020-08-21 15:16+0300\n"
+"PO-Revision-Date: 2020-08-21 15:18+0300\n"
+"Last-Translator: Aletheme <support@aletheme.com>\n"
+"Language-Team: Aletheme <support@aletheme.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x;esc_html__;esc_html_e;esc_attr__;"
+"esct_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:11 ../aletheme/functions/general.php:1222
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: ../404.php:12
+msgid ""
+"Sorry, but the page you're looking for has not found. Try checking the URL "
+"for errors, then hit the refresh button on your browser."
+msgstr "Страница не найдена. Проверьте ссылку и обновите страницу"
+
+#: ../404.php:14 ../attachment.php:12 ../single-works.php:42
+msgid "Go Back"
+msgstr "Вернуться"
+
+#: ../aletheme/config.php:21
+msgid "Flexible 100%"
+msgstr "Flexible 100%"
+
+#: ../aletheme/config.php:22
+msgid "Boxed 960px"
+msgstr "Boxed 960px"
+
+#: ../aletheme/config.php:23
+msgid "Boxed 1024px"
+msgstr "Boxed 1024px"
+
+#: ../aletheme/config.php:24
+msgid "Custom"
+msgstr "Персональный"
+
+#: ../aletheme/config.php:28
+msgid "Olins"
+msgstr "Olins"
+
+#: ../aletheme/config.php:29
+msgid "Zoo"
+msgstr "Zoo"
+
+#: ../aletheme/config.php:30
+msgid "Bakery"
+msgstr "Bakery"
+
+#: ../aletheme/config.php:31
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:20
+msgid "Photography"
+msgstr "Photography"
+
+#: ../aletheme/config.php:32
+msgid "Luxury Shoes"
+msgstr "Luxury Shoes"
+
+#: ../aletheme/config.php:33
+msgid "Camping"
+msgstr "Camping"
+
+#: ../aletheme/config.php:34
+msgid "Travel Photography"
+msgstr "Travel Photography"
+
+#: ../aletheme/config.php:35
+msgid "Viaje"
+msgstr "Viaje"
+
+#: ../aletheme/config.php:36
+msgid "Wedding"
+msgstr "Wedding"
+
+#: ../aletheme/config.php:37
+msgid "Furniture"
+msgstr "Furniture"
+
+#: ../aletheme/config.php:38
+msgid "Magazine"
+msgstr "Magazine"
+
+#: ../aletheme/config.php:39
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:22
+msgid "Creative"
+msgstr "Creative"
+
+#: ../aletheme/config.php:40
+msgid "Photography Brigitte"
+msgstr "Photography Brigitte"
+
+#: ../aletheme/config.php:41
+msgid "Corporate"
+msgstr "Corporate"
+
+#: ../aletheme/config.php:42
+msgid "CV"
+msgstr "CV"
+
+#: ../aletheme/config.php:43
+msgid "Fashion Store"
+msgstr "Fashion Store"
+
+#: ../aletheme/config.php:44
+msgid "Pastel Photography"
+msgstr "Pastel Photography"
+
+#: ../aletheme/config.php:45
+msgid "Stephanie Lark (Wedding)"
+msgstr "Stephanie Lark (Wedding)"
+
+#: ../aletheme/config.php:46
+msgid "Cameron"
+msgstr "Cameron"
+
+#: ../aletheme/config.php:47
+msgid "Pixel"
+msgstr "Pixel"
+
+#: ../aletheme/config.php:48
+msgid "Jade"
+msgstr "Jade"
+
+#: ../aletheme/config.php:49
+msgid "Rosi"
+msgstr "Rosi"
+
+#: ../aletheme/config.php:50
+msgid "Keira"
+msgstr "Keira"
+
+#: ../aletheme/config.php:51
+msgid "Exotico"
+msgstr "Exotico"
+
+#: ../aletheme/config.php:52
+msgid "TaxiPress"
+msgstr "TaxiPress"
+
+#: ../aletheme/config.php:53
+msgid "Prestigio"
+msgstr "Prestigio"
+
+#: ../aletheme/config.php:54
+msgid "Ospedale"
+msgstr "Ospedale"
+
+#: ../aletheme/config.php:55
+msgid "Enforcement"
+msgstr "Enforcement"
+
+#: ../aletheme/config.php:56
+msgid "Donation"
+msgstr "Donation"
+
+#: ../aletheme/config.php:57
+msgid "Orquidea"
+msgstr "Orquidea"
+
+#: ../aletheme/config.php:58
+msgid "Limpieza"
+msgstr "Limpieza"
+
+#: ../aletheme/config.php:59
+msgid "Nunta"
+msgstr "Nunta"
+
+#: ../aletheme/config.php:60
+msgid "Cafeteria"
+msgstr "Cafeteria"
+
+#: ../aletheme/config.php:61
+msgid "Organic"
+msgstr "Organic"
+
+#: ../aletheme/config.php:62
+msgid "Hai"
+msgstr "Hai"
+
+#: ../aletheme/config.php:63
+msgid "Smoothie"
+msgstr "Smoothie"
+
+#: ../aletheme/config.php:64
+msgid "Po"
+msgstr "Po"
+
+#: ../aletheme/config.php:65
+msgid "Burger"
+msgstr "Burger"
+
+#: ../aletheme/config.php:68
+msgid "No. Use Default Styles"
+msgstr "Нет. Используй настройки по умолчанию"
+
+#: ../aletheme/config.php:69
+msgid "Yes, Overwrite with Custom"
+msgstr "Да. Используй персональные настройки"
+
+#: ../aletheme/config.php:72
+msgid "Hide"
+msgstr "Спрятать"
+
+#: ../aletheme/config.php:73
+msgid "Show"
+msgstr "Показать"
+
+#: ../aletheme/config.php:76
+msgid "On Featured Image"
+msgstr "На картинке обложки"
+
+#: ../aletheme/config.php:77
+msgid "Blog Info Line"
+msgstr "Инфо линия"
+
+#: ../aletheme/config.php:78
+msgid "Before Title"
+msgstr "До заголовка"
+
+#: ../aletheme/config.php:81
+msgid "Before Post Title"
+msgstr "До заголовка поста"
+
+#: ../aletheme/config.php:82
+msgid "After Post Title"
+msgstr "После заголовка поста"
+
+#: ../aletheme/config.php:83
+msgid "After Post Description"
+msgstr "После описания поста"
+
+#: ../aletheme/config.php:84
+msgid "Disable Post Line"
+msgstr "Отключить инфо линию"
+
+#: ../aletheme/config.php:87
+msgid "One Column"
+msgstr "Одна колонка"
+
+#: ../aletheme/config.php:88
+msgid "Two Columns"
+msgstr "Две колонки"
+
+#: ../aletheme/config.php:89
+msgid "Three Columns"
+msgstr "Три колонки"
+
+#: ../aletheme/config.php:90
+msgid "Four Columns"
+msgstr "Четыре колонки"
+
+#: ../aletheme/config.php:91
+msgid "Five Columns"
+msgstr "Пять колонок"
+
+#: ../aletheme/config.php:94
+msgid "Left Align"
+msgstr "Выравнивание по левому краю"
+
+#: ../aletheme/config.php:95
+msgid "Center Align"
+msgstr "Выравнивание по центру"
+
+#: ../aletheme/config.php:96
+msgid "Right Align"
+msgstr "Выравнивание по правому краю"
+
+#: ../aletheme/config.php:97
+msgid "Justify"
+msgstr "Печатное выравнивание"
+
+#: ../aletheme/config.php:101
+msgid "Pagination"
+msgstr "Постраничная навигация"
+
+#: ../aletheme/config.php:102
+msgid "Load More Button"
+msgstr "Кнопка «Загрузить Больше»"
+
+#: ../aletheme/config.php:103
+msgid "Infinite Scroll"
+msgstr "Бесконечная прокрутка"
+
+#: ../aletheme/config.php:104
+msgid "Simple pagination"
+msgstr "Простая постраничная навигация"
+
+#: ../aletheme/config.php:107
+msgid "No Sideabar"
+msgstr "Спрятать боковую панель"
+
+#: ../aletheme/config.php:108
+msgid "1/3 Left"
+msgstr "1/3 с лево"
+
+#: ../aletheme/config.php:109
+msgid "1/4 Left"
+msgstr "1/4 с лево"
+
+#: ../aletheme/config.php:110
+msgid "1/3 Right"
+msgstr "1/3 с право"
+
+#: ../aletheme/config.php:111
+msgid "1/4 Right"
+msgstr "1/4 с право"
+
+#: ../aletheme/config.php:114
+msgid "Default Footer"
+msgstr "Подвал с настройками по умолчанию"
+
+#: ../aletheme/config.php:115
+msgid "Widget Footer"
+msgstr "Подвал из виджетов"
+
+#: ../aletheme/config.php:118
+msgid "Dark Title on Light Parallax Image 1"
+msgstr "Темный заголовок на светлом фоне/изображении с параллакс эффектом №1"
+
+#: ../aletheme/config.php:119
+msgid "Light Title on Dark Parallax Image 2"
+msgstr "Светлый заголовок на темном фоне/изображении с параллакс эффектом №2"
+
+#: ../aletheme/config.php:120
+msgid "White Title on Dark Image"
+msgstr "Светлый заголовок на темном изображении"
+
+#: ../aletheme/config.php:121
+msgid "Simple Centered Dart Title (without pre title)"
+msgstr "Простой центрированный темный заголовок (без под заголовка)"
+
+#: ../aletheme/config.php:122
+msgid "Simple Title (without pre title)"
+msgstr "Простой заголовок (без под заголовка)"
+
+#: ../aletheme/config.php:123
+msgid "Simple Title (without pre title) with Breadcrumbs"
+msgstr "Простой заголовок (без под заголовка) с хлебными крошками."
+
+#: ../aletheme/config.php:124
+msgid "Hide Title, Show Breadcrumbs Line"
+msgstr "Спрятать заголовок и показать «хлебные крошки»."
+
+#: ../aletheme/config.php:125
+msgid "Left Image. Works for Wedding Variant."
+msgstr "Картинка с лево. Используется для демки Wedding."
+
+#: ../aletheme/config.php:126
+msgid "Parallax image with Pre Title for Sticky Header"
+msgstr "Параллакс изображение с под заголовком для «закрепленной шапки»"
+
+#: ../aletheme/config.php:127
+msgid "Exotico Heading"
+msgstr "Шапка Exotico"
+
+#: ../aletheme/config.php:128
+msgid "TaxiPress Heading"
+msgstr "Шапка TaxiPress"
+
+#: ../aletheme/config.php:129
+msgid "Enforcement Heading"
+msgstr "Шапка Enforcement"
+
+#: ../aletheme/config.php:130
+msgid "Orquidea Heading"
+msgstr "Шапка Orquidea"
+
+#: ../aletheme/config.php:131
+msgid "Cafeteria Heading"
+msgstr "Шапка Cafeteria"
+
+#: ../aletheme/config.php:132
+msgid "Po Heading"
+msgstr "Шапка Po"
+
+#: ../aletheme/config.php:135
+msgid "Masonry Grid"
+msgstr "Кирпичная сетка"
+
+#: ../aletheme/config.php:136
+msgid "Vintage Grid"
+msgstr "Сетка Vintage"
+
+#: ../aletheme/config.php:137
+msgid "Furniture Grid"
+msgstr "Сетка Furniture"
+
+#: ../aletheme/config.php:138
+msgid "Magazine Grid"
+msgstr "Сетка Magazine"
+
+#: ../aletheme/config.php:139
+msgid "Brigitte Grid"
+msgstr "Сетка Brigitte"
+
+#: ../aletheme/config.php:140
+msgid "Cameron Grid"
+msgstr "Сетка Cameron"
+
+#: ../aletheme/config.php:141
+msgid "Pixel Grid"
+msgstr "Сетка Pixel"
+
+#: ../aletheme/config.php:142
+msgid "Jade Grid"
+msgstr "Сетка Jade"
+
+#: ../aletheme/config.php:143
+msgid "Rosi Grid"
+msgstr "Сетка Rosi"
+
+#: ../aletheme/config.php:144
+msgid "Keira Grid"
+msgstr "Сетка Keira"
+
+#: ../aletheme/config.php:145
+msgid "Exotico Grid"
+msgstr "Сетка Exotico"
+
+#: ../aletheme/config.php:146
+msgid "TaxiPress Grid"
+msgstr "Сетка TaxiPress"
+
+#: ../aletheme/config.php:147
+msgid "Enforcement Grid"
+msgstr "Сетка Enforcement"
+
+#: ../aletheme/config.php:148
+msgid "Donation Grid"
+msgstr "Сетка Donation"
+
+#: ../aletheme/config.php:149
+msgid "Limpieza Grid"
+msgstr "Сетка Limpieza"
+
+#: ../aletheme/config.php:150
+msgid "Nunta Grid"
+msgstr "Сетка Nunta"
+
+#: ../aletheme/config.php:151
+msgid "Cafeteria Grid"
+msgstr "Сетка Cafeteria"
+
+#: ../aletheme/config.php:152
+msgid "Organic Grid"
+msgstr "Сетка Organic"
+
+#: ../aletheme/config.php:153
+msgid "Burger Grid"
+msgstr "Сетка Burger"
+
+#: ../aletheme/config.php:156
+msgid "Default Style"
+msgstr "Стиль по умолчанию"
+
+#: ../aletheme/config.php:157
+msgid "Vintage Style"
+msgstr "Стиль Vintage"
+
+#: ../aletheme/config.php:158
+msgid "Minimal Style"
+msgstr "Упрощенный стиль"
+
+#: ../aletheme/config.php:159
+msgid "Fashion Style"
+msgstr "Стиль Fashion"
+
+#: ../aletheme/config.php:160
+msgid "Rosi Style"
+msgstr "Стиль Rosi"
+
+#: ../aletheme/config.php:161
+msgid "Keira Style"
+msgstr "Стиль Keira"
+
+#: ../aletheme/config.php:162
+msgid "Exotico Style"
+msgstr "Стиль Exotico"
+
+#: ../aletheme/config.php:163
+msgid "Organic Style"
+msgstr "Стиль Organic"
+
+#: ../aletheme/config.php:164
+msgid "Smoothie Style"
+msgstr "Стиль Smoothie"
+
+#: ../aletheme/config.php:165
+msgid "Burger Style"
+msgstr "Стиль Burger"
+
+#: ../aletheme/config.php:181
+msgid "Brand"
+msgstr "Брендинг"
+
+#: ../aletheme/config.php:186
+msgid "Site Logo"
+msgstr "Логотип"
+
+#: ../aletheme/config.php:187
+msgid "Upload or put the site logo link."
+msgstr "Загрузите или вставьте ссылку на изображение логотипа."
+
+#: ../aletheme/config.php:192
+msgid "Site Logo Retina"
+msgstr "Логотип для ретины девайсов"
+
+#: ../aletheme/config.php:193
+msgid "Upload or put the site logo link forretina devices. 2X."
+msgstr "Загрузите или вставьте ссылку на изображение ретина логотипа. 2х."
+
+#: ../aletheme/config.php:198
+msgid "Footer Logo"
+msgstr "Логотип для подвала"
+
+#: ../aletheme/config.php:199
+msgid "Upload or put the footer logo link."
+msgstr "Загрузите или вставьте ссылку на изображение логотипа для подвала."
+
+#: ../aletheme/config.php:204 ../aletheme/functions/vc.php:333
+#: ../aletheme/functions/vc.php:1043 ../aletheme/functions/vc.php:1216
+#: ../aletheme/functions/vc.php:1490 ../aletheme/functions/vc.php:1520
+#: ../aletheme/functions/vc.php:1785 ../aletheme/functions/vc.php:3432
+msgid "Style"
+msgstr "Стиль"
+
+#: ../aletheme/config.php:209
+msgid "Design"
+msgstr "Дизайн"
+
+#: ../aletheme/config.php:210
+msgid ""
+"Specify the design. Each Design variant will load the own overall style, the "
+"header and the footer are hardcoded and are unique for specific variant."
+msgstr ""
+"Выберите дизайн. Каждый отдельно выбранный тип дизайна подгрузит свои "
+"персональные стили. Шапка и подвал у всех дизайн вариантов уникальны и "
+"запрограммированы на уровне файла, а так же закреплены исключительно за "
+"выбранным дизайном. "
+
+#: ../aletheme/config.php:216
+msgid "Page Wrapper"
+msgstr "Контейнер на странице"
+
+#: ../aletheme/config.php:217
+msgid ""
+"Specify the wrapper width. If you selected the Custom Wrapper, make sure you "
+"added the custom value in the field below."
+msgstr ""
+"Укажите ширину контейнера. Если вы выбрали «персональный контейнер» "
+"убедитесь что вы добавили значение для ширины в поле ниже."
+
+#: ../aletheme/config.php:223
+msgid "Custom Page Wrapper"
+msgstr "Персональный контейнер"
+
+#: ../aletheme/config.php:224
+msgid ""
+"If you need a custom Wrapper width, add your value in that field. ex: 900px "
+"or 90%. Also make sure the previous field is selected Custom"
+msgstr ""
+"Если вы хотите создать собственную ширину для контейнера, добавьте сюда свое "
+"значение. Например 900px или 90%. Так же убедитесь, что в поле выше указано "
+"«персональный контейнер» "
+
+#: ../aletheme/config.php:229
+msgid "Inner Wrapper/Content Wrapper"
+msgstr "Внутренний контейнер"
+
+#: ../aletheme/config.php:230
+msgid ""
+"Specify the inner wrapper if it should be different then the default "
+"wrapper. Let the field empty to be equal to the default wrapper. Use \"px\" "
+"or \"%\"."
+msgstr ""
+"Укажите ширину внутреннего контейнера в случае если он отличается от "
+"внешнего контейнера. Оставьте поле пустым чтобы внутренний контейнер "
+"соответствовал внешнему. Используйте «px» или «%»."
+
+#: ../aletheme/config.php:235
+msgid "Manage Background"
+msgstr "Настройки фоно"
+
+#: ../aletheme/config.php:236
+msgid ""
+"Select the background color, or upload a custom background image. Default "
+"background is the #f5f5f5 color"
+msgstr ""
+"Укажите цвет для фона или загрузите фоновое изображение. Цвет фона по "
+"умолчанию #f5f5f5."
+
+#: ../aletheme/config.php:241
+msgid "Site Pre Loader"
+msgstr "Анимированный пред-загрузчик"
+
+#: ../aletheme/config.php:242
+msgid "Enable or Disable the site preloader"
+msgstr "Включить или отключить предзагрузчик"
+
+#: ../aletheme/config.php:247 ../aletheme/config.php:1007
+msgid "Disable"
+msgstr "Отключить"
+
+#: ../aletheme/config.php:248 ../aletheme/config.php:1008
+msgid "Enable"
+msgstr "Включить"
+
+#: ../aletheme/config.php:251
+msgid "Pre loader Animation"
+msgstr "Анимация для предзагрузчика"
+
+#: ../aletheme/config.php:252
+msgid "Select Pre Loader animation"
+msgstr "Выберите анимацию"
+
+#: ../aletheme/config.php:257
+msgid "Rotating Plane"
+msgstr "Вращающаяся плоскость"
+
+#: ../aletheme/config.php:258
+msgid "Double Bounce"
+msgstr "Двойной отскок"
+
+#: ../aletheme/config.php:259
+msgid "Wave"
+msgstr "Волна"
+
+#: ../aletheme/config.php:260
+msgid "Wandering Cubes"
+msgstr "Блуждающие кубики"
+
+#: ../aletheme/config.php:261
+msgid "Spinner"
+msgstr "Спикер"
+
+#: ../aletheme/config.php:262
+msgid "Chasing Dots"
+msgstr "В погоне за точками"
+
+#: ../aletheme/config.php:263
+msgid "Three Bounce"
+msgstr "Три отскока"
+
+#: ../aletheme/config.php:264
+msgid "Circle"
+msgstr "Окружность"
+
+#: ../aletheme/config.php:265
+msgid "Cube Grid"
+msgstr "Сетка из кубов"
+
+#: ../aletheme/config.php:266
+msgid "Fading Circle"
+msgstr "Затухающая окружность"
+
+#: ../aletheme/config.php:267
+msgid "Folding Cube"
+msgstr "Складной куб"
+
+#: ../aletheme/config.php:268
+msgid "Loader"
+msgstr "Загрузчик"
+
+#: ../aletheme/config.php:271
+msgid "Background color"
+msgstr "Фоновый цвет"
+
+#: ../aletheme/config.php:272
+msgid "Select a background color for Pre loader"
+msgstr "Выберите цвет фона для пред-загрузчика. "
+
+#: ../aletheme/config.php:277
+msgid "Animation color"
+msgstr "Цвет для анимации"
+
+#: ../aletheme/config.php:278
+msgid "Select a color for Animation"
+msgstr "Выберите цвет для анимации"
+
+#: ../aletheme/config.php:283
+msgid "Header Settings"
+msgstr "Настройки шапки"
+
+#: ../aletheme/config.php:288
+msgid "Overwrite Header Styles"
+msgstr "Переопределить настройки шапки"
+
+#: ../aletheme/config.php:289
+msgid ""
+"Select Yes if you want to customize the header styles like, bg color, "
+"navigation items sizes etc..."
+msgstr ""
+"Выберите «Да» если хотите переопределять стили для шапки, такие как фон, "
+"размер шрифта навигации и т.д."
+
+#: ../aletheme/config.php:295
+msgid "Styles for the Header"
+msgstr "Стили для шапки"
+
+#: ../aletheme/config.php:296
+msgid ""
+"Fill all fields to create a custom Header Style. Let the fields empty to use "
+"the default styles."
+msgstr ""
+"Заполните все поля чтобы создать собственный стиль для шапки. ОСтавьте поля "
+"пустыми, чтобы использовать настройки по умолчанию. "
+
+#: ../aletheme/config.php:305
+msgid "Fields for Burger Variant"
+msgstr "Поля для вариации Burger"
+
+#: ../aletheme/config.php:306
+msgid "These fields works with Burger Design variat."
+msgstr "Эти поля работают с вариацией Бургер"
+
+#: ../aletheme/config.php:311
+msgid "Online Order Button Text"
+msgstr "Текст кнопки Заказать Онлайн"
+
+#: ../aletheme/config.php:312
+msgid "Insert the text"
+msgstr "Введите текст"
+
+#: ../aletheme/config.php:316
+msgid "Online Order Button Link"
+msgstr "Ссылка для кнопки Заказать Онлайн"
+
+#: ../aletheme/config.php:317 ../aletheme/functions/vc.php:4283
+#: ../aletheme/functions/vc.php:4290
+msgid "Insert the link"
+msgstr "Введите ссылку"
+
+#: ../aletheme/config.php:325
+msgid "1st Level Menu Style"
+msgstr "Навигация первого уровня"
+
+#: ../aletheme/config.php:326
+msgid "Change the 1st Level Menu Style"
+msgstr "Изменить стиль навигации первого уровня"
+
+#: ../aletheme/config.php:331
+msgid "2st Level Menu Style"
+msgstr "Навигация второго уровня"
+
+#: ../aletheme/config.php:332
+msgid "Change the 2st Level Menu Style"
+msgstr "Изменить стиль навигации второго уровня"
+
+#: ../aletheme/config.php:337
+msgid "3st Level Menu Style"
+msgstr "Навигация третьего уровня"
+
+#: ../aletheme/config.php:338
+msgid "Change the 3st Level Menu Style"
+msgstr "Изменить стиль навигации третьего уровня"
+
+#: ../aletheme/config.php:344
+msgid "Footer Options"
+msgstr "Настройки подвала"
+
+#: ../aletheme/config.php:349
+msgid "Footer Type"
+msgstr "Тип подвала"
+
+#: ../aletheme/config.php:350
+msgid "Specify the footer type/style."
+msgstr "Определите стиль/тип подвала"
+
+#: ../aletheme/config.php:360
+msgid "Widget #1 Title"
+msgstr "Заголовок для виджета #1"
+
+#: ../aletheme/config.php:361 ../aletheme/config.php:373
+#: ../aletheme/config.php:385 ../aletheme/config.php:397
+#: ../aletheme/functions/vc.php:2173 ../aletheme/functions/vc.php:4648
+#: ../aletheme/functions/vc.php:4894 ../aletheme/functions/vc.php:4919
+#: ../aletheme/functions/vc.php:4944 ../aletheme/functions/vc.php:4969
+#: ../aletheme/functions/vc.php:5043 ../aletheme/functions/vc.php:5068
+#: ../aletheme/functions/vc.php:5093 ../aletheme/functions/vc.php:5410
+msgid "Insert the title"
+msgstr "Введите заголовок"
+
+#: ../aletheme/config.php:366
+msgid "Widget #1 Content"
+msgstr "Контент для виджета #1"
+
+#: ../aletheme/config.php:367 ../aletheme/config.php:379
+#: ../aletheme/config.php:391 ../aletheme/config.php:403
+msgid "Insert the content"
+msgstr "Введите контент"
+
+#: ../aletheme/config.php:372
+msgid "Widget #2 Title"
+msgstr "Заголовок для виджета #2"
+
+#: ../aletheme/config.php:378
+msgid "Widget #2 Content"
+msgstr "Контент для виджета #2"
+
+#: ../aletheme/config.php:384
+msgid "Widget #3 Title"
+msgstr "Заголовок для виджета #3"
+
+#: ../aletheme/config.php:390
+msgid "Widget #3 Content"
+msgstr "Контент для виджета #3"
+
+#: ../aletheme/config.php:396
+msgid "Widget #4 Title"
+msgstr "Заголовок для виджета #4"
+
+#: ../aletheme/config.php:402
+msgid "Widget #4 Content"
+msgstr "Контент для виджета #4"
+
+#: ../aletheme/config.php:414
+msgid "Footer Call Number"
+msgstr "Номер телефона"
+
+#: ../aletheme/config.php:415
+msgid "Insert the call number"
+msgstr "Вставьте номер телефона"
+
+#: ../aletheme/config.php:420
+msgid "Footer Email Address"
+msgstr "Емэйл"
+
+#: ../aletheme/config.php:421
+msgid "Insert the Email Address."
+msgstr "Вставьте емэйл"
+
+#: ../aletheme/config.php:426
+msgid "Your Address"
+msgstr "Ваш адрес"
+
+#: ../aletheme/config.php:427
+msgid "Insert the Address."
+msgstr "Вставьте ваш адрес"
+
+#: ../aletheme/config.php:432
+msgid "Copyrights"
+msgstr "Авторские права"
+
+#: ../aletheme/config.php:433
+msgid "Insert the Copyrights text"
+msgstr "Вставьте текст для блока авторских прах"
+
+#: ../aletheme/config.php:438
+msgid "Footer Background"
+msgstr "Фон для подвала"
+
+#: ../aletheme/config.php:439
+msgid "Upload or put the image link. Used on specific style variants."
+msgstr ""
+"Загрузите или вставьте ссылку на картинку для фона. Важно: Используется "
+"только на определенных дизайн вариациях."
+
+#: ../aletheme/config.php:444
+msgid "Page Heading"
+msgstr "Шапка страницы"
+
+#: ../aletheme/config.php:449
+msgid "Page Heading Style"
+msgstr "Стиль для шапки страницы"
+
+#: ../aletheme/config.php:450
+msgid ""
+"Select a style for page heading. NOTE: Specific Heading was designed and "
+"hard coded for a specific demo variant. So after you installed a demo "
+"example, do not change this field. It will broke the layout."
+msgstr ""
+"Выберите стиль для шапки страницы. Важно: Шапки изначально были созданы и "
+"запрограммированы под соответствующий дизайн вариант. После импорта "
+"определенной «демо вариации», не меняйте эти настройки, иначе ваш сайт "
+"поплывет :) "
+
+#: ../aletheme/config.php:456
+msgid "Archive Pages Title Background"
+msgstr "Фотонов изображение для архивных страниц"
+
+#: ../aletheme/config.php:457 ../aletheme/config.php:889
+#: ../aletheme/config.php:1017
+msgid "Upload or put the image link. Necessary size: 1800px-590px"
+msgstr ""
+"Загрузите или укажите ссылку на картинку. Необходимый размер 1800px-590px"
+
+#: ../aletheme/config.php:462
+msgid "Blog Archive Page Title"
+msgstr "Заголовок для страницы «Блог»"
+
+#: ../aletheme/config.php:463
+msgid "Specify the title for Blog archive page"
+msgstr "Укажите заголовок для страницы «Блог»"
+
+#: ../aletheme/config.php:468
+msgid "Blog Archive Page Pre Title"
+msgstr "Под заголовок для страницы «Блог»"
+
+#: ../aletheme/config.php:469
+msgid "Specify the pre title for Blog archive page"
+msgstr "Укажите под заголовок для страницы «Блог»"
+
+#: ../aletheme/config.php:474
+msgid "Typography"
+msgstr "Типография"
+
+#: ../aletheme/config.php:479
+msgid "Select the First Font from Google Library"
+msgstr "Выберите первый шрифт из библиотеки Google Fonts"
+
+#: ../aletheme/config.php:480
+msgid "The default Font is - Raleway"
+msgstr "Шрифт по умолчанию - Raleway"
+
+#: ../aletheme/config.php:486
+msgid "Select the First Font Properties from Google Library"
+msgstr "Укажите расширения для первого шрифта"
+
+#: ../aletheme/config.php:487
+msgid "The default Font (extended) is - 400,400i,600,800,800i,900"
+msgstr "Значение по умолчанию - 400,400i,600,800,800i,900"
+
+#: ../aletheme/config.php:493
+msgid "Select the Second Font from Google Library"
+msgstr "Выберите второй шрифт из библиотеки Google Fonts"
+
+#: ../aletheme/config.php:494
+msgid "The default Font is - Playfair Display"
+msgstr "Шрифт по умолчанию - Playfair Display"
+
+#: ../aletheme/config.php:500
+msgid "Select the Second Font Properties from Google Library"
+msgstr "Укажите расширения для второго шрифта"
+
+#: ../aletheme/config.php:501
+msgid "The default Font (extended) is - 400i"
+msgstr "Значение по умолчанию - 400i"
+
+#: ../aletheme/config.php:507
+msgid "Select the Third Font from Google Library"
+msgstr "Выберите третий шрифт из библиотеки Google Fonts"
+
+#: ../aletheme/config.php:508
+msgid "The third font is loaded only for specific variants. Ex: ROSI"
+msgstr ""
+"Третий шрифт подгружается только на определенных дизайн вариациях, например: "
+"ROSI"
+
+#: ../aletheme/config.php:514
+msgid "Select the Third Font Properties from Google Library"
+msgstr "Укажите расширение для третьего шрифта"
+
+#: ../aletheme/config.php:515
+msgid "The default Font (extended) is - 400"
+msgstr "Значение по умолчанию - 400"
+
+#: ../aletheme/config.php:521
+msgid "H1 Style"
+msgstr "Стиль для H1"
+
+#: ../aletheme/config.php:522
+msgid "Change the h1 style"
+msgstr "Изменить стиль для h1"
+
+#: ../aletheme/config.php:527
+msgid "H2 Style"
+msgstr "Стиль для H2"
+
+#: ../aletheme/config.php:528
+msgid "Change the h2 style"
+msgstr "Изменить стиль для h2"
+
+#: ../aletheme/config.php:533
+msgid "H3 Style"
+msgstr "Стиль для H3"
+
+#: ../aletheme/config.php:534
+msgid "Change the h3 style"
+msgstr "Изменить стиль для h3"
+
+#: ../aletheme/config.php:539
+msgid "H4 Style"
+msgstr "Стиль для H4"
+
+#: ../aletheme/config.php:540
+msgid "Change the h4 style"
+msgstr "Изменить стиль для h4"
+
+#: ../aletheme/config.php:545
+msgid "H5 Style"
+msgstr "Стиль для H5"
+
+#: ../aletheme/config.php:546
+msgid "Change the h5 style"
+msgstr "Изменить стиль для h5"
+
+#: ../aletheme/config.php:551
+msgid "H6 Style"
+msgstr "Стиль для H1"
+
+#: ../aletheme/config.php:552
+msgid "Change the h6 style"
+msgstr "Изменить стиль для h6"
+
+#: ../aletheme/config.php:557
+msgid "Body Style"
+msgstr "Стиль для Body"
+
+#: ../aletheme/config.php:558
+msgid "Change the body font style"
+msgstr "Изменить стиль для boy"
+
+#: ../aletheme/config.php:563
+msgid "Social Profiles & Share"
+msgstr "Социальные сети"
+
+#: ../aletheme/config.php:568 ../aletheme/functions/vc.php:4088
+#: ../partials/social_text_links.php:1
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../aletheme/config.php:569
+msgid "Your twitter profile URL."
+msgstr "Ссылка на ваш профиль"
+
+#: ../aletheme/config.php:574 ../aletheme/functions/vc.php:3924
+#: ../aletheme/functions/vc.php:4095 ../partials/social_text_links.php:2
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../aletheme/config.php:575
+msgid "Your facebook profile URL."
+msgstr "Ссылка на ваш профиль"
+
+#: ../aletheme/config.php:580 ../aletheme/functions/vc.php:4102
+#: ../partials/social_text_links.php:3
+msgid "Youtube"
+msgstr "YouTube"
+
+#: ../aletheme/config.php:581
+msgid "Your youtube profile URL."
+msgstr "Ссылка на ваш профиль"
+
+#: ../aletheme/config.php:586
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: ../aletheme/config.php:587
+msgid "Your LinkedIn profile URL."
+msgstr "Ссылка на ваш профиль"
+
+#: ../aletheme/config.php:592 ../partials/social_text_links.php:5
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../aletheme/config.php:593
+msgid "Your Pinterest profile URL."
+msgstr "Ссылка на ваш профиль"
+
+#: ../aletheme/config.php:598
+msgid "Google Plus+"
+msgstr "Google Plus+"
+
+#: ../aletheme/config.php:599
+msgid "Your Google Plus+ profile URL."
+msgstr "Ссылка на ваш профиль"
+
+#: ../aletheme/config.php:604 ../partials/social_text_links.php:7
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: ../aletheme/config.php:605
+msgid "Your Tumblr profile URL."
+msgstr "Ссылка на ваш профиль"
+
+#: ../aletheme/config.php:610 ../partials/social_text_links.php:8
+msgid "Instagram"
+msgstr "Instagram"
+
+#: ../aletheme/config.php:611
+msgid "Your Instagram profile URL."
+msgstr "Ссылка на ваш профиль"
+
+#: ../aletheme/config.php:616 ../partials/social_text_links.php:9
+msgid "Reddit"
+msgstr "Reddit"
+
+#: ../aletheme/config.php:617
+msgid "Your Reddit profile URL."
+msgstr "Ссылка на ваш профиль"
+
+#: ../aletheme/config.php:622
+msgid "VK"
+msgstr "VK"
+
+#: ../aletheme/config.php:623
+msgid "Your VK profile URL."
+msgstr "Ссылка на ваш профиль"
+
+#: ../aletheme/config.php:637
+msgid "Blog Settings"
+msgstr "Настройки Блога"
+
+#: ../aletheme/config.php:642
+msgid "Blog Grid Layout"
+msgstr "Сетка для блога"
+
+#: ../aletheme/config.php:643
+msgid ""
+"Specify the Grid Layout. Note: Once you selected a specific Grid some of the "
+"options bellow will dissapear. This is happening because a specific grid has "
+"specific parameters and some options like columns count will not work."
+msgstr ""
+"Выберите стиль сетки. Важно: Выбрав определенный стиль, некоторые поля могут "
+"исчезнуть. Это связано с тем, что они не поддерживаются для конкретной "
+"вариации."
+
+#: ../aletheme/config.php:650 ../aletheme/config.php:900
+#: ../aletheme/config.php:1040
+msgid "Columns Count"
+msgstr "Количество колонок"
+
+#: ../aletheme/config.php:651
+msgid ""
+"Select the columns count for the Blog Archives pages. Works for grids, that "
+"support columns."
+msgstr ""
+"Укажите количество колонок для сетки блога. Работает со всеми сетками, "
+"поддерживающих колонки. "
+
+#: ../aletheme/config.php:657
+msgid "Text Align"
+msgstr "Выравнивание текста"
+
+#: ../aletheme/config.php:658
+msgid "Setup the Text Align into Blog items"
+msgstr "Укажите выравнивание текста для карточки блог поста"
+
+#: ../aletheme/config.php:664
+msgid "Pagination Settings"
+msgstr "Настройки постраничной навигации"
+
+#: ../aletheme/config.php:665
+msgid "Select the Pagination Type for Blog Archives"
+msgstr "Выберите тип постраничной навигации"
+
+#: ../aletheme/config.php:671 ../aletheme/config.php:943
+#: ../aletheme/config.php:1047
+msgid "Sidebar Settings"
+msgstr "Настройки боковой панели"
+
+#: ../aletheme/config.php:672
+msgid "Select a sidebar position for Blog Archives"
+msgstr "Выберите расположение для боковой панели"
+
+#: ../aletheme/config.php:678
+msgid "Share Icons"
+msgstr "Иконки «поделиться»"
+
+#: ../aletheme/config.php:679
+msgid "Show or Hide Share Icons?"
+msgstr "Показать или спрятать иконки «поделиться»"
+
+#: ../aletheme/config.php:685
+msgid "Number of Words in Description"
+msgstr "Количество слов в описании"
+
+#: ../aletheme/config.php:686
+msgid "Specify the Number of Words for Description blog per post."
+msgstr "Укажите количество слов в описании"
+
+#: ../aletheme/config.php:691
+msgid "Date Position"
+msgstr "Расположение даты"
+
+#: ../aletheme/config.php:692
+msgid "Select the date position."
+msgstr "Выберите расположение для даты."
+
+#: ../aletheme/config.php:698
+msgid "Blog Info Line Position"
+msgstr "Расположение инфо линии"
+
+#: ../aletheme/config.php:699
+msgid "Select the post info line position."
+msgstr "Выберите расположение для инфо линии."
+
+#: ../aletheme/config.php:705
+msgid "Show Category?"
+msgstr "Показать категорию?"
+
+#: ../aletheme/config.php:706
+msgid "Show or Hide post Category?"
+msgstr "Показать или спрятать категорию?"
+
+#: ../aletheme/config.php:712
+msgid "Show post Author?"
+msgstr "Показать автора поста?"
+
+#: ../aletheme/config.php:713
+msgid "Show or Hide post Author?"
+msgstr "Показать или спрятать автора поста?"
+
+#: ../aletheme/config.php:719
+msgid "Show Comments count?"
+msgstr "Показать количество комментариев?"
+
+#: ../aletheme/config.php:720
+msgid "Show or Hide comments count?"
+msgstr "Показать или спрятать количество комментариев?"
+
+#: ../aletheme/config.php:729
+msgid "Overwrite Default Blog Styles"
+msgstr "Переопределять настройки Блога"
+
+#: ../aletheme/config.php:730
+msgid ""
+"The fields bellow are for custom styles. You can select the overwrite option "
+"and insert custom values to change the blog style."
+msgstr ""
+"Поля ниже для персональных настроек. Вы можете переопределять настройки по "
+"умолчанию"
+
+#: ../aletheme/config.php:735
+msgid "Overwrite Blog Styles"
+msgstr "Изменить настройки по умолчанию"
+
+#: ../aletheme/config.php:736
+msgid ""
+"Select Yes if you want to customize the elements like title, image, social "
+"icons, etc..."
+msgstr ""
+"Выберите «Да» если хотите изменить базовые элементы, такие как заголовок, "
+"обложка, социальные иконки и тд"
+
+#: ../aletheme/config.php:742 ../aletheme/config.php:839
+msgid "Title Typography"
+msgstr "Типографика заголовка"
+
+#: ../aletheme/config.php:743 ../aletheme/config.php:840
+msgid "Change the Typography for block title"
+msgstr "Изменить типографику секции заголовка"
+
+#: ../aletheme/config.php:748 ../aletheme/config.php:845
+msgid "Title Margins"
+msgstr "Отступы для заголовка"
+
+#: ../aletheme/config.php:749 ../aletheme/config.php:846
+msgid "Specify the margin value for block title."
+msgstr "Определить отступы для секции с заголовком"
+
+#: ../aletheme/config.php:754
+msgid "Description Typography"
+msgstr "Типографика для секции описания"
+
+#: ../aletheme/config.php:755
+msgid "Change the Typography for block description"
+msgstr "Изменить типографику для секции с описанием"
+
+#: ../aletheme/config.php:760
+msgid "Description Margins"
+msgstr "Отступы для описания"
+
+#: ../aletheme/config.php:761
+msgid "Specify the margin value for block description."
+msgstr "Определить отступы для секции описания"
+
+#: ../aletheme/config.php:766
+msgid "Info Line Typography"
+msgstr "Типографика для инфо линии"
+
+#: ../aletheme/config.php:767
+msgid "Change the Typography for info line"
+msgstr "Изменить типографику для инфолинии"
+
+#: ../aletheme/config.php:772
+msgid "Info Line Margins"
+msgstr "Отступы для инфо линии"
+
+#: ../aletheme/config.php:773
+msgid "Specify the margin value for info line."
+msgstr "Определить отступы для секции инфо линия"
+
+#: ../aletheme/config.php:778
+msgid "Share Icons Color"
+msgstr "Цвет для иконок «Поделиться»"
+
+#: ../aletheme/config.php:779
+msgid "Specify the share icons color."
+msgstr "Выберите цвет для иконок"
+
+#: ../aletheme/config.php:784
+msgid "Share Icons Size"
+msgstr "Размер для иконок «Поделиться»"
+
+#: ../aletheme/config.php:785
+msgid "Specify the icon size in px."
+msgstr "Укажите размер иконок в px"
+
+#: ../aletheme/config.php:790
+msgid "Overwrite Pagination Styles"
+msgstr "Переопределить стили для постраничной навигации"
+
+#: ../aletheme/config.php:791
+msgid "Change the fields bellow to overwrite the paginations styles"
+msgstr ""
+"Измените и заполните поля ниже, чтобы определить персональный стиль для "
+"постраничной навигации"
+
+#: ../aletheme/config.php:796
+msgid "Button Background color"
+msgstr "Цвет кнопки"
+
+#: ../aletheme/config.php:797 ../aletheme/config.php:803
+#: ../aletheme/config.php:809 ../aletheme/config.php:815
+#: ../aletheme/config.php:821 ../aletheme/config.php:827
+msgid "Specify the color."
+msgstr "Укажите цвет"
+
+#: ../aletheme/config.php:802
+msgid "Button Font color"
+msgstr "Цвет текста на кнопке"
+
+#: ../aletheme/config.php:808
+msgid "Button Hover Background color"
+msgstr "Цвет кнопки при наведении"
+
+#: ../aletheme/config.php:814
+msgid "Button Hover Font color"
+msgstr "Цвет текста кнопки при наведении"
+
+#: ../aletheme/config.php:820
+msgid "Button Border color"
+msgstr "Цвет обводки кнопки"
+
+#: ../aletheme/config.php:826
+msgid "Button Hover Border color"
+msgstr "Цвет обводки кнопки при наведении"
+
+#: ../aletheme/config.php:832
+msgid "Overwrite Single Blog Post Styles"
+msgstr "Определить стили для страницы блог поста"
+
+#: ../aletheme/config.php:833
+msgid ""
+"Select Yes if you want to customize the elements like title, infoline, "
+"social icons, etc..."
+msgstr ""
+"Выберите «Да» если хотите персонализировать элементы, такие как: заголовок, "
+"инфо линия, социальные иконки и тд"
+
+#: ../aletheme/config.php:851
+msgid "Pre Title Typography"
+msgstr "Типографика для под заголовка"
+
+#: ../aletheme/config.php:852
+msgid "Change the Typography for Pre Title"
+msgstr "Изменить типографику под заголовка"
+
+#: ../aletheme/config.php:857
+msgid "Pre Title Margins"
+msgstr "Отступы для под заголовка"
+
+#: ../aletheme/config.php:858
+msgid "Specify the margin value for pre title."
+msgstr "Определить отступы для под заголовка"
+
+#: ../aletheme/config.php:863
+msgid "Title & Pre Title Align"
+msgstr "Выравнивание для заголовка и под заголовка"
+
+#: ../aletheme/config.php:864
+msgid "Setup the Text Align"
+msgstr "Выберите выравнивание"
+
+#: ../aletheme/config.php:871
+msgid "Work Settings"
+msgstr "Портфолио"
+
+#: ../aletheme/config.php:876
+msgid "Archive Pre Title"
+msgstr "Под заголовок для архивной страницы"
+
+#: ../aletheme/config.php:877
+msgid "Insert the pre title for Archives pages"
+msgstr "Укажите под заголовок"
+
+#: ../aletheme/config.php:882
+msgid "Archive Title"
+msgstr "Заголовок архивной страницы"
+
+#: ../aletheme/config.php:883
+msgid "Insert the title for Archives pages"
+msgstr "Укажите заголовок архивной страницы"
+
+#: ../aletheme/config.php:888
+msgid "Page Heading Background"
+msgstr "Фон для шапки страницы"
+
+#: ../aletheme/config.php:894
+msgid "Posts per page"
+msgstr "Количество постов на странице"
+
+#: ../aletheme/config.php:895
+msgid "Insert the count"
+msgstr "Введите цифровое значение"
+
+#: ../aletheme/config.php:901
+msgid "Select the columns count for the Works Archives pages"
+msgstr "Выберите количество колонок для сетки страницы Портфолио"
+
+#: ../aletheme/config.php:907
+msgid "Layout Style"
+msgstr "Стиль страницы"
+
+#: ../aletheme/config.php:908
+msgid "Select between Grid or Masonry or Square layout."
+msgstr "Выберите между простой сеткой, кирпичной и квадратной."
+
+#: ../aletheme/config.php:913
+msgid "Masonry Layout"
+msgstr "Кирпичная сетка"
+
+#: ../aletheme/config.php:914 ../aletheme/functions/vc.php:1339
+#: ../aletheme/functions/vc.php:1865 ../aletheme/functions/vc.php:2159
+#: ../aletheme/functions/vc.php:2218 ../aletheme/functions/vc.php:2246
+#: ../aletheme/functions/vc.php:2380 ../aletheme/functions/vc.php:2533
+#: ../aletheme/functions/vc.php:2576 ../aletheme/functions/vc.php:2678
+#: ../aletheme/functions/vc.php:3959 ../aletheme/functions/vc.php:4008
+msgid "Grid Layout"
+msgstr "Простая сетка"
+
+#: ../aletheme/config.php:915
+msgid "Square Layout"
+msgstr "Квадратная сетка"
+
+#: ../aletheme/config.php:918
+msgid "Hover Style"
+msgstr "Стиль при наведении"
+
+#: ../aletheme/config.php:919
+msgid "Specify the Hover Style."
+msgstr "Выберите стиль при наведении"
+
+#: ../aletheme/config.php:924
+msgid "Hover Style 1 (Lines)"
+msgstr "Стиль №1 (Линии)"
+
+#: ../aletheme/config.php:925
+msgid "Hover Style 2 (Light Opacity)"
+msgstr "Стиль №2 (Светлая прозрачность)"
+
+#: ../aletheme/config.php:926
+msgid "Hover Style 3 (Mask Opacity)"
+msgstr "Стиль №3 (Прозрачная маска)"
+
+#: ../aletheme/config.php:927
+msgid "Hover Style 4 (Light Opacity)"
+msgstr "Стиль №4 (Светлая прозрачность)"
+
+#: ../aletheme/config.php:928
+msgid "Hover Style 5 (Creative)"
+msgstr "Стиль №5 (Креатив)"
+
+#: ../aletheme/config.php:929
+msgid "Hover Style 6 (Stephanie Wedding)"
+msgstr "Стиль №6 (Stephanie Wedding)"
+
+#: ../aletheme/config.php:930
+msgid "Hover Style 7 (Cameron)"
+msgstr "Стиль №7 (Cameron)"
+
+#: ../aletheme/config.php:931
+msgid "Hover Style 8 (Orquidea)"
+msgstr "Стиль №8 (Orquidea)"
+
+#: ../aletheme/config.php:932
+msgid "Hover Style 9 (Limpieza)"
+msgstr "Стиль №9 (Limpieza)"
+
+#: ../aletheme/config.php:933
+msgid "Hover Style 10 (Nunta)"
+msgstr "Стиль №10 (Nunta)"
+
+#: ../aletheme/config.php:934
+msgid "Hover Style 11 (Cafeteria)"
+msgstr "Стиль №11 (Cafeteria)"
+
+#: ../aletheme/config.php:937
+msgid "Padding"
+msgstr "Внутренние отступы"
+
+#: ../aletheme/config.php:938
+msgid "Padding between work items in px"
+msgstr "Внутренние отступы между элементами в px"
+
+#: ../aletheme/config.php:944
+msgid "Select a sidebar position for Work Archives"
+msgstr "Определить позицию для боковой панели"
+
+#: ../aletheme/config.php:950
+msgid "Item Style"
+msgstr "Стиль элемента"
+
+#: ../aletheme/config.php:951
+msgid "Specify the Item Style."
+msgstr "Определить стиль для элемента."
+
+#: ../aletheme/config.php:956
+msgid "Only Image"
+msgstr "Только обложка"
+
+#: ../aletheme/config.php:957
+msgid "Image, Title, and Category Icon"
+msgstr "Обложка, Заголовок и Иконка категории"
+
+#: ../aletheme/config.php:958
+msgid "Image, Title, Category"
+msgstr "Обложка, Заголовок и Категория"
+
+#: ../aletheme/config.php:959
+msgid "Image (On Hover title & category)"
+msgstr "Обложка (Заголовок и категория при наведении)"
+
+#: ../aletheme/config.php:960
+msgid "Image & Title"
+msgstr "Обложка и Заголовок"
+
+#: ../aletheme/config.php:963
+msgid "Container Properties"
+msgstr "Опции контейнера"
+
+#: ../aletheme/config.php:964
+msgid "Specify the Container style for Works Post Type"
+msgstr "Определить опции контейнера для секции Портфолио"
+
+#: ../aletheme/config.php:969
+msgid "Use Default Settings (Style Tab)."
+msgstr "Настройки по умолчанию"
+
+#: ../aletheme/config.php:970
+msgid "Use Full Width with no padding."
+msgstr "Во всю ширину без отступов."
+
+#: ../aletheme/config.php:973
+msgid "Extra Heading"
+msgstr "Дополнительная шапка"
+
+#: ../aletheme/config.php:974
+msgid "Enable or Disable an Extra Heading that shows some additional info"
+msgstr ""
+"Включить или отключить Дополнительную Шапку, которая показывает "
+"дополнительную информацию"
+
+#: ../aletheme/config.php:979
+msgid "Disable Extra Heading"
+msgstr "Отключить дополнительную шапку"
+
+#: ../aletheme/config.php:980
+msgid "Enable Extra Heading"
+msgstr "Включить дополнительную шапку"
+
+#: ../aletheme/config.php:983
+msgid "First Line Text"
+msgstr "Текст для первой линии"
+
+#: ../aletheme/config.php:984
+msgid "Add some text to show in first line"
+msgstr "Вставьте текст для первой линии"
+
+#: ../aletheme/config.php:989
+msgid "Second Line Text"
+msgstr "Текст для второй линии"
+
+#: ../aletheme/config.php:990
+msgid "Add some text to show in second line"
+msgstr "Вставьте текст для второй линии"
+
+#: ../aletheme/config.php:995 ../aletheme/functions/vc.php:2451
+msgid "Background Color"
+msgstr "Цвет для фона"
+
+#: ../aletheme/config.php:996
+msgid "Specify the background color for the Extra heading"
+msgstr "Выберите цвет для фона «дополнительной шапки»"
+
+#: ../aletheme/config.php:1001
+msgid "Taxonomy Navigation"
+msgstr "Навигация по разделам таксономий"
+
+#: ../aletheme/config.php:1002
+msgid ""
+"Enable or Disable the taxonomy (Category) navigation at the top of archive "
+"page."
+msgstr "Включить или отключить верхнюю навигация по разделу таксономий"
+
+#: ../aletheme/config.php:1011
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: ../aletheme/config.php:1016
+msgid "WooCommerce Title Background"
+msgstr "Фон под заголовок архивной страницы"
+
+#: ../aletheme/config.php:1022
+msgid "WooCommerce Single Page Title Background"
+msgstr "Фон под заголовок страницы товара"
+
+#: ../aletheme/config.php:1023
+msgid ""
+"Upload or put the image link. LEt the field empty to disable the heading on "
+"single shop page."
+msgstr ""
+"Загрузите или вставьте ссылка на картинку. Оставьте поле пустым, чтобы "
+"отключить дополнительную шапку на странице товара"
+
+#: ../aletheme/config.php:1028
+msgid "WooCommerce Page Title"
+msgstr "Заголовок магазина"
+
+#: ../aletheme/config.php:1029
+msgid "Specify the title for WooCommerce pages"
+msgstr "Укажите заголовок для магазина"
+
+#: ../aletheme/config.php:1034
+msgid "WooCommerce Pre Title"
+msgstr "Под заголовок магазина"
+
+#: ../aletheme/config.php:1035
+msgid "Specify the pre title for WooCommerce PAges"
+msgstr "Укажите под заголовок для магазина"
+
+#: ../aletheme/config.php:1041
+msgid "Select the columns count for WooCommerce pages"
+msgstr "Укажите количество колонок для сетки магазина"
+
+#: ../aletheme/config.php:1048
+msgid "Select a sidebar position for WooCommerce Pages"
+msgstr "Укажите расположение боковой колонки для магазина"
+
+#: ../aletheme/config.php:1054
+msgid "Shop Grid Style"
+msgstr "Стиль сетки для магазина"
+
+#: ../aletheme/config.php:1055
+msgid "Specify the Grid Style"
+msgstr "Выбрать стиль сетки для магазина"
+
+#: ../aletheme/config.php:1061
+msgid "Products per page"
+msgstr "Количество продуктов н странице"
+
+#: ../aletheme/config.php:1062
+msgid "Specify the products per page count. by default it is 8"
+msgstr "Укажите количество продуктов на странице. По умолчанию - 8"
+
+#: ../aletheme/config.php:1069
+msgid "Subscribe Settings"
+msgstr "Подписка"
+
+#: ../aletheme/config.php:1074
+msgid "Subscribe Form works with specific Design Variants"
+msgstr "Форма подписки работает с определенными Дизайн вариациями"
+
+#: ../aletheme/config.php:1075
+msgid ""
+"Note that the Subscribe form is shown on a specific design variant and not "
+"on all variants. If you want to have a subscribe form into your footer, you "
+"must select a design variant that support it. See the demo previews "
+"examples. You also need to install a subscribe plugin and paste the "
+"shortcode in the field bellow."
+msgstr ""
+"Важно: Форма подписки работает на определенных дизайн вариациях. Если вы "
+"хотите иметь форму подписки в своем подвале, вам придётся выбрать дизайн "
+"вариант который имеет в подвале форму подписки. Либо добавить форму подписки "
+"последним блоком через билдер страниц. Вам так же потребуется установить "
+"плагин для генерации форм подписок и вставить шорткод в поля ниже."
+
+#: ../aletheme/config.php:1080
+msgid "Subscribe Title"
+msgstr "Заголовок блока подписки"
+
+#: ../aletheme/config.php:1081
+msgid "Type a Title for the subscribe Box"
+msgstr "Вставьте заголовок для блока подписки"
+
+#: ../aletheme/config.php:1086 ../aletheme/functions/vc.php:4873
+msgid "Form Shortcode"
+msgstr "Шорткод формы подписки"
+
+#: ../aletheme/config.php:1087
+msgid ""
+"Paste here the subscribe shortcode generated by a third-part plugin. It can "
+"be MailChimp for WP."
+msgstr ""
+"Вставьте шорткод формы подписки сгенерированный отдельным плагином. Это "
+"может быть, например MailChimp for WP."
+
+#: ../aletheme/config.php:1092 ../aletheme/functions/vc.php:405
+msgid "Google Maps"
+msgstr "Карты Google"
+
+#: ../aletheme/config.php:1097
+msgid "Google Maps API Key"
+msgstr "API Key"
+
+#: ../aletheme/config.php:1098
+msgid ""
+"Paste a Google Maps API Key. You can generate a key on the  <a href="
+"\"https://console.developers.google.com/apis/\" target=\"_blank\">Google "
+"console.</a>"
+msgstr "Вставьте API Key для карт. Вы можете получить ключ в Консоли Google"
+
+#: ../aletheme/config.php:1103
+msgid "Custom Pin Icon"
+msgstr "Персональный значок"
+
+#: ../aletheme/config.php:1104
+msgid "Upload a Custom Pin Icon. Let it empty to use the default icon."
+msgstr ""
+"Загрузите или вставьте ссылку на новый значок. Оставьте поле пустым, чтобы "
+"использовать значок по умолчанию."
+
+#: ../aletheme/config.php:1109
+msgid "Map Custom Style"
+msgstr "Персональный стиль для карты"
+
+#: ../aletheme/config.php:1110
+msgid ""
+"Paste here a custom style for your google map. You can use the snazzymaps."
+"com to take a ready style. "
+msgstr ""
+"Вставьте сюда код персонального стиля. Вы можете взять его на snazzymaps.com"
+
+#: ../aletheme/etc/admin.php:42
+msgid "Installing plugin"
+msgstr "Установка плагина"
+
+#: ../aletheme/etc/admin.php:43
+msgid "Activating plugin"
+msgstr "Активация плагина"
+
+#: ../aletheme/etc/admin.php:44
+msgid "Try again"
+msgstr "Попробуй еще раз"
+
+#: ../aletheme/etc/admin.php:47
+msgid "Failed to activate."
+msgstr "Не активированное"
+
+#: ../aletheme/etc/admin.php:48
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:121
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr "Активный"
+
+#: ../aletheme/etc/admin.php:49
+msgid "Failed."
+msgstr "Ошибка"
+
+#: ../aletheme/etc/admin.php:50
+msgid ""
+"The plugin failed to activate. Please try to increase the memory_limit on "
+"your server."
+msgstr ""
+"Не получилось активировать плагин. Пожалуйста, увеличьте memory_limit на "
+"сервере."
+
+#: ../aletheme/etc/admin.php:51
+msgid ""
+"There was a problem during the importing process resulting in the following "
+"error from your server:"
+msgstr "Возникли следующие проблемы во время импорта:"
+
+#: ../aletheme/etc/admin.php:52
+msgid "Install required plugins first."
+msgstr "Установите в начале обязательные плагины."
+
+#: ../aletheme/etc/admin.php:63
+#: ../aletheme/options/admin/options-framework.php:334
+msgid "Theme Options"
+msgstr "Настройки темы"
+
+#: ../aletheme/etc/admin.php:165 ../aletheme/etc/admin.php:197
+#: ../aletheme/functions/vc.php:538 ../aletheme/functions/vc.php:1292
+#: ../aletheme/functions/vc.php:2134 ../aletheme/functions/vc.php:3636
+#: ../aletheme/functions/vc.php:4704 ../aletheme/functions/vc.php:4805
+#: ../aletheme/functions/vc.php:5401
+#: ../aletheme/options/admin/options-medialibrary-uploader.php:121
+msgid "Image"
+msgstr "Картинка"
+
+#: ../aletheme/etc/admin.php:281
+#, php-format
+msgid ""
+"The plugin failed to install. Please check the permissions for the \"plugins"
+"\" directory or <a href=\"%s\" target=\"_blank\">download</a> the plugin and "
+"install it manually."
+msgstr ""
+"Плагин не установился. Пожалуйста, проверьте доступ на папку «plugins» или "
+"установите плагин вручную. %s ."
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:5
+msgid "Examples Install"
+msgstr "Установка"
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:8
+msgid ""
+"The theme will automatically load all necessary files and create a copy of "
+"the selected example. You can also delete the installed demo at any time. "
+msgstr ""
+"Тема самостоятельно загрузит все необходимые файлы и создаст копию дело "
+"вариации для вас. Вы так же в любой момент можете удалить дело вариацию."
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:9
+msgid "Recommendation:"
+msgstr "Рекомендации: "
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:11
+msgid ""
+"We recommend to use a fresh install of WordPress for importing Demo Data. "
+"(no media, not posts, no pages, no plugins.)"
+msgstr ""
+"Рекомендуется использовать чистую WordPress установку (новый сайт) перед "
+"импортом дело контента (без медиа, без постов, без страниц и без плагинов, "
+"за исключением необходимых)"
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:12
+msgid ""
+"The upload process can take up 5 minutes. So please, be patient and do not "
+"close the page."
+msgstr ""
+"Процесс установки может занять более 5 минут. По этому имейте терпение и не "
+"закрывайте страницу во время процесса."
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:13
+msgid "Before importing Demo Examples you must install required plugins."
+msgstr "Перед импортом дело вариации вы должны установить необходимые плагины."
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:19
+msgid "All"
+msgstr "Все"
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:21
+msgid "Micro Niche"
+msgstr "Тематические"
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:23
+msgid "Business"
+msgstr "Бизнес"
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:24
+msgid "Shop"
+msgstr "Магазин"
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:25
+msgid "One Page"
+msgstr "Одностраничник"
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:30
+msgid "Default"
+msgstr "По умолчанию"
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:31
+#: ../aletheme/functions/vc.php:9 ../aletheme/functions/vc.php:26
+#: ../aletheme/functions/vc.php:1065 ../aletheme/functions/vc.php:1455
+#: ../aletheme/functions/vc.php:1608 ../aletheme/functions/vc.php:1705
+#: ../aletheme/functions/vc.php:2120 ../aletheme/functions/vc.php:2437
+#: ../aletheme/functions/vc.php:2645 ../aletheme/functions/vc.php:2695
+#: ../aletheme/functions/vc.php:2782 ../aletheme/functions/vc.php:2847
+#: ../aletheme/functions/vc.php:2917 ../aletheme/functions/vc.php:3103
+#: ../aletheme/functions/vc.php:3378 ../aletheme/functions/vc.php:3576
+#: ../aletheme/functions/vc.php:3993 ../aletheme/functions/vc.php:4561
+#: ../aletheme/functions/vc.php:4710 ../aletheme/functions/vc.php:4811
+#: ../aletheme/functions/vc.php:5125 ../aletheme/functions/vc.php:5185
+#: ../aletheme/functions/vc.php:5335 ../aletheme/functions/vc.php:5407
+msgid "Title"
+msgstr "Заголовок"
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:32
+msgid "Date Created"
+msgstr "Дата разработки"
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:35
+#: ../partials/header/limpieza.php:41 ../partials/header/taxipress.php:67
+#: ../searchform.php:4 ../vc_templates/ale_search_box.php:33
+msgid "Search"
+msgstr "Поиск"
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:98
+msgid "Required Plugins"
+msgstr "Обязательные плагины"
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:114
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr "Установить"
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:119
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr "Активировать"
+
+#: ../aletheme/etc/front.php:307
+msgid "on"
+msgstr "Включен"
+
+#: ../aletheme/etc/front.php:328
+msgid "RSS Feed"
+msgstr "Лента RSS"
+
+#: ../aletheme/etc/front.php:371
+msgid "Posted by "
+msgstr "Опубликовал "
+
+#: ../aletheme/etc/front.php:371
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: ../aletheme/etc/front.php:372 ../aletheme/etc/front.php:434
+#, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: ../aletheme/etc/front.php:378 ../aletheme/etc/front.php:400
+#: ../aletheme/etc/front.php:438
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: ../aletheme/etc/front.php:397
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: ../aletheme/etc/system.php:40 ../aletheme/etc/system.php:45
+msgid "Header Left Menu"
+msgstr "Верхняя навигация (левая)"
+
+#: ../aletheme/etc/system.php:41
+msgid "Header Right Menu"
+msgstr "Верхняя навигация (правая)"
+
+#: ../aletheme/etc/system.php:46 ../aletheme/etc/system.php:50
+msgid "Header Menu"
+msgstr "Верхняя навигация"
+
+#: ../aletheme/etc/system.php:56
+msgid "Footer Menu"
+msgstr "Навигация в подвале"
+
+#: ../aletheme/etc/system.php:57
+msgid "Mobile Menu"
+msgstr "Навигация для мобильных устройств"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Установить необходимы плагины"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Установить плагины"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина: %s"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Обновление плагина: %s"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Что то пошло не так с API плагина"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться к установке необходимых плагинов"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:393
+#: ../aletheme/functions/class-tgm-plugin-activation.php:912
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2618
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr "Вернуться в панель администратора"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:394
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:395
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Плагин был успешно активирован:"
+msgstr[1] "Плагины были успешно активированы:"
+msgstr[2] "Плагин был успешно активирован:"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Нет действий. Плагин %1$s уже был активирован."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Плагин не активирован. Более новая версия  %s необходима для данной темы. "
+"Пожалуйста обновите плагин."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все плагину установлены и активированы с успехом. %1$s"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Пропустить это уведомление"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Есть один или несколько обязательных или рекомендуемых плагинов для "
+"установки, обновления или активации."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Пожалуйста, свяжитесь с администратором этого сайта для помощи."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Данный плагин должен быть обновлен чтобы быть совместимым с вашей темой."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Необходимо обновление"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr "Пакет с плагином не содержит необхоимых файлов."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:1019
+#: ../aletheme/functions/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Пожалуйста, свяжитесь с автором плагина и убедитесь что он составлен по "
+"стандартам WordPress."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr "Пакет с плагином не содержит необхоимых файлов."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr "Обязательный"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr "Рекомендуемый"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr "Репозиторий WordPress"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr "Внешний источник"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr "Встроенный"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr "Не установлен"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr "Установлен но не активирован"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr "Необходимое обновление не доступно"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr "Необходимо обновление"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr "Рекомендуемое обновление"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2427
+#, php-format
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "К установке <span class=\"count\">(%s)</span>"
+msgstr[1] "Обновления для <span class=\"count\">(%s)</span>"
+msgstr[2] "Обновления для <span class=\"count\">(%s)</span>"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Обновления для <span class=\"count\">(%s)</span>"
+msgstr[1] "Обновления для <span class=\"count\">(%s)</span>"
+msgstr[2] "Обновления для <span class=\"count\">(%s)</span>"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Активация <span class=\"count\">(%s)</span>"
+msgstr[1] "Активация <span class=\"count\">(%s)</span>"
+msgstr[2] "Активация <span class=\"count\">(%s)</span>"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2567
+msgid "unknown"
+msgstr "неизвестно"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr "Установленная версия:"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr "Минимально необходимая версия:"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr "Версия в наличии:"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr "Нет плагинов для установки, обновления или активации."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr "Плагин"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr "Источник"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr "Тип"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr "Версия"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr "Статус"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr "Установить %2$s"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr "Обновить %2$s"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr "Активировать %2$s"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr "Сообщение обновления от автора плагина:"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr "Обновление"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Не выбрано плагинов к установке."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Не выбрано плагинов к обновлению."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr "Нет плагинов для установки на данный момент."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr "Нет плагинов для обновления на данный момент"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Не выбрано плагинов к активации."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr "Нет плагинов для активации на данный момент."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr "Активация плагина провалилась."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Обновление плагина %1$s (%2$d/%3$d)"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Произошла ошибка во время установки %1$s: <strong>%2$s</strong>."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Установка %1$s провалилась"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Процес установки и активации начался. Это может занять кое какое время. "
+"Дождитесь окончания."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s установлен и активирован успешно."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3594
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr "Показать детали"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3594
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr "Спрятать детали"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr "Все установки и активации были завершены"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация плагина %1$s (%2$d/%3$d)"
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Процес установки начался. Этот процес займет кое какое время. Дождитесь "
+"завершения."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s установлен успешно."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr "Все установки были завершены."
+
+#: ../aletheme/functions/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка плагина %1$s (%2$d/%3$d)"
+
+#: ../aletheme/functions/customizer.php:17
+msgid "Custom Colors"
+msgstr "Персональные цвета"
+
+#: ../aletheme/functions/customizer.php:22
+msgid "Aspect Color"
+msgstr "Цвет акцента"
+
+#: ../aletheme/functions/general.php:209 ../aletheme/functions/general.php:228
+msgid "Next page"
+msgstr "Следующая"
+
+#: ../aletheme/functions/general.php:210 ../aletheme/functions/general.php:222
+#: ../archive-works.php:92
+msgid "Previous"
+msgstr "Предыдущая"
+
+#: ../aletheme/functions/general.php:1151 ../partials/blog/nunta_list.php:34
+msgid "Expand Story"
+msgstr "Открыть Историю"
+
+#: ../aletheme/functions/general.php:1152
+msgid "Close Story"
+msgstr "Закрыть Историю"
+
+#: ../aletheme/functions/general.php:1217
+msgid "Home"
+msgstr "Главная"
+
+#: ../aletheme/functions/general.php:1218
+#: ../partials/page_head/cafeteria_heading.php:77
+#: ../partials/page_head/center_title.php:47
+#: ../partials/page_head/enforcement_heading.php:77
+#: ../partials/page_head/exotico_heading.php:78
+#: ../partials/page_head/left_title.php:47
+#: ../partials/page_head/orquidea_heading.php:77
+#: ../partials/page_head/parallax_one.php:78
+#: ../partials/page_head/parallax_three.php:77
+#: ../partials/page_head/parallax_two.php:77
+#: ../partials/page_head/po_heading.php:47
+#: ../partials/page_head/simple_image.php:78
+#: ../partials/page_head/taxipress_heading.php:40
+#: ../partials/page_head/wedding_heading.php:78
+msgid "Archive"
+msgstr "Архив"
+
+#: ../aletheme/functions/general.php:1219
+msgid "Search results"
+msgstr "Результаты поиска"
+
+#: ../aletheme/functions/general.php:1220
+msgid "Tag"
+msgstr "Тэг"
+
+#: ../aletheme/functions/general.php:1221
+#: ../partials/work/top_full_slider.php:22
+msgid "Author"
+msgstr "Автор"
+
+#: ../aletheme/functions/general.php:1247
+msgid "Blog"
+msgstr "Блог"
+
+#: ../aletheme/functions/general.php:1355
+msgid "Page"
+msgstr "Страница"
+
+#: ../aletheme/functions/load-more.php:21
+msgid "Load More"
+msgstr "Загрузить еще"
+
+#: ../aletheme/functions/vc.php:12 ../aletheme/functions/vc.php:29
+#: ../aletheme/functions/vc.php:2440
+msgid "Type your title"
+msgstr "Вставьте свой заголовок"
+
+#: ../aletheme/functions/vc.php:16 ../aletheme/functions/vc.php:1059
+#: ../aletheme/functions/vc.php:1745
+msgid "Icon Image"
+msgstr "Картинка иконки"
+
+#: ../aletheme/functions/vc.php:18
+msgid "Select or Upload an image as icon"
+msgstr "Выберите или вставьте ссылку на картинку иконки"
+
+#: ../aletheme/functions/vc.php:33 ../aletheme/functions/vc.php:251
+#: ../aletheme/functions/vc.php:815 ../aletheme/functions/vc.php:1086
+#: ../aletheme/functions/vc.php:1552 ../aletheme/functions/vc.php:3590
+#: ../aletheme/functions/vc.php:4724 ../aletheme/functions/vc.php:4818
+msgid "Button Link"
+msgstr "Ссылка кнопки"
+
+#: ../aletheme/functions/vc.php:36 ../aletheme/functions/vc.php:254
+#: ../aletheme/functions/vc.php:818 ../aletheme/functions/vc.php:1555
+#: ../aletheme/functions/vc.php:4727 ../aletheme/functions/vc.php:4821
+msgid "Insert a link for slide button"
+msgstr "Вставьте ссылку для кнопки"
+
+#: ../aletheme/functions/vc.php:118
+msgid "Contact Form"
+msgstr "Форма контактов"
+
+#: ../aletheme/functions/vc.php:120 ../aletheme/functions/vc.php:208
+#: ../aletheme/functions/vc.php:222 ../aletheme/functions/vc.php:312
+#: ../aletheme/functions/vc.php:354 ../aletheme/functions/vc.php:407
+#: ../aletheme/functions/vc.php:461 ../aletheme/functions/vc.php:530
+#: ../aletheme/functions/vc.php:608 ../aletheme/functions/vc.php:622
+#: ../aletheme/functions/vc.php:669 ../aletheme/functions/vc.php:702
+#: ../aletheme/functions/vc.php:772 ../aletheme/functions/vc.php:786
+#: ../aletheme/functions/vc.php:837 ../aletheme/functions/vc.php:851
+#: ../aletheme/functions/vc.php:898 ../aletheme/functions/vc.php:946
+#: ../aletheme/functions/vc.php:997 ../aletheme/functions/vc.php:1035
+#: ../aletheme/functions/vc.php:1120 ../aletheme/functions/vc.php:1148
+#: ../aletheme/functions/vc.php:1208 ../aletheme/functions/vc.php:1284
+#: ../aletheme/functions/vc.php:1324 ../aletheme/functions/vc.php:1368
+#: ../aletheme/functions/vc.php:1419 ../aletheme/functions/vc.php:1433
+#: ../aletheme/functions/vc.php:1484 ../aletheme/functions/vc.php:1511
+#: ../aletheme/functions/vc.php:1573 ../aletheme/functions/vc.php:1587
+#: ../aletheme/functions/vc.php:1640 ../aletheme/functions/vc.php:1676
+#: ../aletheme/functions/vc.php:1690 ../aletheme/functions/vc.php:1737
+#: ../aletheme/functions/vc.php:1777 ../aletheme/functions/vc.php:1849
+#: ../aletheme/functions/vc.php:1904 ../aletheme/functions/vc.php:1940
+#: ../aletheme/functions/vc.php:1967 ../aletheme/functions/vc.php:2063
+#: ../aletheme/functions/vc.php:2091 ../aletheme/functions/vc.php:2151
+#: ../aletheme/functions/vc.php:2212 ../aletheme/functions/vc.php:2237
+#: ../aletheme/functions/vc.php:2300 ../aletheme/functions/vc.php:2314
+#: ../aletheme/functions/vc.php:2339 ../aletheme/functions/vc.php:2372
+#: ../aletheme/functions/vc.php:2429 ../aletheme/functions/vc.php:2493
+#: ../aletheme/functions/vc.php:2609 ../aletheme/functions/vc.php:2623
+#: ../aletheme/functions/vc.php:2764 ../aletheme/functions/vc.php:2812
+#: ../aletheme/functions/vc.php:2838 ../aletheme/functions/vc.php:2908
+#: ../aletheme/functions/vc.php:2973 ../aletheme/functions/vc.php:3000
+#: ../aletheme/functions/vc.php:3060 ../aletheme/functions/vc.php:3081
+#: ../aletheme/functions/vc.php:3131 ../aletheme/functions/vc.php:3145
+#: ../aletheme/functions/vc.php:3192 ../aletheme/functions/vc.php:3272
+#: ../aletheme/functions/vc.php:3343 ../aletheme/functions/vc.php:3357
+#: ../aletheme/functions/vc.php:3424 ../aletheme/functions/vc.php:3475
+#: ../aletheme/functions/vc.php:3562 ../aletheme/functions/vc.php:3613
+#: ../aletheme/functions/vc.php:3627 ../aletheme/functions/vc.php:3688
+#: ../aletheme/functions/vc.php:3745 ../aletheme/functions/vc.php:3767
+#: ../aletheme/functions/vc.php:3818 ../aletheme/functions/vc.php:3887
+#: ../aletheme/functions/vc.php:3946 ../aletheme/functions/vc.php:3978
+#: ../aletheme/functions/vc.php:4031 ../aletheme/functions/vc.php:4150
+#: ../aletheme/functions/vc.php:4212 ../aletheme/functions/vc.php:4320
+#: ../aletheme/functions/vc.php:4421 ../aletheme/functions/vc.php:4492
+#: ../aletheme/functions/vc.php:4546 ../aletheme/functions/vc.php:4595
+#: ../aletheme/functions/vc.php:4673 ../aletheme/functions/vc.php:4695
+#: ../aletheme/functions/vc.php:4744 ../aletheme/functions/vc.php:4782
+#: ../aletheme/functions/vc.php:4796 ../aletheme/functions/vc.php:4838
+#: ../aletheme/functions/vc.php:4994 ../aletheme/functions/vc.php:5116
+#: ../aletheme/functions/vc.php:5171 ../aletheme/functions/vc.php:5257
+#: ../aletheme/functions/vc.php:5271 ../aletheme/functions/vc.php:5321
+#: ../aletheme/functions/vc.php:5378 ../aletheme/functions/vc.php:5392
+#: ../aletheme/functions/vc.php:5431 ../aletheme/functions/vc.php:5554
+#: ../aletheme/functions/vc.php:5600
+msgid "Ale"
+msgstr "Ale"
+
+#: ../aletheme/functions/vc.php:121
+msgid "Contact Form with background image"
+msgstr "Контактная форма с фоновым изображением"
+
+#: ../aletheme/functions/vc.php:128
+msgid "Form Heading Title"
+msgstr "Заголовок для формы"
+
+#: ../aletheme/functions/vc.php:130
+msgid "ask us smth..."
+msgstr "Напишите свой вопрос…"
+
+#: ../aletheme/functions/vc.php:131
+msgid "Insert a title for your form"
+msgstr "Вставьте заголовок для вашей формы"
+
+#: ../aletheme/functions/vc.php:135
+msgid "Name Field Placeholder"
+msgstr "Подсказка для поля Имя"
+
+#: ../aletheme/functions/vc.php:137 ../aletheme/functions/vc.php:3484
+#: ../aletheme/functions/vc.php:3648
+#: ../vc_templates/ale_taxipress_booking.php:56
+#: ../vc_templates/ale_taxipress_suggest.php:35
+msgid "Name"
+msgstr "Имя"
+
+#: ../aletheme/functions/vc.php:138
+msgid "Insert a placeholder. ex: Your Name"
+msgstr "Вставьте подсказку. Пример: Ваше Имя"
+
+#: ../aletheme/functions/vc.php:142
+msgid "Email Field Placeholder"
+msgstr "Подсказка для поля Емэйл"
+
+#: ../aletheme/functions/vc.php:144 ../aletheme/functions/vc.php:3917
+#: ../partials/header/taxipress.php:12
+#: ../vc_templates/ale_taxipress_suggest.php:37
+msgid "Email"
+msgstr "Емэйл"
+
+#: ../aletheme/functions/vc.php:145
+msgid "Insert a placeholder. ex: Your Email"
+msgstr "Вставьте подсказку. Пример: Ваш Емэйл"
+
+#: ../aletheme/functions/vc.php:149
+msgid "Message Field Placeholder"
+msgstr "Подсказка для поля Сообщение"
+
+#: ../aletheme/functions/vc.php:151
+#: ../vc_templates/ale_taxipress_suggest.php:39
+msgid "Message"
+msgstr "Сообщение"
+
+#: ../aletheme/functions/vc.php:152
+msgid "Insert a placeholder. ex: Type your message"
+msgstr "Вставьте подсказку. Пример: Ваше сообщение"
+
+#: ../aletheme/functions/vc.php:156 ../aletheme/functions/vc.php:491
+msgid "Submit button text"
+msgstr "Текст для кнопки Отправить"
+
+#: ../aletheme/functions/vc.php:158 ../aletheme/functions/vc.php:493
+#: ../partials/footer/contact_form.php:17
+#: ../vc_templates/ale_taxipress_contact.php:79
+#: ../vc_templates/ale_taxipress_suggest.php:41
+msgid "Send"
+msgstr "Отправить"
+
+#: ../aletheme/functions/vc.php:159 ../aletheme/functions/vc.php:494
+msgid "Insert the button text. ex: Send"
+msgstr "Введите текст для кнопки"
+
+#: ../aletheme/functions/vc.php:163 ../aletheme/functions/vc.php:498
+msgid "Receive to"
+msgstr "Получатель"
+
+#: ../aletheme/functions/vc.php:165 ../aletheme/functions/vc.php:500
+msgid "Your email to receive messages from the contact form"
+msgstr "Введите ваш емэйл на который хотите получать письма"
+
+#: ../aletheme/functions/vc.php:169 ../aletheme/functions/vc.php:504
+msgid "Email Subject"
+msgstr "Заголовок"
+
+#: ../aletheme/functions/vc.php:171 ../aletheme/functions/vc.php:506
+msgid "Specify a subject that will be used for received emails."
+msgstr "Укажите заголовок который будет использоваться в теле письма"
+
+#: ../aletheme/functions/vc.php:175 ../aletheme/functions/vc.php:954
+#: ../aletheme/functions/vc.php:1699 ../aletheme/functions/vc.php:2457
+#: ../aletheme/functions/vc.php:2951 ../aletheme/functions/vc.php:4388
+#: ../aletheme/functions/vc.php:4846
+msgid "Background Image"
+msgstr "Фоновое изображение"
+
+#: ../aletheme/functions/vc.php:177
+msgid "Select or Upload a background image."
+msgstr "Выберите или загрузите фоновое изображение"
+
+#: ../aletheme/functions/vc.php:181
+msgid "Mask Color"
+msgstr "Цвет маски"
+
+#: ../aletheme/functions/vc.php:183
+msgid "Select a mask color that is displayed under the form"
+msgstr "Выберите цвет для маски, которая отображается под формой"
+
+#: ../aletheme/functions/vc.php:187
+msgid "Content Align"
+msgstr "Выравнивание контента"
+
+#: ../aletheme/functions/vc.php:190
+msgid "Specify the Content Align in the Form"
+msgstr "Определите выравнивание в Нутри формы"
+
+#: ../aletheme/functions/vc.php:203
+msgid "Slider One"
+msgstr "Слайдер One"
+
+#: ../aletheme/functions/vc.php:206
+msgid "An Animated Slider called One"
+msgstr "Анимированный слайдер под названием One"
+
+#: ../aletheme/functions/vc.php:220
+msgid "Slider One Item"
+msgstr "Слайд для слайдера One"
+
+#: ../aletheme/functions/vc.php:223 ../aletheme/functions/vc.php:787
+#: ../aletheme/functions/vc.php:1512 ../aletheme/functions/vc.php:2238
+msgid "Add data for each item such as images, titles or descriptions"
+msgstr "Добавьте данные, такие как картинка, заголовок и описание"
+
+#: ../aletheme/functions/vc.php:231 ../aletheme/functions/vc.php:795
+#: ../aletheme/functions/vc.php:1532 ../aletheme/functions/vc.php:1949
+#: ../aletheme/functions/vc.php:2256 ../aletheme/functions/vc.php:2323
+#: ../aletheme/functions/vc.php:2821 ../aletheme/functions/vc.php:3010
+msgid "Slide Image"
+msgstr "Картинка"
+
+#: ../aletheme/functions/vc.php:233 ../aletheme/functions/vc.php:797
+#: ../aletheme/functions/vc.php:862 ../aletheme/functions/vc.php:1061
+#: ../aletheme/functions/vc.php:1172 ../aletheme/functions/vc.php:1229
+#: ../aletheme/functions/vc.php:1294 ../aletheme/functions/vc.php:1399
+#: ../aletheme/functions/vc.php:1534 ../aletheme/functions/vc.php:1598
+#: ../aletheme/functions/vc.php:1604 ../aletheme/functions/vc.php:1701
+#: ../aletheme/functions/vc.php:1951 ../aletheme/functions/vc.php:1995
+#: ../aletheme/functions/vc.php:2258 ../aletheme/functions/vc.php:2325
+#: ../aletheme/functions/vc.php:2634 ../aletheme/functions/vc.php:2772
+#: ../aletheme/functions/vc.php:2778 ../aletheme/functions/vc.php:2823
+#: ../aletheme/functions/vc.php:2947 ../aletheme/functions/vc.php:2953
+#: ../aletheme/functions/vc.php:2981 ../aletheme/functions/vc.php:2987
+#: ../aletheme/functions/vc.php:3012 ../aletheme/functions/vc.php:3068
+#: ../aletheme/functions/vc.php:3245 ../aletheme/functions/vc.php:3251
+#: ../aletheme/functions/vc.php:3257 ../aletheme/functions/vc.php:3311
+#: ../aletheme/functions/vc.php:3317 ../aletheme/functions/vc.php:3323
+#: ../aletheme/functions/vc.php:3368 ../aletheme/functions/vc.php:3572
+#: ../aletheme/functions/vc.php:3638 ../aletheme/functions/vc.php:3644
+#: ../aletheme/functions/vc.php:3698 ../aletheme/functions/vc.php:3778
+#: ../aletheme/functions/vc.php:3833 ../aletheme/functions/vc.php:3839
+#: ../aletheme/functions/vc.php:3898 ../aletheme/functions/vc.php:3989
+#: ../aletheme/functions/vc.php:4132 ../aletheme/functions/vc.php:4174
+#: ../aletheme/functions/vc.php:4264 ../aletheme/functions/vc.php:4270
+#: ../aletheme/functions/vc.php:4276 ../aletheme/functions/vc.php:4344
+#: ../aletheme/functions/vc.php:4364 ../aletheme/functions/vc.php:4384
+#: ../aletheme/functions/vc.php:4390 ../aletheme/functions/vc.php:4453
+#: ../aletheme/functions/vc.php:4459 ../aletheme/functions/vc.php:4514
+#: ../aletheme/functions/vc.php:4520 ../aletheme/functions/vc.php:4526
+#: ../aletheme/functions/vc.php:4532 ../aletheme/functions/vc.php:4557
+#: ../aletheme/functions/vc.php:4634 ../aletheme/functions/vc.php:4640
+#: ../aletheme/functions/vc.php:4682 ../aletheme/functions/vc.php:4706
+#: ../aletheme/functions/vc.php:4807 ../aletheme/functions/vc.php:4848
+#: ../aletheme/functions/vc.php:5004 ../aletheme/functions/vc.php:5181
+#: ../aletheme/functions/vc.php:5282 ../aletheme/functions/vc.php:5331
+#: ../aletheme/functions/vc.php:5403 ../aletheme/functions/vc.php:5455
+#: ../aletheme/functions/vc.php:5475 ../aletheme/functions/vc.php:5488
+#: ../aletheme/functions/vc.php:5501 ../aletheme/functions/vc.php:5514
+#: ../aletheme/functions/vc.php:5527 ../aletheme/functions/vc.php:5540
+msgid "Select or Upload an image."
+msgstr "Выберите или загрузите картинку"
+
+#: ../aletheme/functions/vc.php:237 ../aletheme/functions/vc.php:801
+msgid "Slide Pre Title"
+msgstr "Под заголовок"
+
+#: ../aletheme/functions/vc.php:240 ../aletheme/functions/vc.php:804
+#: ../aletheme/functions/vc.php:1548 ../aletheme/functions/vc.php:2279
+msgid "Insert a pre title for your Slide"
+msgstr "Вставьте под заголовок"
+
+#: ../aletheme/functions/vc.php:244 ../aletheme/functions/vc.php:808
+#: ../aletheme/functions/vc.php:1538 ../aletheme/functions/vc.php:2262
+#: ../aletheme/functions/vc.php:3016
+msgid "Slide Title"
+msgstr "Заголовок"
+
+#: ../aletheme/functions/vc.php:247 ../aletheme/functions/vc.php:811
+#: ../aletheme/functions/vc.php:1541 ../aletheme/functions/vc.php:2265
+msgid "Insert a title for your Slide"
+msgstr "Вставьте заголовок"
+
+#: ../aletheme/functions/vc.php:265
+msgid "Products Slider"
+msgstr "Слайдер Продуктов"
+
+#: ../aletheme/functions/vc.php:267 ../aletheme/functions/vc.php:2511
+#: ../aletheme/functions/vc.php:2554 ../aletheme/functions/vc.php:2669
+#: ../aletheme/functions/vc.php:3523
+msgid "Ale WC"
+msgstr "Ale WC"
+
+#: ../aletheme/functions/vc.php:268 ../aletheme/functions/vc.php:3524
+msgid "Display products in a carousel slider"
+msgstr "Отображать продукты в карусели"
+
+#: ../aletheme/functions/vc.php:275
+msgid "Carousel Pre Title"
+msgstr "Под заголовок"
+
+#: ../aletheme/functions/vc.php:278
+msgid "Insert a pre title for your Product Carousel"
+msgstr "Введите под заголовок"
+
+#: ../aletheme/functions/vc.php:282 ../aletheme/functions/vc.php:3531
+msgid "Carousel Title"
+msgstr "Заголовок"
+
+#: ../aletheme/functions/vc.php:285 ../aletheme/functions/vc.php:3534
+msgid "Insert a title for your Product Carousel"
+msgstr "Введите заголовок"
+
+#: ../aletheme/functions/vc.php:289 ../aletheme/functions/vc.php:3538
+msgid "Products"
+msgstr "Продукты"
+
+#: ../aletheme/functions/vc.php:298 ../aletheme/functions/vc.php:3547
+msgid "Enter List of Products"
+msgstr "Введите список продуктов"
+
+#: ../aletheme/functions/vc.php:310
+msgid "Recent Works Line"
+msgstr "Новое в Портфолио"
+
+#: ../aletheme/functions/vc.php:313
+msgid "Display a line with recent works posts"
+msgstr "Отображает новые посты из портфолио в линию"
+
+#: ../aletheme/functions/vc.php:320
+msgid "Select 7 Work Posts"
+msgstr "Выберите 7 постов"
+
+#: ../aletheme/functions/vc.php:329
+msgid "Select 7 posts or let it empty to load recent posts."
+msgstr "Выберите 7 определенных постов или оставьте пусто."
+
+#: ../aletheme/functions/vc.php:340
+msgid "Select a style"
+msgstr "Выберите стиль"
+
+#: ../aletheme/functions/vc.php:352
+msgid "Counter"
+msgstr "Счетчик"
+
+#: ../aletheme/functions/vc.php:355
+msgid "A counter from zero to your value."
+msgstr "Счетчик от нуля до нужного значения"
+
+#: ../aletheme/functions/vc.php:362
+msgid "Counter Value"
+msgstr "Значение счетчика"
+
+#: ../aletheme/functions/vc.php:365
+msgid "Specify the Number"
+msgstr "Укажите число"
+
+#: ../aletheme/functions/vc.php:369
+msgid "Counter Value Color"
+msgstr "Цвет числа"
+
+#: ../aletheme/functions/vc.php:372 ../aletheme/functions/vc.php:386
+#: ../aletheme/functions/vc.php:583 ../aletheme/functions/vc.php:590
+msgid "Specify the color"
+msgstr "Укажите цвет"
+
+#: ../aletheme/functions/vc.php:376
+msgid "Counter Label"
+msgstr "Текст счетчика"
+
+#: ../aletheme/functions/vc.php:379
+msgid "Type a title for your number"
+msgstr "Задайте заголовок для счетчика"
+
+#: ../aletheme/functions/vc.php:383
+msgid "Counter Label Color"
+msgstr "Цвет текста счетчика"
+
+#: ../aletheme/functions/vc.php:390
+msgid "Counter Icon"
+msgstr "Иконка счетчика"
+
+#: ../aletheme/functions/vc.php:393
+msgid "Upload an icon if is necessary."
+msgstr "Загрузите иконку если необходимо"
+
+#: ../aletheme/functions/vc.php:408
+msgid "Generates a Google Maps"
+msgstr "Генерирует Гугл Карты"
+
+#: ../aletheme/functions/vc.php:415
+msgid "The Address"
+msgstr "Адрес"
+
+#: ../aletheme/functions/vc.php:418
+msgid "Specify the address."
+msgstr "Укажите адрес."
+
+#: ../aletheme/functions/vc.php:422
+msgid "Map Width"
+msgstr "Ширина карты"
+
+#: ../aletheme/functions/vc.php:425
+msgid "Specify the Map Width"
+msgstr "Укажите ширину для карты"
+
+#: ../aletheme/functions/vc.php:429
+msgid "Map Height"
+msgstr "Высота карты"
+
+#: ../aletheme/functions/vc.php:432
+msgid "Specify the Map Height"
+msgstr "Укажите высоту для карты"
+
+#: ../aletheme/functions/vc.php:436
+msgid "Map Zoom"
+msgstr "Масштаб карты"
+
+#: ../aletheme/functions/vc.php:439
+msgid ""
+"Enter a zoom factor for Google Map (0 = whole world, 19 = individual "
+"buildings)"
+msgstr ""
+"Введите масштаб карты. (От 0 до 19) Где 0 - весь мир, 19 - видны здания."
+
+#: ../aletheme/functions/vc.php:443
+msgid "Zoom on Mouse Wheel"
+msgstr "Увеличивать при прокрутке мышью"
+
+#: ../aletheme/functions/vc.php:446
+msgid "Allow zooming on mouse wheel?"
+msgstr "Разрешить увеличение при прокрутки мышью?"
+
+#: ../aletheme/functions/vc.php:459
+msgid "Simple Form"
+msgstr "Простая форма"
+
+#: ../aletheme/functions/vc.php:462
+msgid "Generates a Simple Contact Form"
+msgstr "Генерирует простую контактную форму"
+
+#: ../aletheme/functions/vc.php:469
+msgid "Name Placeholder"
+msgstr "Подсказка для поля Имя"
+
+#: ../aletheme/functions/vc.php:472
+msgid "Specify the name placeholder"
+msgstr "Укажите подсказку "
+
+#: ../aletheme/functions/vc.php:476
+msgid "Email Placeholder"
+msgstr "Подсказка для поля Емэйл"
+
+#: ../aletheme/functions/vc.php:479 ../aletheme/functions/vc.php:562
+msgid "Specify the email placeholder"
+msgstr "Укажите подсказку "
+
+#: ../aletheme/functions/vc.php:483
+msgid "Message Placeholder"
+msgstr "Подсказка для поля Сообщение"
+
+#: ../aletheme/functions/vc.php:486
+msgid "Specify the message placeholder"
+msgstr "Укажите подсказку "
+
+#: ../aletheme/functions/vc.php:510
+msgid "Show Subject field?"
+msgstr "Показать поле Заголовок?"
+
+#: ../aletheme/functions/vc.php:516
+msgid "Select to show or hide the subject field."
+msgstr "Выберите включить или отключить поле заголовок."
+
+#: ../aletheme/functions/vc.php:528
+msgid "Price Element"
+msgstr "Блок с ценой"
+
+#: ../aletheme/functions/vc.php:531
+msgid "Generates a Pricing Element Box"
+msgstr "Генерирует блок с ценой"
+
+#: ../aletheme/functions/vc.php:541
+msgid "Upload an image."
+msgstr "Загрузите картинку"
+
+#: ../aletheme/functions/vc.php:545
+msgid "The Price"
+msgstr "Цена"
+
+#: ../aletheme/functions/vc.php:548
+msgid "Specify the price"
+msgstr "Укажите стоимость"
+
+#: ../aletheme/functions/vc.php:552 ../aletheme/functions/vc.php:1803
+msgid "Currency"
+msgstr "Валюта"
+
+#: ../aletheme/functions/vc.php:555
+msgid "Specify the Currency"
+msgstr "Укажите валюту"
+
+#: ../aletheme/functions/vc.php:559 ../aletheme/functions/vc.php:1246
+msgid "Price Title"
+msgstr "Заголовок"
+
+#: ../aletheme/functions/vc.php:566
+msgid "Price Link"
+msgstr "Ссылка"
+
+#: ../aletheme/functions/vc.php:569
+msgid "Select a link if needed, or let the field empty."
+msgstr "Укажите ссылку если необходимо, или оставьте пустым."
+
+#: ../aletheme/functions/vc.php:573 ../aletheme/functions/vc.php:736
+#: ../aletheme/functions/vc.php:2702 ../aletheme/functions/vc.php:2796
+#: ../aletheme/functions/vc.php:2868 ../aletheme/functions/vc.php:2938
+#: ../aletheme/functions/vc.php:3167 ../aletheme/functions/vc.php:3392
+#: ../aletheme/functions/vc.php:3498 ../aletheme/functions/vc.php:3662
+#: ../aletheme/functions/vc.php:4001 ../aletheme/functions/vc.php:4053
+#: ../aletheme/functions/vc.php:4165 ../aletheme/functions/vc.php:4444
+#: ../aletheme/functions/vc.php:4568 ../aletheme/functions/vc.php:4717
+#: ../aletheme/functions/vc.php:4866 ../aletheme/functions/vc.php:5022
+#: ../aletheme/functions/vc.php:5132 ../aletheme/functions/vc.php:5414
+msgid "Description"
+msgstr "Описание"
+
+#: ../aletheme/functions/vc.php:576 ../aletheme/functions/vc.php:2407
+#: ../aletheme/functions/vc.php:2705 ../aletheme/functions/vc.php:2799
+#: ../aletheme/functions/vc.php:2871 ../aletheme/functions/vc.php:2941
+#: ../aletheme/functions/vc.php:3225 ../aletheme/functions/vc.php:3232
+#: ../aletheme/functions/vc.php:3239 ../aletheme/functions/vc.php:3298
+#: ../aletheme/functions/vc.php:3501
+msgid "Specify the description"
+msgstr "Укажите описание"
+
+#: ../aletheme/functions/vc.php:580
+msgid "Price Color"
+msgstr "Цвет цены"
+
+#: ../aletheme/functions/vc.php:587
+msgid "Title Color"
+msgstr "Цвет заголовка"
+
+#: ../aletheme/functions/vc.php:603
+msgid "Testimonials Slider"
+msgstr "Слайдер Отзывы"
+
+#: ../aletheme/functions/vc.php:606 ../aletheme/functions/vc.php:1118
+msgid "A Slider with testimonials"
+msgstr "Слайдер с отзывами"
+
+#: ../aletheme/functions/vc.php:620
+msgid "Testimonials Slider Item"
+msgstr "Слайд для слайдера Отзывы"
+
+#: ../aletheme/functions/vc.php:623
+msgid "Add a Testimonial item for Testimonials Slider"
+msgstr "Добавить слайд для слайдера Отзывы"
+
+#: ../aletheme/functions/vc.php:632 ../aletheme/functions/vc.php:1176
+msgid "Author Name"
+msgstr "Автор"
+
+#: ../aletheme/functions/vc.php:635
+msgid "Insert the testimonial's author name"
+msgstr "Введите автора отзыва"
+
+#: ../aletheme/functions/vc.php:639
+msgid "Testimonial"
+msgstr "Отзыв"
+
+#: ../aletheme/functions/vc.php:642
+msgid "Insert the Testimonial text"
+msgstr "Введите текст отзыва"
+
+#: ../aletheme/functions/vc.php:646
+msgid "Testimonial Link"
+msgstr "Ссылка отзыва"
+
+#: ../aletheme/functions/vc.php:649
+msgid "Generate a link for your testimonial, or let it empty to hide the link."
+msgstr "Выберите ссылку для отзыва или оставьте поле пустым."
+
+#: ../aletheme/functions/vc.php:664
+msgid "Pretty Team"
+msgstr "Классная Команда"
+
+#: ../aletheme/functions/vc.php:667 ../aletheme/functions/vc.php:835
+msgid "A Slider with team members"
+msgstr "Слайдер с членами команды"
+
+#: ../aletheme/functions/vc.php:675 ../aletheme/functions/vc.php:711
+#: ../aletheme/functions/vc.php:1126 ../aletheme/functions/vc.php:1157
+#: ../aletheme/functions/vc.php:1975 ../aletheme/functions/vc.php:2069
+#: ../aletheme/functions/vc.php:2100
+msgid "Display Style"
+msgstr "Стиль"
+
+#: ../aletheme/functions/vc.php:682 ../aletheme/functions/vc.php:718
+#: ../aletheme/functions/vc.php:1135 ../aletheme/functions/vc.php:1166
+#: ../aletheme/functions/vc.php:1989 ../aletheme/functions/vc.php:2078
+#: ../aletheme/functions/vc.php:2109
+msgid "Specify the display style"
+msgstr "Выберите стиль отображения"
+
+#: ../aletheme/functions/vc.php:686 ../aletheme/functions/vc.php:1924
+#: ../aletheme/functions/vc.php:5608
+msgid "Slider Title"
+msgstr "Заголовок"
+
+#: ../aletheme/functions/vc.php:689
+msgid "Type the title or let it empty"
+msgstr "Введите заголовок или оставьте пусто"
+
+#: ../aletheme/functions/vc.php:700
+msgid "Pretty Team Item"
+msgstr "Слайд для Красной Команды"
+
+#: ../aletheme/functions/vc.php:703
+msgid "Add a Team Member item for Pretty Team Slider"
+msgstr "Добавьте члена команды для слайдера Классная Команда"
+
+#: ../aletheme/functions/vc.php:722 ../aletheme/functions/vc.php:866
+#: ../aletheme/functions/vc.php:1999 ../aletheme/functions/vc.php:3160
+msgid "Member Name"
+msgstr "Имя"
+
+#: ../aletheme/functions/vc.php:725
+msgid "Insert the team member name"
+msgstr "Введите имя"
+
+#: ../aletheme/functions/vc.php:729 ../aletheme/functions/vc.php:873
+#: ../aletheme/functions/vc.php:3174
+msgid "Member Position"
+msgstr "Должность"
+
+#: ../aletheme/functions/vc.php:732
+msgid "Insert the team member position"
+msgstr "Введите должность"
+
+#: ../aletheme/functions/vc.php:739
+msgid "Insert the team member description"
+msgstr "Введите описание"
+
+#: ../aletheme/functions/vc.php:743
+msgid "External or Internal Link"
+msgstr "Внешняя или внутрення ссылка"
+
+#: ../aletheme/functions/vc.php:746
+msgid "Generate a link for your team member, or let it empty to hide the link."
+msgstr "Выберите ссылку или оставьте поле пустым."
+
+#: ../aletheme/functions/vc.php:750 ../aletheme/functions/vc.php:3505
+#: ../aletheme/functions/vc.php:3642 ../aletheme/functions/vc.php:3776
+#: ../aletheme/functions/vc.php:3896 ../aletheme/functions/vc.php:3987
+#: ../aletheme/functions/vc.php:4555
+msgid "Photo"
+msgstr "Фото"
+
+#: ../aletheme/functions/vc.php:753
+msgid "Upload aa member photo."
+msgstr "Загрузите Фото"
+
+#: ../aletheme/functions/vc.php:767
+msgid "Move Slider"
+msgstr "Дрожащий Слайдер"
+
+#: ../aletheme/functions/vc.php:770
+msgid "A Slider with move background."
+msgstr "Слайдер с двигающимся фоном"
+
+#: ../aletheme/functions/vc.php:784
+msgid "Move Slider Item"
+msgstr "Слайд для дрожащего слайдера"
+
+#: ../aletheme/functions/vc.php:832
+msgid "Simple Team"
+msgstr "Простая Команда"
+
+#: ../aletheme/functions/vc.php:849
+msgid "Simple Team Item"
+msgstr "Слайд для Простая Команда"
+
+#: ../aletheme/functions/vc.php:852
+msgid "Add data for each item such as images, titles or position"
+msgstr ""
+"Введите данные для каждого слайда, такие как картинка, заголовок и должность"
+
+#: ../aletheme/functions/vc.php:860 ../aletheme/functions/vc.php:1993
+msgid "Member Photo"
+msgstr "Фото"
+
+#: ../aletheme/functions/vc.php:869 ../aletheme/functions/vc.php:1179
+#: ../aletheme/functions/vc.php:1458 ../aletheme/functions/vc.php:1611
+#: ../aletheme/functions/vc.php:2123 ../aletheme/functions/vc.php:3106
+#: ../aletheme/functions/vc.php:3163
+msgid "Insert a member name"
+msgstr "Введите имя"
+
+#: ../aletheme/functions/vc.php:876 ../aletheme/functions/vc.php:3177
+msgid "Insert a member position"
+msgstr "Введите должность"
+
+#: ../aletheme/functions/vc.php:880 ../aletheme/functions/vc.php:980
+#: ../aletheme/functions/vc.php:1190 ../aletheme/functions/vc.php:1719
+#: ../aletheme/functions/vc.php:1831 ../aletheme/functions/vc.php:2411
+#: ../aletheme/functions/vc.php:2652 ../aletheme/functions/vc.php:2710
+#: ../aletheme/functions/vc.php:2876
+msgid "Link"
+msgstr "Ссылка"
+
+#: ../aletheme/functions/vc.php:883
+msgid "Insert a link for member, or let it empty."
+msgstr "Введите ссылку или оставьте поле пустым"
+
+#: ../aletheme/functions/vc.php:896
+msgid "Selected Works"
+msgstr "Избранное Портфолио"
+
+#: ../aletheme/functions/vc.php:899
+msgid "Display a line with selected works posts"
+msgstr "Отобразить полоску с выбранными портфолио"
+
+#: ../aletheme/functions/vc.php:906
+msgid "Select 5 Work Posts"
+msgstr "Выберите 5 постов"
+
+#: ../aletheme/functions/vc.php:915
+msgid "Select 5 posts or let it empty to load recent work posts."
+msgstr "Выберите 5 постов или оставьте поле пустым"
+
+#: ../aletheme/functions/vc.php:919 ../aletheme/functions/vc.php:926
+msgid "Display Taxonomy Navigation"
+msgstr "Отобразить навигацию таксономий"
+
+#: ../aletheme/functions/vc.php:922
+msgid "Select Yes if you want to display the Taxonomy Links"
+msgstr "Выберите да если хотите отобразить таксономии"
+
+#: ../aletheme/functions/vc.php:929
+msgid "Select the style"
+msgstr "Выберите стиль"
+
+#: ../aletheme/functions/vc.php:944
+msgid "Scale Image Box"
+msgstr "Блок Умная Картинка"
+
+#: ../aletheme/functions/vc.php:947
+msgid "Scale background image and some text"
+msgstr "Уменьшающаяся картинка с текстом"
+
+#: ../aletheme/functions/vc.php:956 ../aletheme/functions/vc.php:1007
+msgid "Select or Upload an image. Recommendation: Use big images"
+msgstr "Загрузите изображение. Используйте крупные изображения"
+
+#: ../aletheme/functions/vc.php:960 ../aletheme/functions/vc.php:1011
+msgid "Text Field 1"
+msgstr "Поле для текста 1"
+
+#: ../aletheme/functions/vc.php:963 ../aletheme/functions/vc.php:970
+#: ../aletheme/functions/vc.php:1014 ../aletheme/functions/vc.php:1021
+#: ../aletheme/functions/vc.php:1249 ../aletheme/functions/vc.php:1256
+msgid "Type some text or let it empty"
+msgstr "Введите текст или оставьте поле пустым"
+
+#: ../aletheme/functions/vc.php:967 ../aletheme/functions/vc.php:1018
+msgid "Text Field 2"
+msgstr "Поле для текста 2"
+
+#: ../aletheme/functions/vc.php:974
+msgid "Inner Image"
+msgstr "Внутреннее изображение"
+
+#: ../aletheme/functions/vc.php:976
+msgid "Select or Upload an image/logo/icon to show into the box."
+msgstr "Выберите или загрузите изображение для показа в нутри блока"
+
+#: ../aletheme/functions/vc.php:983
+msgid "Insert a link, or let it empty."
+msgstr "Введите ссылку или оставьте пусто."
+
+#: ../aletheme/functions/vc.php:995
+msgid "Hover Text"
+msgstr "Текст при наведении"
+
+#: ../aletheme/functions/vc.php:998
+msgid "Text hovered by an image"
+msgstr "Текст покрытый изображением"
+
+#: ../aletheme/functions/vc.php:1005
+msgid "Hover Image"
+msgstr "Покрывающее изображение"
+
+#: ../aletheme/functions/vc.php:1033
+msgid "Service Block"
+msgstr "Сервис"
+
+#: ../aletheme/functions/vc.php:1036
+msgid "Service Block with image, title and text"
+msgstr "Блок сервиса с картинкой, заголовком и текстом"
+
+#: ../aletheme/functions/vc.php:1055 ../aletheme/functions/vc.php:3438
+msgid "Select the display style."
+msgstr "Выберите стиль"
+
+#: ../aletheme/functions/vc.php:1068 ../aletheme/functions/vc.php:1075
+#: ../aletheme/functions/vc.php:1301 ../aletheme/functions/vc.php:1309
+#: ../aletheme/functions/vc.php:1754 ../aletheme/functions/vc.php:1762
+#: ../aletheme/functions/vc.php:1799 ../aletheme/functions/vc.php:1827
+msgid "Type some text"
+msgstr "Введите текст"
+
+#: ../aletheme/functions/vc.php:1072
+msgid "Descriptions"
+msgstr "Описание"
+
+#: ../aletheme/functions/vc.php:1079
+msgid "Price. For specific styles only."
+msgstr "Цена. Отображается не на всех стилях."
+
+#: ../aletheme/functions/vc.php:1082
+msgid ""
+"The price field will work with specific styles. Enforcement for example."
+msgstr "Цена работает с определенными стилями, например на Enforcement."
+
+#: ../aletheme/functions/vc.php:1089
+msgid "Insert a link for slide button. For Orquidea Demo"
+msgstr "Введите ссылку для кнопки. Стиль Orquidea"
+
+#: ../aletheme/functions/vc.php:1093
+msgid "Sub title"
+msgstr "Под заголовок"
+
+#: ../aletheme/functions/vc.php:1096
+msgid "Insert a subtitle. For Orquidea Demo"
+msgstr "Введите подзаголовок. Стиль Orquidea"
+
+#: ../aletheme/functions/vc.php:1100
+msgid "Close?"
+msgstr "Закрыто?"
+
+#: ../aletheme/functions/vc.php:1103
+msgid "Closed or Opened? For Orquidea Demo"
+msgstr "ЗАкрыто или открыто? Стиль Orquidea"
+
+#: ../aletheme/functions/vc.php:1115
+msgid "Simple Testimonials Slider"
+msgstr "Простой слайдер отзывов"
+
+#: ../aletheme/functions/vc.php:1146
+msgid "Simple Testimonials Slider Item"
+msgstr "Слайд для слайдера отзывов"
+
+#: ../aletheme/functions/vc.php:1149
+msgid "Add data for each item such as images, titles or description"
+msgstr "Добавить данные для слайда, такие как картинка, заголовок и описание"
+
+#: ../aletheme/functions/vc.php:1170
+msgid "Testimonial Photo"
+msgstr "Фото"
+
+#: ../aletheme/functions/vc.php:1183
+msgid "Testimonial Text"
+msgstr "Текст"
+
+#: ../aletheme/functions/vc.php:1186
+msgid "Insert a testimonial description"
+msgstr "Введите описание"
+
+#: ../aletheme/functions/vc.php:1193
+msgid "Insert a link for testimonial, or let it empty."
+msgstr "Введите ссылку или оставьте поле пустым"
+
+#: ../aletheme/functions/vc.php:1206
+msgid "Price Item"
+msgstr "Блок с ценой"
+
+#: ../aletheme/functions/vc.php:1209
+msgid "Pricing item"
+msgstr "Элемент цены"
+
+#: ../aletheme/functions/vc.php:1223 ../aletheme/functions/vc.php:2224
+#: ../aletheme/functions/vc.php:2252
+msgid "Select the layout style."
+msgstr "Выберите стиль"
+
+#: ../aletheme/functions/vc.php:1227
+msgid "Pricing Image"
+msgstr "Картинка"
+
+#: ../aletheme/functions/vc.php:1233
+msgid "Slider Images"
+msgstr "Картинки слайдера"
+
+#: ../aletheme/functions/vc.php:1235
+msgid "Upload some images to show a slider or let it empty."
+msgstr "Добавьте картинки чтобы показать слайдер или оставьте поле пустым"
+
+#: ../aletheme/functions/vc.php:1239
+msgid "The Amount (Price)"
+msgstr "Стоимость (Цена)"
+
+#: ../aletheme/functions/vc.php:1242
+msgid "Type the amount"
+msgstr "Укажите стоимость"
+
+#: ../aletheme/functions/vc.php:1253
+msgid "Price Description"
+msgstr "Описание цены"
+
+#: ../aletheme/functions/vc.php:1260
+msgid "Badge Image"
+msgstr "Изображение иконки"
+
+#: ../aletheme/functions/vc.php:1262
+msgid "Select or Upload an image. For specific styles (Cafeteria)"
+msgstr "Загрузите картинку. Используется для стиля Cafeteria"
+
+#: ../aletheme/functions/vc.php:1266 ../aletheme/functions/vc.php:3385
+#: ../partials/work/top_full_slider.php:5
+msgid "Category"
+msgstr "Категория"
+
+#: ../aletheme/functions/vc.php:1269
+msgid "Type some text or let it empty. For specific styles (Cafeteria)"
+msgstr "Вставьте текст или оставьте пустым. Используется на Cafeteria"
+
+#: ../aletheme/functions/vc.php:1282 ../aletheme/functions/vc.php:1285
+msgid "Hover Team"
+msgstr "Команда"
+
+#: ../aletheme/functions/vc.php:1298
+msgid "Text field"
+msgstr "Текстовое поле"
+
+#: ../aletheme/functions/vc.php:1306
+msgid "Second Text field"
+msgstr "Текстовое поле №2"
+
+#: ../aletheme/functions/vc.php:1322 ../aletheme/functions/vc.php:1325
+msgid "Works Masonry Grid"
+msgstr "Сетка Портфолио"
+
+#: ../aletheme/functions/vc.php:1332 ../aletheme/functions/vc.php:2390
+msgid "Items Count"
+msgstr "Количество"
+
+#: ../aletheme/functions/vc.php:1335
+msgid "Specify the items count or insert '-1' to show all posts."
+msgstr "Укажите количество постов или поставьте «-1» чтобы показать все посты"
+
+#: ../aletheme/functions/vc.php:1353 ../aletheme/functions/vc.php:1875
+#: ../aletheme/functions/vc.php:2386 ../aletheme/functions/vc.php:2538
+#: ../aletheme/functions/vc.php:2582 ../aletheme/functions/vc.php:2684
+#: ../aletheme/functions/vc.php:3965 ../aletheme/functions/vc.php:4014
+msgid "Select the Grid layout style."
+msgstr "Выберите стиль для сетки"
+
+#: ../aletheme/functions/vc.php:1366
+msgid "Video Box"
+msgstr "Видео блок"
+
+#: ../aletheme/functions/vc.php:1369
+msgid "A box with a video in modal window"
+msgstr "Блок с видео в модальном окне"
+
+#: ../aletheme/functions/vc.php:1376
+msgid "Video Link"
+msgstr "Ссылка на видео"
+
+#: ../aletheme/functions/vc.php:1379
+msgid "Paste here a video from youtube. ex - https://youtu.be/kct_f6hUPlk"
+msgstr "Вставьте сюда ссылку на видео с ютуба - https://youtu.be/kct_f6hUPlk"
+
+#: ../aletheme/functions/vc.php:1383
+msgid "Video Title"
+msgstr "Заголовок видео"
+
+#: ../aletheme/functions/vc.php:1386 ../aletheme/functions/vc.php:2698
+#: ../aletheme/functions/vc.php:2850 ../aletheme/functions/vc.php:2920
+#: ../aletheme/functions/vc.php:3204 ../aletheme/functions/vc.php:3284
+msgid "Specify the title"
+msgstr "Укажите заголовок"
+
+#: ../aletheme/functions/vc.php:1390
+msgid "Video Short Description"
+msgstr "Краткое описание"
+
+#: ../aletheme/functions/vc.php:1393
+msgid "Specify the short description"
+msgstr "Вставьте краткое описание"
+
+#: ../aletheme/functions/vc.php:1397
+msgid "Video Thumb"
+msgstr "Превью видео"
+
+#: ../aletheme/functions/vc.php:1414
+msgid "Tabs"
+msgstr "Табы"
+
+#: ../aletheme/functions/vc.php:1417 ../aletheme/functions/vc.php:3058
+#: ../aletheme/functions/vc.php:3129
+msgid "Tabs Container"
+msgstr "Контейнер табов"
+
+#: ../aletheme/functions/vc.php:1431
+msgid "Tabs Item"
+msgstr "Таб"
+
+#: ../aletheme/functions/vc.php:1434 ../aletheme/functions/vc.php:1588
+#: ../aletheme/functions/vc.php:3082 ../aletheme/functions/vc.php:3146
+msgid "Add data for a tab"
+msgstr "Добавить контент для табака"
+
+#: ../aletheme/functions/vc.php:1442 ../aletheme/functions/vc.php:3090
+msgid "Tab Name"
+msgstr "Имя таба"
+
+#: ../aletheme/functions/vc.php:1445 ../aletheme/functions/vc.php:3093
+msgid "Insert a tab title"
+msgstr "Вставьте заголовок табу"
+
+#: ../aletheme/functions/vc.php:1449 ../aletheme/functions/vc.php:3097
+#: ../aletheme/functions/vc.php:3154
+msgid "Tab Photo"
+msgstr "Картинка таба"
+
+#: ../aletheme/functions/vc.php:1451 ../aletheme/functions/vc.php:3099
+#: ../aletheme/functions/vc.php:3156
+msgid "Select or Upload an image or let it empty to hide photo."
+msgstr "Загрузите картинку для таба или оставьте поле пустым"
+
+#: ../aletheme/functions/vc.php:1462 ../aletheme/functions/vc.php:1615
+#: ../aletheme/functions/vc.php:2127 ../aletheme/functions/vc.php:3110
+msgid "Text"
+msgstr "Текст"
+
+#: ../aletheme/functions/vc.php:1465 ../aletheme/functions/vc.php:1618
+#: ../aletheme/functions/vc.php:2130 ../aletheme/functions/vc.php:3113
+#: ../aletheme/functions/vc.php:3170 ../aletheme/functions/vc.php:3395
+#: ../aletheme/functions/vc.php:3665 ../aletheme/functions/vc.php:4004
+#: ../aletheme/functions/vc.php:4056 ../aletheme/functions/vc.php:4168
+#: ../aletheme/functions/vc.php:4230 ../aletheme/functions/vc.php:4244
+#: ../aletheme/functions/vc.php:4258 ../aletheme/functions/vc.php:4338
+#: ../aletheme/functions/vc.php:4358 ../aletheme/functions/vc.php:4378
+#: ../aletheme/functions/vc.php:4447 ../aletheme/functions/vc.php:4508
+#: ../aletheme/functions/vc.php:4571 ../aletheme/functions/vc.php:4628
+#: ../aletheme/functions/vc.php:4720
+msgid "Insert a description"
+msgstr "Вставьте описание"
+
+#: ../aletheme/functions/vc.php:1479
+msgid "Centered Slider"
+msgstr "Центрированный Слайдер"
+
+#: ../aletheme/functions/vc.php:1482
+msgid "A Slider with centered active slide."
+msgstr "Слайдер с центрированным активным слайдом"
+
+#: ../aletheme/functions/vc.php:1498 ../aletheme/functions/vc.php:1528
+#: ../aletheme/functions/vc.php:1792 ../aletheme/functions/vc.php:1885
+msgid "Select the post type."
+msgstr "Укажите поста тайм"
+
+#: ../aletheme/functions/vc.php:1509
+msgid "Centered Slider Item"
+msgstr "Слайд для центрированного слайдера"
+
+#: ../aletheme/functions/vc.php:1545 ../aletheme/functions/vc.php:2276
+msgid "Slide Descriptions"
+msgstr "Описание"
+
+#: ../aletheme/functions/vc.php:1568
+msgid "Icon Tabs"
+msgstr "Табы с иконкой"
+
+#: ../aletheme/functions/vc.php:1571
+msgid "Icon Tabs Container"
+msgstr "Контейнер для табов"
+
+#: ../aletheme/functions/vc.php:1585
+msgid "Icon Tabs Item"
+msgstr "Таб "
+
+#: ../aletheme/functions/vc.php:1596
+msgid "Tab Icon Image"
+msgstr "Иконка"
+
+#: ../aletheme/functions/vc.php:1602
+msgid "Hover Tab Icon Image"
+msgstr "Иконка при наведении"
+
+#: ../aletheme/functions/vc.php:1622
+msgid "Unique ID"
+msgstr "Уникальный ИД"
+
+#: ../aletheme/functions/vc.php:1625
+msgid "Specify an unique ID."
+msgstr "Укажите уникальный ИД"
+
+#: ../aletheme/functions/vc.php:1638
+msgid "Featured Post"
+msgstr "Лучший пост"
+
+#: ../aletheme/functions/vc.php:1641
+msgid "Select a post to be featured"
+msgstr "Выберите лучший пост"
+
+#: ../aletheme/functions/vc.php:1648
+msgid "Select 1 post"
+msgstr "Выберите 1 пост"
+
+#: ../aletheme/functions/vc.php:1657
+msgid "Select 1 posts or let it empty to load recent post."
+msgstr "Выберите 1 пост или оставьте поле пустым"
+
+#: ../aletheme/functions/vc.php:1671
+msgid "Image with Title"
+msgstr "Картинка и заголовок"
+
+#: ../aletheme/functions/vc.php:1674
+msgid "Image with Title Container"
+msgstr "Контейнер"
+
+#: ../aletheme/functions/vc.php:1688
+msgid "Image Title Item"
+msgstr "Элемент заголовка"
+
+#: ../aletheme/functions/vc.php:1691
+msgid "Upload an image and specify the title"
+msgstr "Загрузите картинку и укажите заголовок"
+
+#: ../aletheme/functions/vc.php:1708 ../aletheme/functions/vc.php:2648
+#: ../aletheme/functions/vc.php:3381 ../aletheme/functions/vc.php:3579
+#: ../aletheme/functions/vc.php:3705 ../aletheme/functions/vc.php:3712
+#: ../aletheme/functions/vc.php:3719 ../aletheme/functions/vc.php:3726
+#: ../aletheme/functions/vc.php:3754 ../aletheme/functions/vc.php:3827
+#: ../aletheme/functions/vc.php:3955 ../aletheme/functions/vc.php:3996
+#: ../aletheme/functions/vc.php:4042 ../aletheme/functions/vc.php:4049
+#: ../aletheme/functions/vc.php:4161 ../aletheme/functions/vc.php:4223
+#: ../aletheme/functions/vc.php:4237 ../aletheme/functions/vc.php:4251
+#: ../aletheme/functions/vc.php:4331 ../aletheme/functions/vc.php:4351
+#: ../aletheme/functions/vc.php:4371 ../aletheme/functions/vc.php:4432
+#: ../aletheme/functions/vc.php:4440 ../aletheme/functions/vc.php:4501
+#: ../aletheme/functions/vc.php:4564 ../aletheme/functions/vc.php:4606
+#: ../aletheme/functions/vc.php:4614 ../aletheme/functions/vc.php:4621
+#: ../aletheme/functions/vc.php:4713 ../aletheme/functions/vc.php:4814
+msgid "Insert a title"
+msgstr "Укажите заголовок"
+
+#: ../aletheme/functions/vc.php:1712
+msgid "Subtitle"
+msgstr "Под заголовок"
+
+#: ../aletheme/functions/vc.php:1715
+msgid "Insert a subtitle"
+msgstr "Вставьте под заголовок"
+
+#: ../aletheme/functions/vc.php:1722 ../aletheme/functions/vc.php:1834
+msgid "Insert a link or let it empty"
+msgstr "Вставьте ссылку или оставьте поле пустым"
+
+#: ../aletheme/functions/vc.php:1735 ../aletheme/functions/vc.php:1738
+msgid "Left Icon Service"
+msgstr "Сервис с иконкой"
+
+#: ../aletheme/functions/vc.php:1747
+msgid "Select or Upload an icon image."
+msgstr "Загрузите изображение иконки"
+
+#: ../aletheme/functions/vc.php:1751
+msgid "Title field"
+msgstr "Заголовок"
+
+#: ../aletheme/functions/vc.php:1759 ../aletheme/functions/vc.php:1824
+msgid "Description field"
+msgstr "Описание"
+
+#: ../aletheme/functions/vc.php:1775 ../aletheme/functions/vc.php:1778
+msgid "Pricing Table"
+msgstr "Таблица цен"
+
+#: ../aletheme/functions/vc.php:1796
+msgid "Plan Title"
+msgstr "Заголовок"
+
+#: ../aletheme/functions/vc.php:1806
+msgid "Type the currency"
+msgstr "Валюта"
+
+#: ../aletheme/functions/vc.php:1810 ../aletheme/functions/vc.php:3406
+msgid "Price"
+msgstr "Цена"
+
+#: ../aletheme/functions/vc.php:1813
+msgid "Type the price"
+msgstr "Укажите цену"
+
+#: ../aletheme/functions/vc.php:1817
+msgid "Period"
+msgstr "Период"
+
+#: ../aletheme/functions/vc.php:1820
+msgid "Type the period"
+msgstr "Укажите период"
+
+#: ../aletheme/functions/vc.php:1847 ../aletheme/functions/vc.php:1850
+msgid "Recent Blog Posts"
+msgstr "Блог посты"
+
+#: ../aletheme/functions/vc.php:1857
+msgid "Posts Count"
+msgstr "Количество постов"
+
+#: ../aletheme/functions/vc.php:1860
+msgid "Type the Posts Count"
+msgstr "Укажите количество постов"
+
+#: ../aletheme/functions/vc.php:1879
+msgid "Post type"
+msgstr "Пост тайм"
+
+#: ../aletheme/functions/vc.php:1899
+msgid "Works Slider"
+msgstr "Слайдер Портфолио"
+
+#: ../aletheme/functions/vc.php:1902
+msgid "Slider with images"
+msgstr "Слайдер с картинками"
+
+#: ../aletheme/functions/vc.php:1910
+msgid "Slider Info"
+msgstr "Инфо слайдера"
+
+#: ../aletheme/functions/vc.php:1913
+msgid "Type the info. (It is displayed in the left part of the slider)"
+msgstr "Укажите инфо (отображается с левой стороны слайдера)"
+
+#: ../aletheme/functions/vc.php:1917
+msgid "Slider Pre Title"
+msgstr "Под заголовок"
+
+#: ../aletheme/functions/vc.php:1920
+msgid "Insert a pre title for your Slider"
+msgstr "Укажите под заголовок"
+
+#: ../aletheme/functions/vc.php:1927
+msgid "Insert a title for your Slider"
+msgstr "Укажите заголовок"
+
+#: ../aletheme/functions/vc.php:1938
+msgid "Works Slider Item"
+msgstr "Слайд для Слайдера Портфолио"
+
+#: ../aletheme/functions/vc.php:1941
+msgid "Upload images for the slider"
+msgstr "Загрузите изображения для слайдера"
+
+#: ../aletheme/functions/vc.php:1965
+msgid "Corporate Team"
+msgstr "Корпоративная Команда"
+
+#: ../aletheme/functions/vc.php:1968
+msgid "A box with team member"
+msgstr "Блок с членом команды"
+
+#: ../aletheme/functions/vc.php:2002
+msgid "Type the member name"
+msgstr "Имя"
+
+#: ../aletheme/functions/vc.php:2006
+msgid "Member Post"
+msgstr "Должность"
+
+#: ../aletheme/functions/vc.php:2009
+msgid "Type the member post"
+msgstr "Вставьте должность"
+
+#: ../aletheme/functions/vc.php:2013
+msgid "Member Description"
+msgstr "Описание"
+
+#: ../aletheme/functions/vc.php:2016
+msgid "Type the member description"
+msgstr "Вставьте описание"
+
+#: ../aletheme/functions/vc.php:2020
+msgid "Twitter Link"
+msgstr "Ссылка на Twitter"
+
+#: ../aletheme/functions/vc.php:2023
+msgid "Paste the Twitter link or let it empty"
+msgstr "Вставьте ссылку на профиль или оставьте поле пустым. "
+
+#: ../aletheme/functions/vc.php:2027
+msgid "Facebook Link"
+msgstr "Ссылка на Facebook"
+
+#: ../aletheme/functions/vc.php:2030
+msgid "Paste the Facebook link or let it empty"
+msgstr "Вставьте ссылку на профиль или оставьте поле пустым. "
+
+#: ../aletheme/functions/vc.php:2034
+msgid "Google Plus Link"
+msgstr "Ссылка на Google"
+
+#: ../aletheme/functions/vc.php:2037
+msgid "Paste the Google Plus link or let it empty"
+msgstr "Вставьте ссылку на профиль или оставьте поле пустым. "
+
+#: ../aletheme/functions/vc.php:2041
+msgid "Pinterest Link"
+msgstr "Ссылка на Pinterest"
+
+#: ../aletheme/functions/vc.php:2044
+msgid "Paste the Pinterest link or let it empty"
+msgstr "Вставьте ссылку на профиль или оставьте поле пустым. "
+
+#: ../aletheme/functions/vc.php:2058
+msgid "Timeline"
+msgstr "Временная шкала"
+
+#: ../aletheme/functions/vc.php:2061
+msgid "Timeline Container"
+msgstr "Контейнер временной шкалы"
+
+#: ../aletheme/functions/vc.php:2089
+msgid "Timeline Item"
+msgstr "Шкала"
+
+#: ../aletheme/functions/vc.php:2092
+msgid "Add data for timeline item"
+msgstr "Добавьте данные для временной шкалы"
+
+#: ../aletheme/functions/vc.php:2113 ../partials/work/top_full_slider.php:18
+msgid "Date"
+msgstr "Дата"
+
+#: ../aletheme/functions/vc.php:2116
+msgid "Insert the date"
+msgstr "Вставьте дату"
+
+#: ../aletheme/functions/vc.php:2136
+msgid ""
+"Select or Upload a background image. Dusplays for Specific Styles only. ex: "
+"Nunta, Cafeteria"
+msgstr ""
+"Загрузите фоновое изображение. Важно: отображается на демо Nunta, Cafeteria"
+
+#: ../aletheme/functions/vc.php:2149 ../aletheme/functions/vc.php:5154
+msgid "Progress Bar"
+msgstr "Индикатор"
+
+#: ../aletheme/functions/vc.php:2152
+msgid "A progress bar"
+msgstr "Индикатор"
+
+#: ../aletheme/functions/vc.php:2166
+msgid "Select the block style."
+msgstr "Выберите стиль"
+
+#: ../aletheme/functions/vc.php:2170
+msgid "Item Title"
+msgstr "Заголовок"
+
+#: ../aletheme/functions/vc.php:2177
+msgid "Item Progress"
+msgstr "Показатель индикатора"
+
+#: ../aletheme/functions/vc.php:2180
+msgid "Example: 70%"
+msgstr "Пример: 70%"
+
+#: ../aletheme/functions/vc.php:2184
+msgid "Bar Color"
+msgstr "Цвет полоски"
+
+#: ../aletheme/functions/vc.php:2186
+#: ../aletheme/taxonomies/tax-meta-class.php:753
+msgid "Select a color"
+msgstr "Выберите цвет"
+
+#: ../aletheme/functions/vc.php:2190
+msgid "Bar Background Color"
+msgstr "Фон полоски"
+
+#: ../aletheme/functions/vc.php:2192 ../aletheme/functions/vc.php:2453
+msgid "Select a background color"
+msgstr "Выберите цвет"
+
+#: ../aletheme/functions/vc.php:2207
+msgid "Fashion Slider"
+msgstr "Слайдер Fashion"
+
+#: ../aletheme/functions/vc.php:2210
+msgid "A Creative Slider"
+msgstr "Креативный слайдер"
+
+#: ../aletheme/functions/vc.php:2235
+msgid "Fashion Slider Item"
+msgstr "Слайд для слайдера Fashion"
+
+#: ../aletheme/functions/vc.php:2269 ../aletheme/functions/vc.php:3037
+msgid "Slide Sub Title"
+msgstr "Под заголовок"
+
+#: ../aletheme/functions/vc.php:2272
+msgid "Insert a subtitle for your Slide"
+msgstr "Вставьте под заголовок"
+
+#: ../aletheme/functions/vc.php:2295 ../aletheme/functions/vc.php:2298
+msgid "Stephanie Slider"
+msgstr "Слайдер Stephanie"
+
+#: ../aletheme/functions/vc.php:2312
+msgid "Stephanie Slider Item"
+msgstr "Слайд для слайдера Stephanie"
+
+#: ../aletheme/functions/vc.php:2315
+msgid "Add data for each item such images."
+msgstr "Добавьте контент для слайда"
+
+#: ../aletheme/functions/vc.php:2337 ../aletheme/functions/vc.php:2340
+msgid "Recent Post Line"
+msgstr "Полоска последних постов"
+
+#: ../aletheme/functions/vc.php:2347 ../aletheme/functions/vc.php:3751
+#: ../aletheme/functions/vc.php:3824 ../aletheme/functions/vc.php:3952
+#: ../aletheme/functions/vc.php:4294 ../aletheme/functions/vc.php:4394
+#: ../aletheme/functions/vc.php:4498
+msgid "Box Title"
+msgstr "Заголовок"
+
+#: ../aletheme/functions/vc.php:2350
+msgid "Specify the box title"
+msgstr "Укажите заголовок"
+
+#: ../aletheme/functions/vc.php:2354
+msgid "Box Sub Title"
+msgstr "Под заголовок"
+
+#: ../aletheme/functions/vc.php:2357
+msgid "Specify the box subtitle"
+msgstr "Укажите под заголовок"
+
+#: ../aletheme/functions/vc.php:2370 ../aletheme/functions/vc.php:2373
+msgid "Scroll Works"
+msgstr "Портфолио Скрол"
+
+#: ../aletheme/functions/vc.php:2393
+msgid "Specify the count"
+msgstr "Укажите количество"
+
+#: ../aletheme/functions/vc.php:2397
+msgid "Author name"
+msgstr "Автор"
+
+#: ../aletheme/functions/vc.php:2400 ../aletheme/functions/vc.php:3487
+msgid "Specify the name"
+msgstr "Укажите имя"
+
+#: ../aletheme/functions/vc.php:2404
+msgid "Author description"
+msgstr "Описание"
+
+#: ../aletheme/functions/vc.php:2414 ../aletheme/functions/vc.php:2655
+msgid "Empty field will disable the link"
+msgstr "Пустое поле спрячет отображение ссылки"
+
+#: ../aletheme/functions/vc.php:2427
+msgid "Promo Banner"
+msgstr "Рекламный Баннер"
+
+#: ../aletheme/functions/vc.php:2430
+msgid "Promo Banner Data"
+msgstr "Данные для рекламного баннера"
+
+#: ../aletheme/functions/vc.php:2444 ../aletheme/functions/vc.php:2688
+#: ../aletheme/functions/vc.php:3399 ../aletheme/functions/vc.php:3583
+#: ../aletheme/functions/vc.php:3669
+msgid "Sub Title"
+msgstr "Под заголовок"
+
+#: ../aletheme/functions/vc.php:2447
+msgid "Type your sub title"
+msgstr "Укажите под заголовок"
+
+#: ../aletheme/functions/vc.php:2459
+msgid "Select or Upload an image for background."
+msgstr "Загрузите фоновое изображение"
+
+#: ../aletheme/functions/vc.php:2463 ../aletheme/functions/vc.php:5280
+msgid "Icon"
+msgstr "Иконка"
+
+#: ../aletheme/functions/vc.php:2470 ../aletheme/functions/vc.php:4883
+#: ../aletheme/functions/vc.php:4908 ../aletheme/functions/vc.php:4933
+#: ../aletheme/functions/vc.php:4958 ../aletheme/functions/vc.php:5032
+#: ../aletheme/functions/vc.php:5057 ../aletheme/functions/vc.php:5082
+msgid "Select icon from library."
+msgstr "Выберите иконки из коллекции"
+
+#: ../aletheme/functions/vc.php:2474
+msgid "Icon Color"
+msgstr "Цвет иконки"
+
+#: ../aletheme/functions/vc.php:2476
+msgid "Specify an icon color"
+msgstr "Укажите цвет иконки"
+
+#: ../aletheme/functions/vc.php:2491
+msgid "Creative Title"
+msgstr "Заголовок"
+
+#: ../aletheme/functions/vc.php:2494
+msgid "Creative Title Data"
+msgstr "Данные для заголовка"
+
+#: ../aletheme/functions/vc.php:2509 ../aletheme/functions/vc.php:2512
+msgid "Shop Categories"
+msgstr "Категории Магазина"
+
+#: ../aletheme/functions/vc.php:2520
+msgid "Select 5 WooCommerce Categories"
+msgstr "Выберите 5 категорий из магазина"
+
+#: ../aletheme/functions/vc.php:2529
+msgid "Select 5 categories or let it empty to load recent 5 categories"
+msgstr "Выберите 5 категорий или оставьте пустым чтобы взять последние 5."
+
+#: ../aletheme/functions/vc.php:2552
+msgid "Shop Products"
+msgstr "Продукты Магазина"
+
+#: ../aletheme/functions/vc.php:2555
+msgid "Products with filter"
+msgstr "Продукты с фильтром"
+
+#: ../aletheme/functions/vc.php:2563
+msgid "Select Categories you want to show in Filter Navigation"
+msgstr "Выберите категории, которые желаете показать в фильтре"
+
+#: ../aletheme/functions/vc.php:2572
+msgid "Select categories or let it empty to load recent 5 categories"
+msgstr ""
+"Выберите категории или оставьте пустым чтобы взять 5 последних категорий"
+
+#: ../aletheme/functions/vc.php:2586
+msgid "Products count"
+msgstr "Количество продуктов"
+
+#: ../aletheme/functions/vc.php:2589
+msgid "How many products to show in a section?"
+msgstr "Сколько продуктов показать в контейнере?"
+
+#: ../aletheme/functions/vc.php:2604
+msgid "Steps History"
+msgstr "История"
+
+#: ../aletheme/functions/vc.php:2607
+msgid "A module that shows steps history"
+msgstr "Модуль показывающий историческую шкалу"
+
+#: ../aletheme/functions/vc.php:2621
+msgid "Steps History Item"
+msgstr "Шкала истории"
+
+#: ../aletheme/functions/vc.php:2624
+msgid "Add data for each step like image and title"
+msgstr "Добавьте данные такие как картинка и заголовок"
+
+#: ../aletheme/functions/vc.php:2632
+msgid "Step Image"
+msgstr "Изображение"
+
+#: ../aletheme/functions/vc.php:2638
+msgid "Number"
+msgstr "Цифра"
+
+#: ../aletheme/functions/vc.php:2641
+msgid "Insert a number"
+msgstr "Укажите цифру"
+
+#: ../aletheme/functions/vc.php:2667
+msgid "Look Book"
+msgstr "Блок Демонстрация"
+
+#: ../aletheme/functions/vc.php:2670
+msgid "Show Look Book"
+msgstr "Показать Демонстрацию"
+
+#: ../aletheme/functions/vc.php:2691
+msgid "Specify the subtitle"
+msgstr "Укажите под заголовок"
+
+#: ../aletheme/functions/vc.php:2713 ../aletheme/functions/vc.php:2879
+#: ../aletheme/functions/vc.php:5482 ../aletheme/functions/vc.php:5495
+#: ../aletheme/functions/vc.php:5508 ../aletheme/functions/vc.php:5521
+#: ../aletheme/functions/vc.php:5534
+msgid "Specify the link"
+msgstr "Укажите ссылку"
+
+#: ../aletheme/functions/vc.php:2717 ../aletheme/functions/vc.php:2883
+msgid "Link Anchor"
+msgstr "Текст на ссылке"
+
+#: ../aletheme/functions/vc.php:2720 ../aletheme/functions/vc.php:2886
+msgid "Specify the link anchor"
+msgstr "Укажите текст на ссылке"
+
+#: ../aletheme/functions/vc.php:2724 ../aletheme/functions/vc.php:2890
+#: ../aletheme/functions/vc.php:2945
+msgid "Main Image"
+msgstr "Главное изображение"
+
+#: ../aletheme/functions/vc.php:2726 ../aletheme/functions/vc.php:2892
+msgid "Select or Upload an image. Recommended size (600px-745px)"
+msgstr "Загрузите изображение. Рекомендуемый размер (600px-745px)"
+
+#: ../aletheme/functions/vc.php:2730
+msgid "Extra Image #1"
+msgstr "Изображение №1"
+
+#: ../aletheme/functions/vc.php:2732 ../aletheme/functions/vc.php:2738
+#: ../aletheme/functions/vc.php:2744
+msgid "Select or Upload an image. Recommended size (280px-400px)"
+msgstr "Загрузите изображение. Рекомендуемый размер (280px-400px)"
+
+#: ../aletheme/functions/vc.php:2736
+msgid "Extra Image #2"
+msgstr "Изображение №2"
+
+#: ../aletheme/functions/vc.php:2742
+msgid "Extra Image #3"
+msgstr "Изображение №3"
+
+#: ../aletheme/functions/vc.php:2759
+msgid "Promo Slider"
+msgstr "Промо Слайдер"
+
+#: ../aletheme/functions/vc.php:2762
+msgid "A module that shows a promo slider"
+msgstr "Модуль показывающий рекламный слайдер"
+
+#: ../aletheme/functions/vc.php:2770
+msgid "Product Image"
+msgstr "Изображение продукта"
+
+#: ../aletheme/functions/vc.php:2776 ../aletheme/functions/vc.php:2979
+#: ../aletheme/functions/vc.php:3066
+msgid "Box Background"
+msgstr "Фон блока"
+
+#: ../aletheme/functions/vc.php:2785 ../aletheme/functions/vc.php:3019
+msgid "Specify the Title"
+msgstr "Укажите заголовок"
+
+#: ../aletheme/functions/vc.php:2789 ../aletheme/functions/vc.php:3288
+#: ../aletheme/functions/vc.php:3449
+msgid "Pre Title"
+msgstr "Под заголовок"
+
+#: ../aletheme/functions/vc.php:2792
+msgid "Specify the Pre Title"
+msgstr "Укажите под заголовок"
+
+#: ../aletheme/functions/vc.php:2810
+msgid "Promo Slider Item"
+msgstr "Слайд для Промо Слайдера"
+
+#: ../aletheme/functions/vc.php:2813 ../aletheme/functions/vc.php:3001
+msgid "Add an image for each slide"
+msgstr "Добавьте изображение для каждого слайда"
+
+#: ../aletheme/functions/vc.php:2836
+msgid "Heading"
+msgstr "Заголовок"
+
+#: ../aletheme/functions/vc.php:2839
+msgid "Show a heading box"
+msgstr "Показать блок Заголовка"
+
+#: ../aletheme/functions/vc.php:2854 ../aletheme/functions/vc.php:2924
+#: ../aletheme/functions/vc.php:3208 ../aletheme/functions/vc.php:3709
+#: ../aletheme/functions/vc.php:4046 ../aletheme/functions/vc.php:4234
+#: ../aletheme/functions/vc.php:4348 ../aletheme/functions/vc.php:4437
+#: ../aletheme/functions/vc.php:4859 ../aletheme/functions/vc.php:5015
+msgid "Title #2"
+msgstr "Заголовок №2"
+
+#: ../aletheme/functions/vc.php:2857
+msgid "Specify the title #2"
+msgstr "Укажите заголовок №2"
+
+#: ../aletheme/functions/vc.php:2861 ../aletheme/functions/vc.php:2931
+#: ../aletheme/functions/vc.php:3215 ../aletheme/functions/vc.php:4248
+#: ../aletheme/functions/vc.php:4368
+msgid "Title #3"
+msgstr "Заголовок №3"
+
+#: ../aletheme/functions/vc.php:2864
+msgid "Specify the title #3"
+msgstr "Укажите заголовок №3"
+
+#: ../aletheme/functions/vc.php:2906
+msgid "Presentation"
+msgstr "Презентация"
+
+#: ../aletheme/functions/vc.php:2909
+msgid "Show a presentation box"
+msgstr "Показать блок презентации"
+
+#: ../aletheme/functions/vc.php:2927 ../aletheme/functions/vc.php:3211
+msgid "Specify the title 2"
+msgstr "Указать заголовок 2"
+
+#: ../aletheme/functions/vc.php:2934 ../aletheme/functions/vc.php:3218
+msgid "Specify the title 3"
+msgstr "Указать заголовок 3"
+
+#: ../aletheme/functions/vc.php:2968
+msgid "Extra Slider"
+msgstr "Слайдер Экстра"
+
+#: ../aletheme/functions/vc.php:2971
+msgid "A module that shows an extra slider"
+msgstr "Модуль отображающий слайдер Екстра"
+
+#: ../aletheme/functions/vc.php:2985
+msgid "Block Image"
+msgstr "Изображение"
+
+#: ../aletheme/functions/vc.php:2998
+msgid "Extra Slider Item"
+msgstr "Слайд для слайдера Экстра"
+
+#: ../aletheme/functions/vc.php:3023
+msgid "Slide Description"
+msgstr "Описание"
+
+#: ../aletheme/functions/vc.php:3026
+msgid "Specify the Description"
+msgstr "Укажите описание"
+
+#: ../aletheme/functions/vc.php:3030
+msgid "Slide Index"
+msgstr "Индекс"
+
+#: ../aletheme/functions/vc.php:3033
+msgid "Specify the Index"
+msgstr "Укажите индекс"
+
+#: ../aletheme/functions/vc.php:3040
+msgid "Specify the Sub Title"
+msgstr "Укажите под заголовок"
+
+#: ../aletheme/functions/vc.php:3055
+msgid "Years Tabs"
+msgstr "Вкладка «Годы»"
+
+#: ../aletheme/functions/vc.php:3079
+msgid "Years Tabs Item"
+msgstr "Вкладка"
+
+#: ../aletheme/functions/vc.php:3126
+msgid "Team Tabs"
+msgstr "Вкладки Команда"
+
+#: ../aletheme/functions/vc.php:3143
+msgid "Team Tabs Item"
+msgstr "Вкладка"
+
+#: ../aletheme/functions/vc.php:3190
+msgid "Three Steps"
+msgstr "Три Шага"
+
+#: ../aletheme/functions/vc.php:3193
+msgid "Show a 3 steps box"
+msgstr "Показать блок 3-х шагов"
+
+#: ../aletheme/functions/vc.php:3201 ../aletheme/functions/vc.php:3281
+#: ../aletheme/functions/vc.php:3442 ../aletheme/functions/vc.php:3702
+#: ../aletheme/functions/vc.php:4039 ../aletheme/functions/vc.php:4158
+#: ../aletheme/functions/vc.php:4220 ../aletheme/functions/vc.php:4328
+#: ../aletheme/functions/vc.php:4429 ../aletheme/functions/vc.php:4852
+#: ../aletheme/functions/vc.php:5008
+msgid "Title #1"
+msgstr "Заголовок №1"
+
+#: ../aletheme/functions/vc.php:3222 ../aletheme/functions/vc.php:3295
+#: ../aletheme/functions/vc.php:3456 ../aletheme/functions/vc.php:4227
+#: ../aletheme/functions/vc.php:4335
+msgid "Description #1"
+msgstr "Описание №1"
+
+#: ../aletheme/functions/vc.php:3229 ../aletheme/functions/vc.php:4241
+#: ../aletheme/functions/vc.php:4355
+msgid "Description #2"
+msgstr "Описание №2"
+
+#: ../aletheme/functions/vc.php:3236 ../aletheme/functions/vc.php:4255
+#: ../aletheme/functions/vc.php:4375
+msgid "Description #3"
+msgstr "Описание №3"
+
+#: ../aletheme/functions/vc.php:3243
+msgid "Background Icon Image #1"
+msgstr "Фоновая иконка №1"
+
+#: ../aletheme/functions/vc.php:3249
+msgid "Background Icon Image #2"
+msgstr "Фоновая иконка №2"
+
+#: ../aletheme/functions/vc.php:3255
+msgid "Background Icon Image #3"
+msgstr "Фоновая иконка №3"
+
+#: ../aletheme/functions/vc.php:3270
+msgid "Subscribe Container"
+msgstr "Контейнер Подписки"
+
+#: ../aletheme/functions/vc.php:3273
+msgid "Show a pretty subscribe container"
+msgstr "Показать симпатичный контейнер подписки"
+
+#: ../aletheme/functions/vc.php:3291
+msgid "Specify the pretitle"
+msgstr "Укажите под заголовок"
+
+#: ../aletheme/functions/vc.php:3302
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: ../aletheme/functions/vc.php:3305
+msgid "Paste the Plugin Shortcode"
+msgstr "Вставьте шорткод сгенерированный плагином"
+
+#: ../aletheme/functions/vc.php:3309
+msgid "Background Icon"
+msgstr "Фоновая иконка"
+
+#: ../aletheme/functions/vc.php:3315
+msgid "Background Box Image"
+msgstr "Блок с фоновой картинкой"
+
+#: ../aletheme/functions/vc.php:3321
+msgid "Box Photo"
+msgstr "Картинка"
+
+#: ../aletheme/functions/vc.php:3338
+msgid "Exotico Slider"
+msgstr "Слайдер Exotico"
+
+#: ../aletheme/functions/vc.php:3341
+msgid "Slider as Exotico Demo"
+msgstr "Вертикальный слайдер"
+
+#: ../aletheme/functions/vc.php:3355
+msgid "Exotico Slider Item"
+msgstr "Слайд для слайдера Exotico"
+
+#: ../aletheme/functions/vc.php:3358 ../aletheme/functions/vc.php:3628
+#: ../aletheme/functions/vc.php:3768 ../aletheme/functions/vc.php:3888
+msgid "Add data for a slide"
+msgstr "Добавьте данные слайду"
+
+#: ../aletheme/functions/vc.php:3366
+msgid "Background Photo"
+msgstr "Фотона картинка"
+
+#: ../aletheme/functions/vc.php:3372
+msgid "Product Photo"
+msgstr "Фото продукта"
+
+#: ../aletheme/functions/vc.php:3374 ../aletheme/functions/vc.php:3507
+msgid "Select or Upload an png image."
+msgstr "Выберите или загрузите PNG изображение"
+
+#: ../aletheme/functions/vc.php:3388
+msgid "Insert a category"
+msgstr "Укажите категорию"
+
+#: ../aletheme/functions/vc.php:3402 ../aletheme/functions/vc.php:3586
+#: ../aletheme/functions/vc.php:3672
+msgid "Insert a sub title"
+msgstr "Укажите под заголовок"
+
+#: ../aletheme/functions/vc.php:3409
+msgid "Insert the product price"
+msgstr "Укажите цену продукта"
+
+#: ../aletheme/functions/vc.php:3422
+msgid "Search Box"
+msgstr "Блок Поиск"
+
+#: ../aletheme/functions/vc.php:3425
+msgid "Show a search box container"
+msgstr "Контейнер с формой поиска"
+
+#: ../aletheme/functions/vc.php:3445
+msgid "Specify the title."
+msgstr "Укажите заголовок"
+
+#: ../aletheme/functions/vc.php:3452
+msgid "Specify the pretitle. For Default Style only"
+msgstr "Укажите под заголовок"
+
+#: ../aletheme/functions/vc.php:3459
+msgid "Specify the description. For Default Style only"
+msgstr "Укажите описание"
+
+#: ../aletheme/functions/vc.php:3473
+msgid "One Member"
+msgstr "Один Участник"
+
+#: ../aletheme/functions/vc.php:3476
+msgid "Show a one member box"
+msgstr "Показывает блок одного участника"
+
+#: ../aletheme/functions/vc.php:3491 ../aletheme/functions/vc.php:3796
+#: ../aletheme/functions/vc.php:3910
+msgid "Position"
+msgstr "Должность"
+
+#: ../aletheme/functions/vc.php:3494
+msgid "Specify the position"
+msgstr "Укажите должность"
+
+#: ../aletheme/functions/vc.php:3521
+msgid "Exotico Products Carousel"
+msgstr "Карусель продуктов Exotico"
+
+#: ../aletheme/functions/vc.php:3560
+msgid "Exotico Info"
+msgstr "Инфо Exotico"
+
+#: ../aletheme/functions/vc.php:3563 ../aletheme/functions/vc.php:3689
+msgid "Display an info box"
+msgstr "Отображает блок с информацией"
+
+#: ../aletheme/functions/vc.php:3570 ../aletheme/functions/vc.php:3696
+#: ../aletheme/functions/vc.php:3831 ../aletheme/functions/vc.php:4130
+#: ../aletheme/functions/vc.php:4451
+msgid "Background"
+msgstr "Фон"
+
+#: ../aletheme/functions/vc.php:3593
+msgid "Insert a link"
+msgstr "Укажите ссылку"
+
+#: ../aletheme/functions/vc.php:3608 ../aletheme/functions/vc.php:3611
+msgid "Exotico Testimonials"
+msgstr "Отзывы Exotico"
+
+#: ../aletheme/functions/vc.php:3625
+msgid "Exotico Testimonials Item"
+msgstr "Отзыв"
+
+#: ../aletheme/functions/vc.php:3651 ../aletheme/functions/vc.php:3785
+#: ../aletheme/functions/vc.php:3846 ../aletheme/functions/vc.php:3905
+msgid "Insert a name"
+msgstr "Укажите имя"
+
+#: ../aletheme/functions/vc.php:3655 ../aletheme/functions/vc.php:4074
+#: ../partials/header/taxipress.php:13
+#: ../vc_templates/ale_taxipress_booking.php:58
+msgid "Address"
+msgstr "Адрес"
+
+#: ../aletheme/functions/vc.php:3658 ../aletheme/functions/vc.php:4077
+msgid "Insert the address"
+msgstr "Укажите Адрес"
+
+#: ../aletheme/functions/vc.php:3686
+msgid "Exotico Stats"
+msgstr "Статистика Exotico"
+
+#: ../aletheme/functions/vc.php:3716
+msgid "Value #1"
+msgstr "Значение №1"
+
+#: ../aletheme/functions/vc.php:3723
+msgid "Value #2"
+msgstr "Значение №2"
+
+#: ../aletheme/functions/vc.php:3740 ../aletheme/functions/vc.php:3743
+msgid "Exotico Team"
+msgstr "Команда Exotico"
+
+#: ../aletheme/functions/vc.php:3765
+msgid "Exotico Team Item"
+msgstr "Член команды"
+
+#: ../aletheme/functions/vc.php:3782 ../aletheme/functions/vc.php:3902
+msgid "First Name"
+msgstr "Имя"
+
+#: ../aletheme/functions/vc.php:3789
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: ../aletheme/functions/vc.php:3792
+msgid "Insert the lastname"
+msgstr "Укажите фамилию"
+
+#: ../aletheme/functions/vc.php:3799 ../aletheme/functions/vc.php:3853
+#: ../aletheme/functions/vc.php:3913
+msgid "Insert a position"
+msgstr "Укажите должность"
+
+#: ../aletheme/functions/vc.php:3813 ../aletheme/functions/vc.php:3816
+msgid "TaxiPress Team"
+msgstr "Команда TaxiPress"
+
+#: ../aletheme/functions/vc.php:3837
+msgid "CEO Photo"
+msgstr "Фото Директора"
+
+#: ../aletheme/functions/vc.php:3843
+msgid "CEO Name"
+msgstr "Имя Директора"
+
+#: ../aletheme/functions/vc.php:3850
+msgid "CEO Position"
+msgstr "Должность Директора"
+
+#: ../aletheme/functions/vc.php:3857
+msgid "CEO Email"
+msgstr "Емэйл Директора"
+
+#: ../aletheme/functions/vc.php:3860
+msgid "Insert a email"
+msgstr "Вставьте емэйл"
+
+#: ../aletheme/functions/vc.php:3864
+msgid "CEO Facebook"
+msgstr "Фэйсбук директора"
+
+#: ../aletheme/functions/vc.php:3867
+msgid "Insert a fb link"
+msgstr "Вставьте ссылку на фэйсбук директора"
+
+#: ../aletheme/functions/vc.php:3871
+msgid "CEO Twitter"
+msgstr "Твитер директора"
+
+#: ../aletheme/functions/vc.php:3874
+msgid "Insert a twi link"
+msgstr "Вставьте ссылку на Твитер директора"
+
+#: ../aletheme/functions/vc.php:3885
+msgid "TaxiPress Team Item"
+msgstr "Член команды TaxiPress"
+
+#: ../aletheme/functions/vc.php:3920
+msgid "Insert the email"
+msgstr "Вставьте Email"
+
+#: ../aletheme/functions/vc.php:3927
+msgid "Insert the fb link"
+msgstr "Вставьте ссылку на Facebook"
+
+#: ../aletheme/functions/vc.php:3941
+msgid "TaxiPress Service"
+msgstr "Сервис TaxiPress"
+
+#: ../aletheme/functions/vc.php:3944
+msgid "TaxiPress Services"
+msgstr "Сервисы TaxiPress"
+
+#: ../aletheme/functions/vc.php:3976
+msgid "TaxiPress Service Item"
+msgstr "Сервис"
+
+#: ../aletheme/functions/vc.php:3979 ../aletheme/functions/vc.php:4547
+#: ../aletheme/functions/vc.php:4696 ../aletheme/functions/vc.php:4797
+#: ../aletheme/functions/vc.php:5272
+msgid "Add data for an item"
+msgstr "Добавить данные"
+
+#: ../aletheme/functions/vc.php:4029
+msgid "TaxiPress Contact"
+msgstr "Контакт TaxiPress"
+
+#: ../aletheme/functions/vc.php:4032
+msgid "Display a contact box for TaxiPress"
+msgstr "Отображает контактную форму для TaxiPress"
+
+#: ../aletheme/functions/vc.php:4060
+msgid "Address Label"
+msgstr "Поле Адрес"
+
+#: ../aletheme/functions/vc.php:4063 ../aletheme/functions/vc.php:4070
+msgid "Insert a label"
+msgstr "Вставьте заголовок для поля"
+
+#: ../aletheme/functions/vc.php:4067
+msgid "Phone Label"
+msgstr "Поле телефон"
+
+#: ../aletheme/functions/vc.php:4081
+msgid "Phones"
+msgstr "Телефоны"
+
+#: ../aletheme/functions/vc.php:4084
+msgid "Insert the phone"
+msgstr "Вставьте телефон"
+
+#: ../aletheme/functions/vc.php:4091
+msgid "Insert the twitter"
+msgstr "Вставьте Twitter"
+
+#: ../aletheme/functions/vc.php:4098
+msgid "Insert the facebook"
+msgstr "Вставьте Facebook"
+
+#: ../aletheme/functions/vc.php:4105
+msgid "Insert the youtube"
+msgstr "Вставьте YouTube"
+
+#: ../aletheme/functions/vc.php:4109 ../aletheme/functions/vc.php:4178
+msgid "Form Box Title"
+msgstr "Заголовок формы"
+
+#: ../aletheme/functions/vc.php:4112 ../aletheme/functions/vc.php:4181
+#: ../aletheme/functions/vc.php:4297 ../aletheme/functions/vc.php:4397
+msgid "Insert the form title"
+msgstr "Введите заголовок"
+
+#: ../aletheme/functions/vc.php:4116 ../aletheme/functions/vc.php:4185
+#: ../aletheme/functions/vc.php:4464 ../partials/footer/contact_form.php:15
+msgid "Your Email"
+msgstr "Ваш email"
+
+#: ../aletheme/functions/vc.php:4119 ../aletheme/functions/vc.php:4188
+#: ../aletheme/functions/vc.php:4304 ../aletheme/functions/vc.php:4404
+#: ../aletheme/functions/vc.php:4467
+msgid "Insert email to receive messages"
+msgstr "Введите емэйл на который хотите получать письма"
+
+#: ../aletheme/functions/vc.php:4123 ../aletheme/functions/vc.php:4192
+#: ../aletheme/functions/vc.php:4471
+msgid "Emails Subject"
+msgstr "Заголовок письма"
+
+#: ../aletheme/functions/vc.php:4126 ../aletheme/functions/vc.php:4195
+#: ../aletheme/functions/vc.php:4474
+msgid "Insert subject for messages"
+msgstr "Введите заголовок для письма"
+
+#: ../aletheme/functions/vc.php:4148
+msgid "TaxiPress Booking"
+msgstr "Бронирование TaxiPress"
+
+#: ../aletheme/functions/vc.php:4151
+msgid "Booking for TaxiPress Home"
+msgstr "Блок бронирования"
+
+#: ../aletheme/functions/vc.php:4172
+msgid "Car Image"
+msgstr "Изображение машины"
+
+#: ../aletheme/functions/vc.php:4210
+msgid "TaxiPress App"
+msgstr "Приложение TaxiPress"
+
+#: ../aletheme/functions/vc.php:4213
+msgid "App Presentation for TaxiPress"
+msgstr "Блок для презентации приложения TaxiPress"
+
+#: ../aletheme/functions/vc.php:4262
+msgid "Mobile Image"
+msgstr "Картинка Мобильного телефона"
+
+#: ../aletheme/functions/vc.php:4268
+msgid "Google Button"
+msgstr "Кнопка с Google"
+
+#: ../aletheme/functions/vc.php:4274
+msgid "Apple Button"
+msgstr "Кнопка с Apple"
+
+#: ../aletheme/functions/vc.php:4280
+msgid "Google Link"
+msgstr "Ссылка с Google"
+
+#: ../aletheme/functions/vc.php:4287
+msgid "Apple Link"
+msgstr "Ссылка с Apple"
+
+#: ../aletheme/functions/vc.php:4301 ../aletheme/functions/vc.php:4401
+#: ../aletheme/functions/vc.php:4505
+msgid "Box Description"
+msgstr "Описание"
+
+#: ../aletheme/functions/vc.php:4318
+msgid "TaxiPress Info"
+msgstr "Инфо TaxiPress"
+
+#: ../aletheme/functions/vc.php:4321
+msgid "Info box for TaxiPress"
+msgstr "Блок с информацией для TaxiPress"
+
+#: ../aletheme/functions/vc.php:4342
+msgid "Icon #1"
+msgstr "Иконка №1"
+
+#: ../aletheme/functions/vc.php:4362
+msgid "Icon #2"
+msgstr "Иконка №2"
+
+#: ../aletheme/functions/vc.php:4382
+msgid "Icon #3"
+msgstr "Иконка №3"
+
+#: ../aletheme/functions/vc.php:4419
+msgid "TaxiPress Suggest"
+msgstr "Предложения TaxiPress"
+
+#: ../aletheme/functions/vc.php:4422
+msgid "Suggest box for TaxiPress"
+msgstr "Блок предложений для TaxiPress"
+
+#: ../aletheme/functions/vc.php:4457
+msgid "Form Background"
+msgstr "Фон для формы"
+
+#: ../aletheme/functions/vc.php:4487 ../aletheme/functions/vc.php:4490
+msgid "TaxiPress Cars"
+msgstr "Слайдер Машины"
+
+#: ../aletheme/functions/vc.php:4512
+msgid "Image #1"
+msgstr "Картинка #1"
+
+#: ../aletheme/functions/vc.php:4518
+msgid "Image #2"
+msgstr "Картинка #2"
+
+#: ../aletheme/functions/vc.php:4524
+msgid "Image #3"
+msgstr "Картинка #3"
+
+#: ../aletheme/functions/vc.php:4530
+msgid "Image #4"
+msgstr "Картинка #4"
+
+#: ../aletheme/functions/vc.php:4544
+msgid "TaxiPress Cars Item"
+msgstr "Слайд для слайдера машины"
+
+#: ../aletheme/functions/vc.php:4575
+msgid "Extra"
+msgstr "Экстра"
+
+#: ../aletheme/functions/vc.php:4578
+msgid "Insert some info"
+msgstr "Введите информацию"
+
+#: ../aletheme/functions/vc.php:4593
+msgid "TaxiPress News"
+msgstr "Новости TaxiPress"
+
+#: ../aletheme/functions/vc.php:4596
+msgid "News box for TaxiPress"
+msgstr "Блок новости TaxiPress"
+
+#: ../aletheme/functions/vc.php:4603
+msgid "Box Title #1"
+msgstr "Первый заголовок"
+
+#: ../aletheme/functions/vc.php:4611
+msgid "Box Title #2"
+msgstr "Второй заголовок"
+
+#: ../aletheme/functions/vc.php:4618
+msgid "Specials Title"
+msgstr "Заголовок"
+
+#: ../aletheme/functions/vc.php:4625
+msgid "Specials Description"
+msgstr "Описание"
+
+#: ../aletheme/functions/vc.php:4632
+msgid "Specials Image"
+msgstr "Изображение"
+
+#: ../aletheme/functions/vc.php:4638
+msgid "Sales Background"
+msgstr "Фон"
+
+#: ../aletheme/functions/vc.php:4645
+msgid "Sale Title"
+msgstr "Заголовок"
+
+#: ../aletheme/functions/vc.php:4652
+msgid "Sale Value"
+msgstr "Значение"
+
+#: ../aletheme/functions/vc.php:4655
+msgid "Insert the sale value"
+msgstr "Введите значение"
+
+#: ../aletheme/functions/vc.php:4668 ../aletheme/functions/vc.php:4671
+msgid "Prestigio Slider"
+msgstr "Слайдер Prestigio"
+
+#: ../aletheme/functions/vc.php:4680
+msgid "Top Background"
+msgstr "Верхний фон"
+
+#: ../aletheme/functions/vc.php:4693
+msgid "Prestigio Slider Item"
+msgstr "Слайд для слайдера Prestigio"
+
+#: ../aletheme/functions/vc.php:4742
+msgid "Prestigio Skill Bar"
+msgstr "Показатель навыков"
+
+#: ../aletheme/functions/vc.php:4745
+msgid "Skill Bar for Prestigio Demo"
+msgstr "Модуль показателя навыков"
+
+#: ../aletheme/functions/vc.php:4752
+msgid "Skill"
+msgstr "Навык"
+
+#: ../aletheme/functions/vc.php:4755
+msgid "Insert the skill title"
+msgstr "Введите название навыка"
+
+#: ../aletheme/functions/vc.php:4760
+msgid "Pregress in %"
+msgstr "Значение показателя в процентах"
+
+#: ../aletheme/functions/vc.php:4763
+msgid "Insert the progress ex: 70%"
+msgstr "Введите значение, например 70%"
+
+#: ../aletheme/functions/vc.php:4777 ../aletheme/functions/vc.php:4780
+msgid "Ospedale Slider"
+msgstr "Слайдер Ospedale"
+
+#: ../aletheme/functions/vc.php:4794
+msgid "Ospedale Slider Item"
+msgstr "Слайд для слайдера Ospedale"
+
+#: ../aletheme/functions/vc.php:4836
+msgid "Ospedale Find Doctor"
+msgstr "Найти Врача"
+
+#: ../aletheme/functions/vc.php:4839
+msgid "Find Doctor Box"
+msgstr "Модуль Найти Врача"
+
+#: ../aletheme/functions/vc.php:4855 ../aletheme/functions/vc.php:5011
+#: ../aletheme/functions/vc.php:5128 ../aletheme/functions/vc.php:5188
+#: ../aletheme/functions/vc.php:5338 ../aletheme/functions/vc.php:5442
+#: ../aletheme/functions/vc.php:5462
+msgid "Insert the Title #1"
+msgstr "Введите заголовок №1"
+
+#: ../aletheme/functions/vc.php:4862 ../aletheme/functions/vc.php:5018
+msgid "Insert the Title #2"
+msgstr "Введите заголовок №2"
+
+#: ../aletheme/functions/vc.php:4869 ../aletheme/functions/vc.php:4901
+#: ../aletheme/functions/vc.php:4926 ../aletheme/functions/vc.php:4951
+#: ../aletheme/functions/vc.php:4976 ../aletheme/functions/vc.php:5025
+#: ../aletheme/functions/vc.php:5050 ../aletheme/functions/vc.php:5075
+#: ../aletheme/functions/vc.php:5100 ../aletheme/functions/vc.php:5135
+#: ../aletheme/functions/vc.php:5417
+msgid "Insert the description"
+msgstr "Введите описание"
+
+#: ../aletheme/functions/vc.php:4876
+msgid "Insert the shortcode generated by third part plugin"
+msgstr "Вставьте шатко сгенерированный сторонним плагином"
+
+#: ../aletheme/functions/vc.php:4880 ../aletheme/functions/vc.php:5029
+msgid "Icon Box #1"
+msgstr "Иконка №1"
+
+#: ../aletheme/functions/vc.php:4891 ../aletheme/functions/vc.php:5040
+msgid "Title Box #1"
+msgstr "Заголовок №1"
+
+#: ../aletheme/functions/vc.php:4898 ../aletheme/functions/vc.php:5047
+msgid "Description Box #1"
+msgstr "Описание №1"
+
+#: ../aletheme/functions/vc.php:4905 ../aletheme/functions/vc.php:5054
+msgid "Icon Box #2"
+msgstr "Иконка №2"
+
+#: ../aletheme/functions/vc.php:4916 ../aletheme/functions/vc.php:5065
+msgid "Title Box #2"
+msgstr "Заголовок №2"
+
+#: ../aletheme/functions/vc.php:4923 ../aletheme/functions/vc.php:5072
+msgid "Description Box #2"
+msgstr "Описание №1"
+
+#: ../aletheme/functions/vc.php:4930 ../aletheme/functions/vc.php:5079
+msgid "Icon Box #3"
+msgstr "Иконка №3"
+
+#: ../aletheme/functions/vc.php:4941 ../aletheme/functions/vc.php:5090
+msgid "Title Box #3"
+msgstr "Заголовок №3"
+
+#: ../aletheme/functions/vc.php:4948 ../aletheme/functions/vc.php:5097
+msgid "Description Box #3"
+msgstr "Описание №1"
+
+#: ../aletheme/functions/vc.php:4955
+msgid "Icon Box #4"
+msgstr "Иконка №4"
+
+#: ../aletheme/functions/vc.php:4966
+msgid "Title Box #4"
+msgstr "Заголовок №4"
+
+#: ../aletheme/functions/vc.php:4973
+msgid "Description Box #4"
+msgstr "Описание №1"
+
+#: ../aletheme/functions/vc.php:4992
+msgid "Ospedale About"
+msgstr "О Нас"
+
+#: ../aletheme/functions/vc.php:4995
+msgid "About block for Ospedale"
+msgstr "Блок О Нас для Ospedale"
+
+#: ../aletheme/functions/vc.php:5002
+msgid "Left Background"
+msgstr "Фон с лево"
+
+#: ../aletheme/functions/vc.php:5114 ../partials/header/donation.php:16
+msgid "Donate"
+msgstr "Пожертвовования"
+
+#: ../aletheme/functions/vc.php:5117
+msgid "Donate Block"
+msgstr "Блок Пожертвования"
+
+#: ../aletheme/functions/vc.php:5139 ../aletheme/functions/vc.php:5192
+msgid "Value"
+msgstr "Значение"
+
+#: ../aletheme/functions/vc.php:5142
+msgid "Insert the value"
+msgstr "Введите значение"
+
+#: ../aletheme/functions/vc.php:5146
+msgid "Button"
+msgstr "Кнопка"
+
+#: ../aletheme/functions/vc.php:5149
+msgid "Specify the button"
+msgstr "Укажите кнопку"
+
+#: ../aletheme/functions/vc.php:5157
+msgid "Specify the progress in %"
+msgstr "Укажите прогресс в %"
+
+#: ../aletheme/functions/vc.php:5169
+msgid "Donate Item"
+msgstr "Пожертвование"
+
+#: ../aletheme/functions/vc.php:5172
+msgid "Donate Item Block"
+msgstr "Блок для пожертвования"
+
+#: ../aletheme/functions/vc.php:5179 ../aletheme/functions/vc.php:5329
+msgid "Featured Image"
+msgstr "Избранная картинка"
+
+#: ../aletheme/functions/vc.php:5195
+msgid "Insert the value in %"
+msgstr "Введите значение в %"
+
+#: ../aletheme/functions/vc.php:5199
+msgid "Raised Label"
+msgstr "Заголовок для «Достигнуто»"
+
+#: ../aletheme/functions/vc.php:5202 ../aletheme/functions/vc.php:5209
+#: ../aletheme/functions/vc.php:5216 ../aletheme/functions/vc.php:5223
+#: ../aletheme/functions/vc.php:5230 ../aletheme/functions/vc.php:5237
+msgid "Specify the text"
+msgstr "Укажите заголовок"
+
+#: ../aletheme/functions/vc.php:5206
+msgid "Raised Value"
+msgstr "Значение достигнутого"
+
+#: ../aletheme/functions/vc.php:5213
+msgid "Donors Label"
+msgstr "Заголовок для Участников"
+
+#: ../aletheme/functions/vc.php:5220
+msgid "Donors Value"
+msgstr "Значение для Участников"
+
+#: ../aletheme/functions/vc.php:5227
+msgid "Goal Label"
+msgstr "Заголовок для цели"
+
+#: ../aletheme/functions/vc.php:5234
+msgid "Goal Value"
+msgstr "Значение для цели"
+
+#: ../aletheme/functions/vc.php:5252
+msgid "Opening Hours"
+msgstr "Часы работы"
+
+#: ../aletheme/functions/vc.php:5255
+msgid "Opening Hours Items"
+msgstr "Элементы часов работы"
+
+#: ../aletheme/functions/vc.php:5269
+msgid "Day Item"
+msgstr "День"
+
+#: ../aletheme/functions/vc.php:5286 ../aletheme/functions/vc.php:5576
+msgid "Day"
+msgstr "День"
+
+#: ../aletheme/functions/vc.php:5289
+msgid "Insert the day"
+msgstr "Введите день"
+
+#: ../aletheme/functions/vc.php:5293
+msgid "Hours"
+msgstr "Часы"
+
+#: ../aletheme/functions/vc.php:5296
+msgid "Insert the hours"
+msgstr "Введите часы"
+
+#: ../aletheme/functions/vc.php:5301
+msgid "Item BG"
+msgstr "Фон"
+
+#: ../aletheme/functions/vc.php:5304
+msgid "Choose bg color"
+msgstr "Выберите цвет для фона"
+
+#: ../aletheme/functions/vc.php:5319
+msgid "Wishes Item"
+msgstr "Элемент Пожелания"
+
+#: ../aletheme/functions/vc.php:5322
+msgid "Wishes Item Block"
+msgstr "Блок показывающий Пожелания"
+
+#: ../aletheme/functions/vc.php:5342
+msgid "Short Description"
+msgstr "Краткое описание"
+
+#: ../aletheme/functions/vc.php:5345 ../aletheme/functions/vc.php:5449
+#: ../aletheme/functions/vc.php:5469
+msgid "Insert the shortdescription"
+msgstr "Введите краткое описание"
+
+#: ../aletheme/functions/vc.php:5349
+msgid "Button Text"
+msgstr "Текст для кнопки"
+
+#: ../aletheme/functions/vc.php:5352
+msgid "Specify Button text"
+msgstr "Определите текст на кнопке"
+
+#: ../aletheme/functions/vc.php:5356
+msgid "Full Description"
+msgstr "Полное описание"
+
+#: ../aletheme/functions/vc.php:5359
+msgid "Specify the full text"
+msgstr "Укажите полный текст"
+
+#: ../aletheme/functions/vc.php:5373 ../aletheme/functions/vc.php:5376
+msgid "Event Slider"
+msgstr "Слайдер Событий"
+
+#: ../aletheme/functions/vc.php:5390 ../vc_templates/ale_event_slider.php:21
+msgid "Slide"
+msgstr "Слайд"
+
+#: ../aletheme/functions/vc.php:5393
+msgid "Add data for an slide item"
+msgstr "Добавить данные для слайдера"
+
+#: ../aletheme/functions/vc.php:5429
+msgid "Wedding Box"
+msgstr "Блок Свадьба"
+
+#: ../aletheme/functions/vc.php:5432
+msgid "A box for Wedding"
+msgstr "Модуль Свадьба"
+
+#: ../aletheme/functions/vc.php:5439
+msgid "Groom Name"
+msgstr "Имя жениха"
+
+#: ../aletheme/functions/vc.php:5446
+msgid "Groom Text"
+msgstr "Текст жениха"
+
+#: ../aletheme/functions/vc.php:5453
+msgid "Groom Photo"
+msgstr "Фото Жениха"
+
+#: ../aletheme/functions/vc.php:5459
+msgid "Bride Name"
+msgstr "Имя невесты"
+
+#: ../aletheme/functions/vc.php:5466
+msgid "Bride Text"
+msgstr "Текст невесты"
+
+#: ../aletheme/functions/vc.php:5473
+msgid "Bride Photo"
+msgstr "Фото невесты"
+
+#: ../aletheme/functions/vc.php:5479
+msgid "Icon 1 Link"
+msgstr "Ссылка иконки №1"
+
+#: ../aletheme/functions/vc.php:5486
+msgid "Icon 1"
+msgstr "Иконка №1"
+
+#: ../aletheme/functions/vc.php:5492
+msgid "Icon 2 Link"
+msgstr "Ссылка иконки №2"
+
+#: ../aletheme/functions/vc.php:5499
+msgid "Icon 2"
+msgstr "Иконка №2"
+
+#: ../aletheme/functions/vc.php:5505
+msgid "Icon 3 Link"
+msgstr "Ссылка иконки №3"
+
+#: ../aletheme/functions/vc.php:5512
+msgid "Icon 3"
+msgstr "Иконка №3"
+
+#: ../aletheme/functions/vc.php:5518
+msgid "Icon 4 Link"
+msgstr "Ссылка иконки №4"
+
+#: ../aletheme/functions/vc.php:5525
+msgid "Icon 4"
+msgstr "Иконка №4"
+
+#: ../aletheme/functions/vc.php:5531
+msgid "Icon 5 Link"
+msgstr "Ссылка иконки №5"
+
+#: ../aletheme/functions/vc.php:5538
+msgid "Icon 5"
+msgstr "Иконка №5"
+
+#: ../aletheme/functions/vc.php:5552
+msgid "Countdown"
+msgstr "Обратный отчет"
+
+#: ../aletheme/functions/vc.php:5555
+msgid "Countdown timer"
+msgstr "Таймер обратного отчета"
+
+#: ../aletheme/functions/vc.php:5562
+msgid "Year"
+msgstr "Год"
+
+#: ../aletheme/functions/vc.php:5565
+msgid "Insert the Event Year"
+msgstr "Введите го"
+
+#: ../aletheme/functions/vc.php:5569
+msgid "Month"
+msgstr "Месяц"
+
+#: ../aletheme/functions/vc.php:5572
+msgid "Insert the Event Month"
+msgstr "Введите месяц"
+
+#: ../aletheme/functions/vc.php:5579
+msgid "Insert the Event Day"
+msgstr "Введите день"
+
+#: ../aletheme/functions/vc.php:5583
+msgid "Hour"
+msgstr "Часы"
+
+#: ../aletheme/functions/vc.php:5586
+msgid "Insert the Event Hour"
+msgstr "Введите часы"
+
+#: ../aletheme/functions/vc.php:5598
+msgid "Works Vertical Slider"
+msgstr "Слайдер вертикальное портфолио"
+
+#: ../aletheme/functions/vc.php:5601
+msgid "Vertical Slider"
+msgstr "Вертикальное Портфолио"
+
+#: ../aletheme/functions/vc.php:5611
+msgid "Insert the Slider Column Title"
+msgstr "Введите заголовок колонки"
+
+#: ../aletheme/functions/vc.php:5615
+msgid "Select a Category"
+msgstr "Выберите категорию"
+
+#: ../aletheme/functions/vc.php:5624
+msgid "Select a category or let it empty to load all"
+msgstr "Выберите категорию или оставьте поле пустым"
+
+#: ../aletheme/functions/woocommerce.php:47
+#: ../vc_templates/ale_exotico_product_carousel.php:73
+#: ../vc_templates/ale_exotico_product_carousel.php:142
+msgid "Buy"
+msgstr "Купить"
+
+#: ../aletheme/functions/woocommerce.php:59
+msgid "our products"
+msgstr "Наши продукты"
+
+#: ../aletheme/functions/woocommerce.php:74
+#: ../aletheme/functions/woocommerce.php:77 ../partials/header/cart_link.php:14
+#: ../partials/header/keira.php:41
+msgid "Cart"
+msgstr "Корзина"
+
+#: ../aletheme/functions/woocommerce.php:252 ../vc_templates/ale_donate.php:61
+msgid "Share:"
+msgstr "Поделиться"
+
+#: ../aletheme/options/admin/options-framework.php:195
+#: ../aletheme/options/admin/options-framework.php:202
+msgid "Save Options"
+msgstr "Сохранить настройки"
+
+#: ../aletheme/options/admin/options-framework.php:196
+#: ../aletheme/options/admin/options-framework.php:203
+msgid "Restore Defaults"
+msgstr "Восстановить по умолчанию"
+
+#: ../aletheme/options/admin/options-framework.php:196
+#: ../aletheme/options/admin/options-framework.php:203
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Нажмите ОК чтобы сбросить. Все настройки будут потеряны"
+
+#: ../aletheme/options/admin/options-framework.php:235
+msgid "Default options restored."
+msgstr "Настройки по умолчанию востановлены."
+
+#: ../aletheme/options/admin/options-framework.php:283
+msgid "Options saved."
+msgstr "Настройки сохранены."
+
+#: ../aletheme/options/admin/options-interface.php:80
+msgid "Video Tutorial"
+msgstr "Видео урок"
+
+#: ../aletheme/options/admin/options-interface.php:248
+msgid "Font Size:"
+msgstr "Размер текста:"
+
+#: ../aletheme/options/admin/options-interface.php:259
+msgid "The Font:"
+msgstr "Шрифт:"
+
+#: ../aletheme/options/admin/options-interface.php:269
+msgid "Font Style:"
+msgstr "Стиль Шрифта:"
+
+#: ../aletheme/options/admin/options-interface.php:279
+msgid "Font Transform:"
+msgstr "Трансформация шрифта:"
+
+#: ../aletheme/options/admin/options-interface.php:289
+msgid "Font Weight:"
+msgstr "Толщина шрифта:"
+
+#: ../aletheme/options/admin/options-interface.php:300
+msgid "Font Line Height (px or %):"
+msgstr "Высота между строками (px / %):"
+
+#: ../aletheme/options/admin/options-interface.php:311
+msgid "Font Color:"
+msgstr "Цвет шрифта,"
+
+#: ../aletheme/options/admin/options-interface.php:389
+msgid "Header Background Color:"
+msgstr "Цвет фона шапки"
+
+#: ../aletheme/options/admin/options-interface.php:395
+msgid "Text Color:"
+msgstr "Цвет текста"
+
+#: ../aletheme/options/admin/options-interface.php:401
+msgid "Header Background Image:"
+msgstr "Изображение для шапки"
+
+#: ../aletheme/options/admin/options-interface.php:416
+msgid "Width (px):"
+msgstr "Ширина (px):"
+
+#: ../aletheme/options/admin/options-interface.php:421
+msgid "Height (px):"
+msgstr "Высота (px):"
+
+#: ../aletheme/options/admin/options-interface.php:428
+msgid "Content Align:"
+msgstr "Выравнивание когонтента:"
+
+#: ../aletheme/options/admin/options-medialibrary-uploader.php:107
+msgid "Upload"
+msgstr "Загрузить"
+
+#: ../aletheme/options/admin/options-medialibrary-uploader.php:132
+msgid "View File"
+msgstr "Просмотреть файл"
+
+#: ../aletheme/options/admin/options-medialibrary-uploader.php:269
+msgid "Gallery"
+msgstr "Галерея"
+
+#: ../aletheme/options/admin/options-medialibrary-uploader.php:269
+msgid "Previously Uploaded"
+msgstr "Загружено ранее"
+
+#: ../aletheme/options/admin/options-sanitize.php:253
+msgid "No Repeat"
+msgstr "Не повторять"
+
+#: ../aletheme/options/admin/options-sanitize.php:254
+msgid "Repeat Horizontally"
+msgstr "Повторять горизонтально"
+
+#: ../aletheme/options/admin/options-sanitize.php:255
+msgid "Repeat Vertically"
+msgstr "Повторять вертикально"
+
+#: ../aletheme/options/admin/options-sanitize.php:256
+msgid "Repeat All"
+msgstr "Повторять"
+
+#: ../aletheme/options/admin/options-sanitize.php:269
+msgid "Top Left"
+msgstr "Верх Лево"
+
+#: ../aletheme/options/admin/options-sanitize.php:270
+msgid "Top Center"
+msgstr "Верх Центр"
+
+#: ../aletheme/options/admin/options-sanitize.php:271
+msgid "Top Right"
+msgstr "Верх Право"
+
+#: ../aletheme/options/admin/options-sanitize.php:272
+msgid "Middle Left"
+msgstr "Середина Лево"
+
+#: ../aletheme/options/admin/options-sanitize.php:273
+msgid "Middle Center"
+msgstr "Середина Центр"
+
+#: ../aletheme/options/admin/options-sanitize.php:274
+msgid "Middle Right"
+msgstr "Середина Право"
+
+#: ../aletheme/options/admin/options-sanitize.php:275
+msgid "Bottom Left"
+msgstr "Низ Лево"
+
+#: ../aletheme/options/admin/options-sanitize.php:276
+msgid "Bottom Center"
+msgstr "Низ Центр"
+
+#: ../aletheme/options/admin/options-sanitize.php:277
+msgid "Bottom Right"
+msgstr "Низ Право"
+
+#: ../aletheme/options/admin/options-sanitize.php:290
+msgid "Scroll Normally"
+msgstr "Scroll Normally"
+
+#: ../aletheme/options/admin/options-sanitize.php:291
+msgid "Fixed in Place"
+msgstr "Fixed in Place"
+
+#: ../aletheme/options/admin/options-sanitize.php:304
+msgid "Auto"
+msgstr "Авто"
+
+#: ../aletheme/options/admin/options-sanitize.php:305
+msgid "Cover"
+msgstr "Cover"
+
+#: ../aletheme/options/admin/options-sanitize.php:306
+msgid "Contain"
+msgstr "Contain"
+
+#: ../aletheme/options/admin/options-sanitize.php:307
+msgid "Initial"
+msgstr "Initial"
+
+#: ../aletheme/options/admin/options-sanitize.php:321
+msgid "Left"
+msgstr "Лево"
+
+#: ../aletheme/options/admin/options-sanitize.php:322
+msgid "Center"
+msgstr "Центр"
+
+#: ../aletheme/options/admin/options-sanitize.php:323
+msgid "Right"
+msgstr "Право"
+
+#: ../aletheme/options/admin/options-sanitize.php:391
+msgid "Normal"
+msgstr "Обычный"
+
+#: ../aletheme/options/admin/options-sanitize.php:392
+msgid "Italic"
+msgstr "Наклонный"
+
+#: ../aletheme/options/admin/options-sanitize.php:393
+msgid "Bold"
+msgstr "Жирный"
+
+#: ../aletheme/options/admin/options-sanitize.php:394
+msgid "Bold Italic"
+msgstr "Жирный наклонный"
+
+#: ../aletheme/options/admin/options-sanitize.php:411
+msgid "None"
+msgstr "Нет"
+
+#: ../aletheme/options/admin/options-sanitize.php:412
+msgid "Capitalize"
+msgstr "Capitalize"
+
+#: ../aletheme/options/admin/options-sanitize.php:413
+msgid "Uppercase"
+msgstr "Uppercase"
+
+#: ../aletheme/options/admin/options-sanitize.php:414
+msgid "Lowercase"
+msgstr "Lowercase"
+
+#: ../aletheme/options/admin/options-sanitize.php:431
+msgid "Extra-Light 200"
+msgstr "Extra-Light 200"
+
+#: ../aletheme/options/admin/options-sanitize.php:432
+msgid "Light 300"
+msgstr "Light 300"
+
+#: ../aletheme/options/admin/options-sanitize.php:433
+msgid "Regular 400"
+msgstr "Regular 400"
+
+#: ../aletheme/options/admin/options-sanitize.php:434
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: ../aletheme/options/admin/options-sanitize.php:435
+msgid "Semi-Bold 600"
+msgstr "Semi-Bold 600"
+
+#: ../aletheme/options/admin/options-sanitize.php:436
+msgid "Bold 700"
+msgstr "Bold 700"
+
+#: ../aletheme/options/admin/options-sanitize.php:437
+msgid "Extra-Bold 800"
+msgstr "Extra-Bold 800"
+
+#: ../aletheme/options/admin/options-sanitize.php:438
+msgid "Ultra-bold 900"
+msgstr "Ultra-bold 900"
+
+#: ../aletheme/taxonomies/tax-meta-class.php:373
+#: ../aletheme/taxonomies/tax-meta-class.php:420
+msgid "Remove"
+msgstr "Удалить"
+
+#: ../aletheme/taxonomies/tax-meta-class.php:386
+msgid "Add"
+msgstr "Добавить"
+
+#: ../aletheme/taxonomies/tax-meta-class.php:731
+msgid "Remove Image"
+msgstr "Удалить картинку"
+
+#: ../aletheme/taxonomies/tax-meta-class.php:733
+msgid "Upload Image"
+msgstr "Загрузить картинку"
+
+#: ../aletheme/taxonomies/taxonomies-fields.php:15
+msgid "Category Icon"
+msgstr "Иконка категории"
+
+#: ../aletheme/taxonomies/taxonomies-fields.php:36
+msgid "Category Icon "
+msgstr "Иконка категории"
+
+#: ../archive-works.php:87
+msgid "Prev galleries"
+msgstr "Предыдущие галереи"
+
+#: ../archive-works.php:87
+msgid "Next galleries"
+msgstr "Следующие галереи"
+
+#: ../archive-works.php:93 ../partials/exotico_pagination.php:9
+#: ../partials/exotico_pagination.php:10
+msgid "Next"
+msgstr "Следующие"
+
+#: ../archive-works.php:94 ../partials/work/brigitte_slider.php:77
+#: ../vc_templates/ale_works_slider.php:40
+msgid "of"
+msgstr "Из"
+
+#: ../attachment.php:29
+msgid "Continue reading <span class=\"meta-nav\">&amp;raquo;</span>"
+msgstr "Проложить чтение <span class=\"meta-nav\">&amp;raquo;</span>"
+
+#: ../attachment.php:30 ../page.php:38 ../partials/postcontent.php:80
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: ../partials/blog/author_info.php:3
+msgid "About the author - "
+msgstr "Про автора - "
+
+#: ../partials/blog/blog_info.php:3
+msgid "Posted at"
+msgstr "Опубликовано в"
+
+#: ../partials/blog/blog_info.php:6
+msgid "in"
+msgstr "в"
+
+#: ../partials/blog/blog_info.php:11 ../partials/blog/taxipress_preview.php:17
+msgid "by"
+msgstr "От"
+
+#: ../partials/blog/blog_info.php:14
+msgid "and has"
+msgstr "И имеет"
+
+#: ../partials/blog/blog_info.php:16 ../partials/blog/comments.php:13
+#: ../partials/blog/limpieza_preview.php:41
+#: ../partials/blog/rosi_preview.php:43 ../partials/blog/single_info.php:7
+msgid "Comments"
+msgstr "Комментарий"
+
+#: ../partials/blog/blog_info.php:16 ../partials/blog/comments.php:13
+#: ../partials/blog/rosi_preview.php:43 ../partials/blog/single_info.php:7
+msgid "Comment"
+msgstr "Комментарий"
+
+#: ../partials/blog/brigitte_preview.php:5 ../partials/blog/right_column.php:4
+msgid "Category:"
+msgstr "Категория:"
+
+#: ../partials/blog/brigitte_preview.php:18
+msgid "READ MORE"
+msgstr "ЧИТАТЬ"
+
+#: ../partials/blog/burger_preview.php:20
+#: ../partials/blog/donation_preview.php:17
+#: ../partials/blog/limpieza_preview.php:48
+#: ../partials/blog/organic_preview.php:6 ../partials/hover/style_9.php:19
+#: ../vc_templates/ale_heading.php:30 ../vc_templates/ale_selected_works.php:74
+msgid "Read more"
+msgstr "Читать"
+
+#: ../partials/blog/cafeteria_list.php:17 ../partials/hover/style_11.php:8
+#: ../vc_templates/ale_service_block.php:105
+#: ../vc_templates/ale_works_masonry_grid.php:275
+msgid "Take a look"
+msgstr "Взглянуть"
+
+#: ../partials/blog/cafeteria_list.php:42
+msgid "Newest Stories"
+msgstr "Новые Истории"
+
+#: ../partials/blog/cafeteria_list.php:43
+msgid "Oldest Stories"
+msgstr "Старые Истории"
+
+#: ../partials/blog/comments.php:19 ../partials/blog/keira_comments.php:16
+#: ../partials/blog/nunta_comments.php:20
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Этот пост защищен паролем. Введите пароль, чтобы увидеть комментарии."
+
+#: ../partials/blog/comments.php:29 ../partials/blog/keira_comments.php:26
+msgid "&larr; Older comments"
+msgstr "Старые комментарии"
+
+#: ../partials/blog/comments.php:30 ../partials/blog/keira_comments.php:27
+msgid "Newer comments &rarr;"
+msgstr "Новые комментарии"
+
+#: ../partials/blog/comments.php:42 ../partials/blog/keira_comments.php:39
+#: ../partials/blog/nunta_comments.php:11
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: ../partials/blog/comments.php:48 ../partials/blog/keira_comments.php:8
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: ../partials/blog/comments.php:54 ../partials/blog/keira_comments.php:50
+#: ../partials/blog/nunta_comments.php:46
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+"Вы должны быть <a href=%s>авторизованы</a> чтобы опубликовать комментарий"
+
+#: ../partials/blog/comments.php:60 ../partials/blog/keira_comments.php:56
+#, php-format
+msgid ""
+"Logged in as <a class=\"login_link\" href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr ""
+"Авторизованы как <a class=\"login_link\" href=\"%s/wp-admin/profile.php\">"
+"%s</a>."
+
+#: ../partials/blog/comments.php:60 ../partials/blog/keira_comments.php:56
+#: ../partials/blog/nunta_comments.php:52
+msgid "Log out of this account"
+msgstr "Выйти из данного профиля"
+
+#: ../partials/blog/comments.php:60 ../partials/blog/keira_comments.php:56
+msgid "Log out"
+msgstr "Выйти"
+
+#: ../partials/blog/comments.php:65 ../partials/blog/keira_comments.php:64
+#: ../partials/blog/nunta_comments.php:68
+msgid "Type here your comment"
+msgstr "Напишите свой комментарий"
+
+#: ../partials/blog/comments.php:71 ../partials/blog/keira_comments.php:61
+msgid "Your name*"
+msgstr "Ваше Имя*"
+
+#: ../partials/blog/comments.php:74 ../partials/blog/keira_comments.php:62
+msgid "Your e-mail*"
+msgstr "Ваша почта*"
+
+#: ../partials/blog/comments.php:77
+msgid "Your website"
+msgstr "Ваш сайт"
+
+#: ../partials/blog/comments.php:83 ../partials/blog/keira_comments.php:65
+msgid "Post a Comment"
+msgstr "Опубликовать комментарий"
+
+#: ../partials/blog/grid_line.php:3
+msgid "Posted in:"
+msgstr "Опубликовано в:"
+
+#: ../partials/blog/grid_line.php:21 ../partials/blog/right_column.php:31
+msgid "Date:"
+msgstr "Дата:"
+
+#: ../partials/blog/jade_preview.php:10 ../partials/blog/rosi_preview.php:36
+#: ../partials/blog/taxipress_preview.php:21 ../partials/postpreview.php:49
+#: ../vc_templates/ale_recent_blog_posts.php:42
+#: ../vc_templates/ale_scroll_works.php:47
+msgid "Read More"
+msgstr "Читать"
+
+#: ../partials/blog/nunta_comments.php:29
+msgid "Older comments"
+msgstr "Старые комментарии"
+
+#: ../partials/blog/nunta_comments.php:30
+msgid "Newer comments"
+msgstr "Новые комментарии"
+
+#: ../partials/blog/nunta_comments.php:52
+#, php-format
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "Авторизованы как <a href=\"%s/wp-admin/profile.php\">%s</a>."
+
+#: ../partials/blog/nunta_comments.php:52
+msgid "Log out &raquo;"
+msgstr "Выйти &raquo;"
+
+#: ../partials/blog/nunta_comments.php:55
+#: ../partials/footer/contact_form.php:14
+msgid "Your name"
+msgstr "Ваше имя"
+
+#: ../partials/blog/nunta_comments.php:56
+msgid "Type here your name"
+msgstr "Напишите сюда свое имя"
+
+#: ../partials/blog/nunta_comments.php:59
+msgid "Your email"
+msgstr "Ваш email"
+
+#: ../partials/blog/nunta_comments.php:60
+msgid "Type here your email"
+msgstr "Напишите сюда свою почту"
+
+#: ../partials/blog/nunta_comments.php:67
+msgid "Your comment"
+msgstr "Ваш комментарий"
+
+#: ../partials/blog/nunta_comments.php:72
+msgid "Submit"
+msgstr "Отправить"
+
+#: ../partials/blog/nunta_list.php:50
+msgid "Previous posts"
+msgstr "Предыдущие посты"
+
+#: ../partials/blog/nunta_list.php:50
+msgid "Next posts"
+msgstr "Следующие посты"
+
+#: ../partials/blog/right_column.php:22
+msgid "Author:"
+msgstr "Автор:"
+
+#: ../partials/blog/single_info.php:2
+msgid "By"
+msgstr "От"
+
+#: ../partials/exotico_pagination.php:5 ../partials/exotico_pagination.php:6
+msgid "Prev"
+msgstr "Предыдущие"
+
+#: ../partials/footer/bakery.php:13 ../partials/footer/furniture.php:40
+#: ../partials/footer/zoo.php:45
+msgid "FOLLOW US"
+msgstr "СЛЕДИТЕ ЗА НАМИ"
+
+#: ../partials/footer/brigitte.php:9
+msgid "GET IN TOUCH ON:"
+msgstr "СВЯЖИТЕСЬ С НАМИ:"
+
+#: ../partials/footer/brigitte.php:25
+msgid "TOP"
+msgstr "ВВЕРХ"
+
+#: ../partials/footer/cafeteria.php:7
+msgid "Copyright, All Right Reserved"
+msgstr "Все права защищены."
+
+#: ../partials/footer/contact_form.php:5
+#: ../vc_templates/ale_contact_form.php:39
+#: ../vc_templates/ale_simple_form.php:22
+#: ../vc_templates/ale_taxipress_booking.php:48
+#: ../vc_templates/ale_taxipress_contact.php:67
+#: ../vc_templates/ale_taxipress_suggest.php:29
+msgid "Thank you for your message!"
+msgstr "Спасибо за ваше сообщение"
+
+#: ../partials/footer/contact_form.php:16
+msgid "Your Message"
+msgstr "Ваше сообщение"
+
+#: ../partials/footer/contact_form.php:19
+msgid "Footer Contact Form"
+msgstr "Форма контактов в Подвале"
+
+#: ../partials/footer/donation.php:17
+msgid "All rights reserved."
+msgstr "Все права защищены."
+
+#: ../partials/footer/donation.php:25 ../partials/footer/ospedale.php:30
+msgid "Information"
+msgstr "Информация"
+
+#: ../partials/footer/donation.php:40 ../partials/footer/exotico.php:32
+#: ../partials/footer/limpieza.php:11
+msgid "Contacts"
+msgstr "Контакты"
+
+#: ../partials/footer/enforcement.php:16
+msgid "CALL :"
+msgstr "ЗВОНИТЕ:"
+
+#: ../partials/footer/enforcement.php:22
+msgid "WRITE :"
+msgstr "ПИШИТЕ:"
+
+#: ../partials/footer/exotico.php:5
+msgid "Support"
+msgstr "Поддержка"
+
+#: ../partials/footer/exotico.php:18
+msgid "For users"
+msgstr "Для пользователей"
+
+#: ../partials/footer/exotico.php:51
+msgid "instagram"
+msgstr "Инстаграм"
+
+#: ../partials/footer/fashion.php:5
+msgid "We are on Instagram"
+msgstr "Вы в Инстаграм"
+
+#: ../partials/footer/hai.php:5
+msgid "Copyright"
+msgstr "Авторские Права"
+
+#: ../partials/footer/jade.php:34
+msgid "Back to top"
+msgstr "Вернуться на верх"
+
+#: ../partials/footer/keira.php:21 ../partials/footer/organic.php:28
+msgid "Phone:"
+msgstr "Телефон:"
+
+#: ../partials/footer/keira.php:24
+msgid "Email:"
+msgstr "Почта:"
+
+#: ../partials/footer/keira.php:40 ../partials/footer/wedding.php:15
+msgid "back to top"
+msgstr "Вернуться на верх"
+
+#: ../partials/footer/limpieza.php:59
+msgid "2020 ALL RIGHTS RESERVED"
+msgstr "2020 ВСЕ ПРАВА ЗАЩИЩЕНЫ"
+
+#: ../partials/footer/organic.php:20 ../partials/footer/orquidea.php:8
+msgid "Copyright 2020, Orquidea WordPress Theme"
+msgstr "Авторские права"
+
+#: ../partials/footer/organic.php:25 ../partials/header/taxipress.php:8
+#: ../partials/header/taxipress.php:11
+msgid "Call us"
+msgstr "Позвоните нам"
+
+#: ../partials/footer/organic.php:31
+msgid "E-mail:"
+msgstr "Почта:"
+
+#: ../partials/footer/organic.php:36 ../partials/footer/photography.php:10
+msgid "We are social"
+msgstr "Мы в социальных сетях"
+
+#: ../partials/footer/organic.php:40
+msgid "Our Address"
+msgstr "Наш адрес"
+
+#: ../partials/footer/ospedale.php:9
+msgid "to our newsletter"
+msgstr "на нашу рассылку"
+
+#: ../partials/footer/ospedale.php:24
+msgid "Contact"
+msgstr "Контакт"
+
+#: ../partials/footer/taxipress.php:12
+msgid "Call us any time"
+msgstr "Звоните в любое время"
+
+#: ../partials/footer/taxipress.php:16
+msgid "Our adress"
+msgstr "Наш адрес"
+
+#: ../partials/header/brigitte.php:53 ../partials/header/creative.php:90
+#: ../partials/header/creative.php:100 ../partials/header/keira.php:32
+#: ../partials/header/viaje.php:30 ../searchform.php:3
+msgid "Type here..."
+msgstr "Пишите сюда..."
+
+#: ../partials/header/cafeteria.php:10 ../partials/header/prestigio.php:14
+#: ../partials/header/wedding.php:18
+msgid "Menu"
+msgstr "Меню"
+
+#: ../partials/header/cart_link.php:9
+msgid "CART"
+msgstr "КОРЗИНА"
+
+#: ../partials/header/creative.php:91 ../partials/header/keira.php:33
+msgid "search"
+msgstr "поиск"
+
+#: ../partials/header/creative.php:92 ../partials/header/keira.php:34
+msgid "Close"
+msgstr "Закрыть"
+
+#: ../partials/header/donation.php:34
+msgid "Please install MailChimp plugin"
+msgstr "Установить плагин MailChimp"
+
+#: ../partials/header/donation.php:45
+msgid "Please install plugin"
+msgstr "Установите плагин"
+
+#: ../partials/header/exotico.php:15
+msgid "Basket"
+msgstr "Корзина"
+
+#: ../partials/header/limpieza.php:64
+msgid "Have a question? Call us now"
+msgstr "Остались вопросы? Звоните прямо сейчас"
+
+#: ../partials/header/ospedale.php:72
+msgid "Type and press Enter"
+msgstr "Напишите и нажмите Enter"
+
+#: ../partials/notfound.php:2
+msgid "No results were found for the requested page."
+msgstr "Не найдено результатов для запрощенной страницы"
+
+#: ../partials/page_head/cafeteria_heading.php:59
+#: ../partials/page_head/enforcement_heading.php:59
+#: ../partials/page_head/exotico_heading.php:60
+#: ../partials/page_head/orquidea_heading.php:59
+#: ../partials/page_head/parallax_one.php:60
+#: ../partials/page_head/parallax_three.php:59
+#: ../partials/page_head/parallax_two.php:59
+#: ../partials/page_head/simple_image.php:60
+#: ../partials/page_head/wedding_heading.php:60
+msgid "all posts from"
+msgstr "все посты:"
+
+#: ../partials/page_head/cafeteria_heading.php:62
+#: ../partials/page_head/enforcement_heading.php:62
+#: ../partials/page_head/exotico_heading.php:63
+#: ../partials/page_head/orquidea_heading.php:62
+#: ../partials/page_head/parallax_one.php:63
+#: ../partials/page_head/parallax_three.php:62
+#: ../partials/page_head/parallax_two.php:62
+#: ../partials/page_head/simple_image.php:63
+#: ../partials/page_head/wedding_heading.php:63
+msgid "all posts from author:"
+msgstr "Все посты автора:"
+
+#: ../partials/page_head/cafeteria_heading.php:65
+#: ../partials/page_head/enforcement_heading.php:65
+#: ../partials/page_head/exotico_heading.php:66
+#: ../partials/page_head/orquidea_heading.php:65
+#: ../partials/page_head/parallax_one.php:66
+#: ../partials/page_head/parallax_three.php:65
+#: ../partials/page_head/parallax_two.php:65
+#: ../partials/page_head/simple_image.php:66
+#: ../partials/page_head/wedding_heading.php:66
+msgid "tagged to:"
+msgstr "тэги:"
+
+#: ../partials/page_head/cafeteria_heading.php:68
+#: ../partials/page_head/enforcement_heading.php:68
+#: ../partials/page_head/exotico_heading.php:69
+#: ../partials/page_head/orquidea_heading.php:68
+#: ../partials/page_head/parallax_one.php:69
+#: ../partials/page_head/parallax_three.php:68
+#: ../partials/page_head/parallax_two.php:68
+#: ../partials/page_head/simple_image.php:69
+#: ../partials/page_head/wedding_heading.php:69
+msgid "search results for"
+msgstr "результаты поиска"
+
+#: ../partials/page_head/cafeteria_heading.php:71
+#: ../partials/page_head/center_title.php:41
+#: ../partials/page_head/enforcement_heading.php:71
+#: ../partials/page_head/exotico_heading.php:72
+#: ../partials/page_head/left_title.php:41
+#: ../partials/page_head/orquidea_heading.php:71
+#: ../partials/page_head/parallax_one.php:72
+#: ../partials/page_head/parallax_three.php:71
+#: ../partials/page_head/parallax_two.php:71
+#: ../partials/page_head/po_heading.php:41
+#: ../partials/page_head/simple_image.php:72
+#: ../partials/page_head/taxipress_heading.php:34
+#: ../partials/page_head/wedding_heading.php:72
+#, php-format
+msgid "Daily Archive: %s"
+msgstr "Дневной архив: %s"
+
+#: ../partials/page_head/cafeteria_heading.php:73
+#: ../partials/page_head/center_title.php:43
+#: ../partials/page_head/enforcement_heading.php:73
+#: ../partials/page_head/exotico_heading.php:74
+#: ../partials/page_head/left_title.php:43
+#: ../partials/page_head/orquidea_heading.php:73
+#: ../partials/page_head/parallax_one.php:74
+#: ../partials/page_head/parallax_three.php:73
+#: ../partials/page_head/parallax_two.php:73
+#: ../partials/page_head/po_heading.php:43
+#: ../partials/page_head/simple_image.php:74
+#: ../partials/page_head/taxipress_heading.php:36
+#: ../partials/page_head/wedding_heading.php:74
+#, php-format
+msgid "Monthly Archive: %s"
+msgstr "Архив по месяцам: %s"
+
+#: ../partials/page_head/cafeteria_heading.php:73
+#: ../partials/page_head/center_title.php:43
+#: ../partials/page_head/enforcement_heading.php:73
+#: ../partials/page_head/exotico_heading.php:74
+#: ../partials/page_head/left_title.php:43
+#: ../partials/page_head/orquidea_heading.php:73
+#: ../partials/page_head/parallax_one.php:74
+#: ../partials/page_head/parallax_three.php:73
+#: ../partials/page_head/parallax_two.php:73
+#: ../partials/page_head/po_heading.php:43
+#: ../partials/page_head/simple_image.php:74
+#: ../partials/page_head/taxipress_heading.php:36
+#: ../partials/page_head/wedding_heading.php:74
+msgid "F Y"
+msgstr "F Y"
+
+#: ../partials/page_head/cafeteria_heading.php:75
+#: ../partials/page_head/center_title.php:45
+#: ../partials/page_head/enforcement_heading.php:75
+#: ../partials/page_head/exotico_heading.php:76
+#: ../partials/page_head/left_title.php:45
+#: ../partials/page_head/orquidea_heading.php:75
+#: ../partials/page_head/parallax_one.php:76
+#: ../partials/page_head/parallax_three.php:75
+#: ../partials/page_head/parallax_two.php:75
+#: ../partials/page_head/po_heading.php:45
+#: ../partials/page_head/simple_image.php:76
+#: ../partials/page_head/taxipress_heading.php:38
+#: ../partials/page_head/wedding_heading.php:76
+#, php-format
+msgid "Yearly Archive: %s"
+msgstr "Архив по годам: %s"
+
+#: ../partials/page_head/cafeteria_heading.php:75
+#: ../partials/page_head/center_title.php:45
+#: ../partials/page_head/enforcement_heading.php:75
+#: ../partials/page_head/exotico_heading.php:76
+#: ../partials/page_head/left_title.php:45
+#: ../partials/page_head/orquidea_heading.php:75
+#: ../partials/page_head/parallax_one.php:76
+#: ../partials/page_head/parallax_three.php:75
+#: ../partials/page_head/parallax_two.php:75
+#: ../partials/page_head/po_heading.php:45
+#: ../partials/page_head/simple_image.php:76
+#: ../partials/page_head/taxipress_heading.php:38
+#: ../partials/page_head/wedding_heading.php:76
+msgid "Y"
+msgstr "Y"
+
+#: ../partials/page_head/cafeteria_heading.php:80
+#: ../partials/page_head/center_title.php:50
+#: ../partials/page_head/enforcement_heading.php:80
+#: ../partials/page_head/exotico_heading.php:81
+#: ../partials/page_head/left_title.php:50
+#: ../partials/page_head/orquidea_heading.php:80
+#: ../partials/page_head/parallax_one.php:81
+#: ../partials/page_head/parallax_three.php:80
+#: ../partials/page_head/parallax_two.php:80
+#: ../partials/page_head/po_heading.php:50
+#: ../partials/page_head/simple_image.php:81
+#: ../partials/page_head/taxipress_heading.php:43
+#: ../partials/page_head/wedding_heading.php:81
+msgid "page not found"
+msgstr "страница не найдена"
+
+#: ../partials/page_head/cafeteria_heading.php:81
+#: ../partials/page_head/enforcement_heading.php:81
+#: ../partials/page_head/exotico_heading.php:82
+#: ../partials/page_head/orquidea_heading.php:81
+#: ../partials/page_head/parallax_one.php:82
+#: ../partials/page_head/parallax_three.php:81
+#: ../partials/page_head/parallax_two.php:81
+#: ../partials/page_head/simple_image.php:82
+#: ../partials/page_head/wedding_heading.php:82
+msgid "Oops:"
+msgstr "Ой:"
+
+#: ../partials/page_head/orquidea_heading.php:121
+msgid "filter by category"
+msgstr "фильтр по категории"
+
+#: ../partials/page_head/orquidea_heading.php:126
+msgid "show all"
+msgstr "показать все"
+
+#: ../partials/pagination.php:23 ../partials/pagination.php:24
+msgid "Go to previous page"
+msgstr "Предыдущая страница"
+
+#: ../partials/pagination.php:27 ../partials/pagination.php:28
+msgid "Go to next page"
+msgstr "Следующая страница"
+
+#: ../partials/postcontent.php:76
+msgid "Tags: "
+msgstr "Тэга:"
+
+#: ../partials/postcontent.php:93
+msgid "Share this post, choose your Platform!"
+msgstr "Поделиться постом, выберите свою соц сеть!"
+
+#: ../partials/shop/rosi_product.php:22
+msgid "quick view"
+msgstr "быстрый просмотр"
+
+#: ../partials/social_text_links.php:4
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: ../partials/social_text_links.php:6
+msgid "Google +"
+msgstr "Google +"
+
+#: ../partials/social_text_links.php:10
+msgid "Vkontakte"
+msgstr "Vkontakte"
+
+#: ../partials/work/brigitte_slider.php:20
+#: ../partials/work/orquidea_slider.php:22
+msgid "Share"
+msgstr "Поделиться"
+
+#: ../partials/work/brigitte_slider.php:73
+msgid "Photos"
+msgstr "Фото"
+
+#: ../partials/work/orquidea_slider.php:18
+#: ../vc_templates/ale_centered_slider.php:26
+msgid "Previous Photo"
+msgstr "Предыдущие фото"
+
+#: ../partials/work/orquidea_slider.php:18
+#: ../vc_templates/ale_centered_slider.php:26
+msgid "Next Photo"
+msgstr "Следующее фото"
+
+#: ../vc_templates/ale_corporate_team.php:64
+msgid "TW."
+msgstr "TW."
+
+#: ../vc_templates/ale_corporate_team.php:65
+msgid "FB."
+msgstr "FB."
+
+#: ../vc_templates/ale_corporate_team.php:66
+msgid "GL."
+msgstr "GL."
+
+#: ../vc_templates/ale_corporate_team.php:67
+msgid "PN."
+msgstr "PN."
+
+#: ../vc_templates/ale_creative_title.php:47
+#: ../vc_templates/ale_pretty_team_item.php:31
+#: ../vc_templates/ale_pricing_table.php:35
+#: ../vc_templates/ale_pricing_table.php:71
+#: ../vc_templates/ale_pricing_table.php:108
+#: ../vc_templates/ale_scale_image_box.php:32
+#: ../vc_templates/ale_scroll_works.php:105
+#: ../vc_templates/ale_simple_testimonials_slider_item.php:28
+#: ../vc_templates/ale_simple_testimonials_slider_item.php:62
+#: ../vc_templates/ale_simple_testimonials_slider_item.php:90
+#: ../vc_templates/ale_simple_testimonials_slider_item.php:122
+#: ../vc_templates/ale_testimonials_slider_item.php:28
+msgid "Details"
+msgstr "Детали"
+
+#: ../vc_templates/ale_donate.php:43
+msgid "Donate/pay in your money"
+msgstr "Оплатить в своей валюте"
+
+#: ../vc_templates/ale_event_slider.php:17
+msgid "Current"
+msgstr "Текущий"
+
+#: ../vc_templates/ale_exotico_info.php:24
+msgid "See more &#8250;"
+msgstr "Подробнее &#8250;"
+
+#: ../vc_templates/ale_exotico_product_carousel.php:35
+#: ../vc_templates/ale_exotico_product_carousel.php:107
+msgid "Categories"
+msgstr "Катекгории"
+
+#: ../vc_templates/ale_exotico_product_carousel.php:151
+#: ../vc_templates/ale_product_carousel_slider.php:110
+msgid "No products found"
+msgstr "Не найдено продуктов"
+
+#: ../vc_templates/ale_exotico_product_carousel.php:156
+#: ../vc_templates/ale_product_carousel_slider.php:115
+msgid ""
+"Install WooCommerce Plugin to be able to use the Products Carousel Slider"
+msgstr ""
+"Установите плагин WooCommerce чтобы использовать виджет Карусель продуктов"
+
+#: ../vc_templates/ale_featured_post.php:33
+#: ../vc_templates/ale_featured_post.php:67
+msgid "Take a Look"
+msgstr "Взлянуть"
+
+#: ../vc_templates/ale_featured_post.php:42
+#: ../vc_templates/ale_featured_post.php:76
+msgid "Create a post in Dashboard."
+msgstr "Создать пост в Админке"
+
+#: ../vc_templates/ale_google_maps.php:121
+msgid "No location for the address."
+msgstr "Не найдена локация для адреса."
+
+#: ../vc_templates/ale_google_maps.php:123
+msgid "Bad request. Did you enter an address name?"
+msgstr "Ошибка. Вы точно ввели правильный адрес?"
+
+#: ../vc_templates/ale_google_maps.php:125
+msgid "Error, please check if you have entered the shortcode correctly."
+msgstr "Ошибка, проверье если вы ввели шорткод верно."
+
+#: ../vc_templates/ale_google_maps.php:129
+msgid "Can't connect Google API."
+msgstr "Не получилось подключиться в Google API"
+
+#: ../vc_templates/ale_move_slider_item.php:27
+#: ../vc_templates/ale_pretty_team_item.php:79
+#: ../vc_templates/ale_slider_one_item.php:27
+msgid "details"
+msgstr "детали"
+
+#: ../vc_templates/ale_ospedale_slider_item.php:23
+#: ../vc_templates/ale_prestigio_slider_item.php:25
+msgid "Read more ›"
+msgstr "Читать подробнее ›"
+
+#: ../vc_templates/ale_pretty_team.php:17
+msgid "Our"
+msgstr "Наша"
+
+#: ../vc_templates/ale_pretty_team.php:18
+msgid "Team"
+msgstr "Команда"
+
+#: ../vc_templates/ale_recent_blog_posts.php:137
+msgid "GALLERY"
+msgstr "ПОРТФОЛИО"
+
+#: ../vc_templates/ale_recent_blog_posts.php:137
+msgid "THE BLOG"
+msgstr "БЛОГ"
+
+#: ../vc_templates/ale_recent_post_line.php:34
+msgid "CONTINUE"
+msgstr "ПРОДОЛЖИТЬ"
+
+#: ../vc_templates/ale_recent_post_line.php:40
+msgid "Add some posts."
+msgstr "Добавить пару постов"
+
+#: ../vc_templates/ale_recent_post_line.php:48
+msgid "VIEW ALL"
+msgstr "ПРОСМОТРЕТЬ ВСЕ"
+
+#: ../vc_templates/ale_recent_works_line.php:63
+#: ../vc_templates/ale_recent_works_line.php:123
+#: ../vc_templates/ale_recent_works_line.php:187
+#: ../vc_templates/ale_scroll_works.php:53
+#: ../vc_templates/ale_scroll_works.php:71
+#: ../vc_templates/ale_selected_works.php:84
+#: ../vc_templates/ale_selected_works.php:181
+#: ../vc_templates/ale_works_masonry_grid.php:98
+#: ../vc_templates/ale_works_masonry_grid.php:132
+#: ../vc_templates/ale_works_masonry_grid.php:172
+#: ../vc_templates/ale_works_masonry_grid.php:204
+#: ../vc_templates/ale_works_masonry_grid.php:242
+#: ../vc_templates/ale_works_masonry_grid.php:283
+#: ../vc_templates/ale_works_masonry_grid.php:312
+#: ../vc_templates/ale_works_masonry_grid.php:348
+msgid "Add some posts in Works Post Type section"
+msgstr "Добавьте несколько постов в секцию Портфолио/Работы"
+
+#: ../vc_templates/ale_search_box.php:14
+msgid "Where you want to go?"
+msgstr "Куда вы хотите направиться?"
+
+#: ../vc_templates/ale_search_box.php:32
+msgid "Find in catalog"
+msgstr "Найти в каталоге"
+
+#: ../vc_templates/ale_shop_categories.php:43
+#: ../vc_templates/ale_shop_categories.php:49
+#: ../vc_templates/ale_shop_categories.php:98
+#: ../vc_templates/ale_shop_categories.php:104
+msgid "Preview"
+msgstr "Превью"
+
+#: ../vc_templates/ale_shop_categories.php:59
+#: ../vc_templates/ale_shop_categories.php:114
+msgid "items"
+msgstr "елементы"
+
+#: ../vc_templates/ale_simple_testimonials_slider.php:12
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: ../vc_templates/ale_taxipress_booking.php:57
+msgid "Phone"
+msgstr "Телефон"
+
+#: ../vc_templates/ale_taxipress_booking.php:71
+msgid "Done"
+msgstr "Сделано"
+
+#: ../vc_templates/ale_team_tabs.php:22
+msgid "Tab image"
+msgstr "Картинка вкладки"
+
+#: ../vc_templates/ale_works_masonry_grid.php:304
+msgid "read more"
+msgstr "читать подробнее"
+
+#: ../woocommerce/global/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr "%s количество"
+
+#: ../woocommerce/global/quantity-input.php:31
+msgid "Quantity"
+msgstr "Количество"
+
+#: ../woocommerce/single-product/product-image.php:44
+msgid "Awaiting product image"
+msgstr "Ожидание изображения продукта"
+
+#~ msgid ""
+#~ "Specify the Grid Layout. Note: Once you selected a specific Grid some of "
+#~ "the options above will not work. This is happening because a specific "
+#~ "grid has specific parameters and some options like columns count will not "
+#~ "work."
+#~ msgstr ""
+#~ "Выберите стиль сетки. Важно: Выбрав определенный тематический стиль для "
+#~ "сетки, некоторые опции выше перестанут работать."
+
+#~ msgid "Search for"
+#~ msgstr "Искать"
+
+#~ msgid "Archives"
+#~ msgstr "Архив"

@@ -1,0 +1,10 @@
+<?php
+Ale_Demo_Media::add_image_to_media_gallery('ale_pe1',"https://alethemes.com/olins_base/media/pizza/p1.png");
+Ale_Demo_Media::add_image_to_media_gallery('ale_pe2',"https://alethemes.com/olins_base/media/pizza/p2.png");
+Ale_Demo_Media::add_image_to_media_gallery('ale_pe3',"https://alethemes.com/olins_base/media/pizza/p3.png");
+Ale_Demo_Media::add_image_to_media_gallery('ale_pe4',"https://alethemes.com/olins_base/media/pizza/p4.png");
+Ale_Demo_Media::add_image_to_media_gallery('ale_pe5',"https://alethemes.com/olins_base/media/pizza/p5.png");
+Ale_Demo_Media::add_image_to_media_gallery('ale_l1',"https://alethemes.com/olins_base/media/pizza/l1.png");
+Ale_Demo_Media::add_image_to_media_gallery('ale_l2',"https://alethemes.com/olins_base/media/pizza/l2.png");
+Ale_Demo_Media::add_image_to_media_gallery('ale_l3',"https://alethemes.com/olins_base/media/pizza/l3.png");
+Ale_Demo_Media::add_image_to_media_gallery('ale_l4',"https://alethemes.com/olins_base/media/pizza/l4.png");

@@ -1,0 +1,1583 @@
+.box-sizing() {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.transition(@transition) {
+  -webkit-transition: @transition;
+  -moz-transition: @transition;
+  -ms-transition: @transition;
+  -o-transition: @transition;
+  transition: @transition;
+}
+.border-radius(@topright: 0, @bottomright: 0, @bottomleft: 0, @topleft: 0) {
+  -webkit-border-top-right-radius: @topright;
+  -webkit-border-bottom-right-radius: @bottomright;
+  -webkit-border-bottom-left-radius: @bottomleft;
+  -webkit-border-top-left-radius: @topleft;
+  -moz-border-radius-topright: @topright;
+  -moz-border-radius-bottomright: @bottomright;
+  -moz-border-radius-bottomleft: @bottomleft;
+  -moz-border-radius-topleft: @topleft;
+  border-top-right-radius: @topright;
+  border-bottom-right-radius: @bottomright;
+  border-bottom-left-radius: @bottomleft;
+  border-top-left-radius: @topleft;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+/* Default
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+
+.font-Questrial(){
+  font-family: 'Questrial', sans-serif;
+  font-weight: 300;
+}
+.font-Questrial(@size){
+  font-family: 'Questrial', sans-serif;
+  font-size: @size;
+  font-weight: 300;
+}
+.font-Pacifico(){
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+}
+.font-Playfair(){
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+.font-Rufina(){
+  font-family: 'Rufina', serif;
+  font-weight: 400;
+}
+.font-Dancing {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+}
+
+.wrap {
+  width: 960px;
+  margin: 0 auto;
+}
+.all .wrap {
+  width: 1000px;
+}
+
+/* For All
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+.olins_site_container {
+  float:left;
+}
+/* Background */
+.background {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 0;
+
+  .col-6:first-of-type {
+    background: #fcbc23 url('../images/taxipress/pattern2.jpg') repeat;
+    height: inherit;
+    position: relative;
+
+    &:after {
+      position: absolute;
+      display: block;
+      content: '';
+      background: url("../images/taxipress/transition-all-left.png") no-repeat center;
+      width: 100%;
+      height: 39px;
+      right: 0;
+      bottom: -30px;
+    }
+
+  }
+  .col-6:last-of-type {
+    background: #171d1c url('../images/taxipress/pattern1.png') repeat;
+    height: inherit;
+    position: relative;
+
+    &:after {
+      position: absolute;
+      display: block;
+      content: '';
+      background: url("../images/taxipress/transition-all-right.png") no-repeat center;
+      width: 100%;
+      height: 99px;
+      right: 0;
+      bottom: -30px;
+    }
+  }
+}
+
+/* Call Us */
+.call-us {
+  position: absolute;
+  left: 50%;
+  top: 25px;
+  width: 250px;
+  margin-left: 150px;
+
+  .selected {
+    font-size: 14px;
+
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    position: relative;
+    display: inline-block;
+    margin-right: 25px;
+
+    span {
+      border-bottom: 1px dotted #fff;
+      position: relative;
+      cursor: pointer;
+
+      &:after {
+        position: absolute;
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 3px 3px 0 3px;
+        border-color: #f2ac20 transparent transparent transparent;
+        right: -10px;
+        top: 50%;
+      }
+    }
+
+    ul {
+      position: absolute;
+      left: -15px;
+      top: 20px;
+      z-index: 999;
+      background: #101413;
+      padding: 10px 0;
+      display: none;
+
+      li {
+        font-size: 14px;
+
+        line-height: 30px;
+        cursor: pointer;
+        padding: 0 15px;
+
+        &:hover {
+          background: rgba(255, 255, 255, 0.1);
+        }
+      }
+    }
+  }
+
+  .number {
+    display: inline-block;
+    font-size: 18px;
+    color: #f2ac20;
+    vertical-align: middle;
+    margin-right: 0;
+    line-height: 1;
+  }
+
+  p {
+    margin: 0;
+    font-size: 13px;
+    .font-Playfair();
+    color: rgb(139, 142, 142);
+    font-style: italic;
+    display: inline-block;
+  }
+}
+
+/* Navigation */
+
+nav.main {
+  width: 990px;
+  height: 90px;
+  margin: 56px auto 0;
+  border-radius: 50px;
+  background: url("../images/taxipress/dots.png") repeat;
+  position: relative;
+
+  /* */
+
+  &:before {
+    position: absolute;
+    content: '';
+    display: block;
+    left: 15px;
+    top: 15px;
+    width: 960px;
+    height: 60px;
+    background:  #fff;
+    border-radius: 50px;
+    -webkit-box-shadow: 0 25px 10px -20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 25px 10px -20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 25px 10px -20px rgba(0, 0, 0, 0.4);
+  }
+
+  /* Logo */
+
+  .logo {
+    display: block;
+    position: absolute;
+    width: 235px;
+    height: 93px;
+    left: 50%;
+    bottom: 15px;
+    margin-left: -117px;
+  }
+
+  /* Menu */
+
+  .col-6.left {
+    padding-right: 130px;
+
+    ul.first  {
+      text-align: right;
+    }
+  }
+  .col-6.right  {
+    padding-left: 130px;
+
+    ul.first  {
+      text-align: left;
+    }
+  }
+
+  ul.first {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0;
+    line-height: 60px;
+    position: relative;
+    text-transform: uppercase;
+    font-size:14px;
+    .box-sizing();
+
+    > li {
+      display: inline-block;
+
+      margin-right: 20px;
+      margin-left: 20px;
+      position: relative;
+
+      &.show-tablet {
+        display: none;
+      }
+      &:first-child {
+        margin-left: 10px;
+        &::before {
+          display: none;
+        }
+      }
+      &::before {
+        position: absolute;
+        left:0;
+        top:0;
+        content:"•";
+        color: #f2ac20;
+        font-size: 14px;
+        margin-right: 10px;
+        margin-left: -22px;
+
+      }
+      &.current-menu-item:after {
+        position: absolute;
+        content: '';
+        display: block;
+        background: url("../images/taxipress/menu-active.png") no-repeat center;
+        width: 40px;
+        height: 20px;
+        bottom: -20px;
+        left: 50%;
+        margin-left: -20px;
+        z-index: 1;
+      }
+      &:hover > a,
+      &.current-menu-item > a{
+        color: #c85a45;
+      }
+
+      a {
+        display: block;
+        color: #222222;
+      }
+
+      /* Show 2nd level */
+
+      &:hover > ul.sub-menu {
+        display: block;
+      }
+    }
+
+    /* 2nd level */
+
+    ul.sub-menu {
+      position: absolute;
+      border-top: 15px solid #c85a45;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      background: #2a2d2d;
+      line-height: normal;
+      left: -50%;
+      width: 157px;
+      padding-bottom: 10px;
+      display: none;
+      z-index: 2;
+      text-align: left;
+
+      &:before {
+        position: absolute;
+        content: '';
+        display: block;
+        top: -15px;
+        left: 0;
+        width: 157px;
+        height: 15px;
+        background: url("../images/taxipress/menu-drop-shadow.png") repeat-x;
+      }
+
+      > li {
+        float: none;
+        line-height: 40px;
+        text-transform: none;
+        border-bottom: 1px solid #404242;
+        position: relative;
+        .transition(background .3s ease);
+
+        &:last-child {
+          border-bottom: none;
+        }
+        &:hover {
+          background: #404242;
+        }
+
+        a {
+          display: block;
+          padding: 0 30px;
+          color: #fff;
+        }
+
+        /* Show 2nd level */
+
+        &:hover > ul.sub-menu {
+          display: block;
+        }
+      }
+
+      /* 3rd level */
+
+      ul.sub-menu {
+        position: absolute;
+        top: -1px;
+        left: 100%;
+        width: 157px;
+        background: #c85a45;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding-bottom: 10px;
+        display: none;
+
+        &:before {
+          position: absolute;
+          content: '';
+          display: block;
+          top: 0;
+          left: 0;
+          width: 6px;
+          height: 46px;
+          background: url("../images/taxipress/menu-drop-shadow2.png") repeat-x;
+        }
+
+        li {
+          border-bottom: 1px solid #ce6b58;
+          .transition(background .3s ease);
+
+          &:first-of-type {
+            border-top-right-radius: 5px;
+          }
+          &:last-child {
+            border-bottom: none;
+          }
+          &:hover {
+            background: #b94d39;
+          }
+        }
+      }
+    }
+  }
+
+  /* Mobile MENU */
+  .mobile-button {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    top: 15px;
+    left: 50%;
+    margin-left: -100px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    color: #f2ac20;
+    text-align: center;
+    line-height: 60px;
+  }
+  .mobile-menu {
+    display: none;
+    z-index: 10;
+    position: absolute;
+    width: 200px;
+    top: 75px;
+    left: 50%;
+    margin-left: -100px;
+
+    border-top: 15px solid #c85a45;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #2a2d2d;
+    line-height: normal;
+    padding-bottom: 10px;
+
+    &:before {
+      position: absolute;
+      content: '';
+      display: block;
+      top: -15px;
+      left: 0;
+      width: 100%;
+      height: 15px;
+      background: url("../images/taxipress/menu-drop-shadow.png") repeat-x;
+    }
+
+    li {
+      text-transform: none;
+      border-bottom: 1px solid #404242;
+      text-align: center;
+    }
+
+    .box-sizing();
+
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: #fff;
+      text-align: center;
+      line-height: 35px;
+    }
+    ul.sub-menu {
+      display: none;
+      border-top: 1px solid #404242;
+      background: #323535;
+      li {
+        -webkit-box-shadow: inset 10px 0 0 -5px #c85a45;
+        -moz-box-shadow: inset 10px 0 0 -5px #c85a45;
+        box-shadow: inset 10px 0 0 -5px #c85a45;
+      }
+      li:last-child {
+        border-bottom: none;
+      }
+    }
+    ul.sub-menu {
+      border-top: 1px solid #404242;
+      display: none;
+      background: #393c3c;
+
+      li {
+        -webkit-box-shadow: inset 15px 0 0 -5px #c85a45;
+        -moz-box-shadow: inset 15px 0 0 -5px #c85a45;
+        box-shadow: inset 15px 0 0 -5px #c85a45;
+      }
+    }
+  }
+
+  /* Search */
+  .search-button {
+    display: block;
+    position: absolute;
+    background: url("../images/taxipress/search.png") no-repeat center;
+    width: 16px;
+    height: 16px;
+    right: 40px;
+    top: 50%;
+    margin-top: -8px;
+    cursor: pointer;
+
+    &:hover {
+      opacity: .7;
+      -webkit-transition: opacity .3s ease;
+      -moz-transition: opacity .3s ease;
+      -ms-transition: opacity .3s ease;
+      -o-transition: opacity .3s ease;
+      transition: opacity .3s ease;
+    }
+  }
+
+  .search {
+    position: absolute;
+    width: 280px;
+    height: 70px;
+    right: 0;
+    top: 10px;
+    background: #f2ac20;
+    border-radius: 50px;
+    display: none;
+    z-index: 2;
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+
+    ::-webkit-input-placeholder { color:#fff; }
+    ::-moz-placeholder          { color:#fff; }/* Firefox 19+ */
+    :-moz-placeholder           { color:#fff; }/* Firefox 18- */
+    :-ms-input-placeholder      { color:#fff; }
+
+    input[type='text'] {
+      position: absolute;
+      left: 25px;
+      height: 70px!important;
+      width: 185px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background: transparent;
+      border:none;
+      font-size: 14px;
+      font-family: inherit;
+      color: rgb(255, 255, 255);
+      font-style: italic;
+      line-height: 1.2;
+    }
+
+    input[type='submit'] {
+      position: absolute;
+      background: url("../images/taxipress/search.png") no-repeat center;
+      width: 16px;
+      height: 16px;
+      right: 40px;
+      top: 50%;
+      margin-top: -8px;
+      min-height: 0;
+      padding: 0;
+      border: none!important;
+    }
+
+  }
+}
+
+/* Content for All
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+body.all {
+  background: url("../images/taxipress/pattern3.png") repeat;
+
+  section.content {
+    background: url("../images/taxipress/pattern3.png") repeat;
+    width: 100%;
+    position: relative;
+    margin-top: 45px;
+    padding: 38px 20px 0 20px;
+    .box-sizing();
+
+    > h2 {
+      display: block;
+      margin: 0 auto;
+      color: #000;
+      text-align: center;
+      .font-Pacifico();
+      font-size: 54px;
+      text-transform: none;
+      text-shadow: 2.939px 4.045px 0px rgba(0, 0, 0, 0.1);
+      position: relative;
+      line-height: 1.2;
+
+      &:before, &:after {
+        position: absolute;
+        display: block;
+        content: '';
+        width: 260px;
+        height: 1px;
+        border-bottom: 1px dashed #f5cb72;
+        top: 55%;
+      }
+      &:before {
+        left: 50px;
+      }
+      &:after {
+        right: 50px;
+      }
+    }
+
+    /* */
+    .breadcrumbs {
+      text-align: center;
+      padding: 25px 0;
+
+      .fa {
+        color:#fcbc23;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      a {
+        display: inline-block;
+        font-size: 12px;
+
+        color: rgb(85, 85, 85);
+        text-decoration: none;
+        line-height: 1.2;
+
+        &:first-of-type {
+          text-decoration: underline;
+        }
+      }
+
+      span {
+        font-size: 12px;
+
+        color: rgb(85, 85, 85);
+        text-decoration: none;
+        line-height: 1.2;
+      }
+    }
+  }
+}
+
+/* Home
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+
+body.home {
+
+  /* Background */
+  .background {
+    width: 100%;
+    height: 640px;
+    position: absolute;
+    top: 0;
+
+    .col-6:first-of-type {
+      background: #fcbc23 url('../images/taxipress/pattern2.jpg') repeat;
+      height: inherit;
+      position: relative;
+
+      &:after {
+        position: absolute;
+        display: block;
+        content: '';
+        background: url("../images/taxipress/transition-left.png") no-repeat bottom;
+        width: 100%;
+        height: 65px;
+        right: 0;
+        bottom: 0;
+      }
+
+    }
+    .col-6:last-of-type {
+      background: #171d1c url('../images/taxipress/pattern1.png') repeat;
+      height: inherit;
+
+      &:after {
+        display: none !important;
+      }
+    }
+  }
+
+
+}
+
+/* Footer */
+footer {
+  .content {
+    padding: 50px 0;
+    background: url("../images/taxipress/pattern1.png") repeat;
+
+    .col-4:nth-child(1) {
+      color: #898989;
+      font-size: 12px;
+
+      p {
+        color: inherit;
+        font-size: inherit;
+        line-height: inherit;
+      }
+    }
+    .col-4:nth-child(3) {
+      text-align: right;
+      color: #898989;
+      font-size: 11px;
+
+      p {
+        text-align: right;
+        margin: 0;
+      }
+      span {
+        color: #fff;
+        font-size: 12px;
+      }
+    }
+    .col-4:nth-child(2) .call{
+      display: block;
+      margin: 0 auto;
+      width: 118px;
+      height: 118px;
+      background: #0d100f;
+      border-radius: 50%;
+      padding-top: 40px;
+      box-sizing: border-box;
+      box-shadow: 0 0 0 69px rgba(0, 0, 0, .1);
+
+      h3 {
+        font-size: 16px;
+        color: rgb(242, 172, 32);
+        line-height: 1.5;
+        text-align: center;
+        margin: 0;
+      }
+      span {
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        .font-Playfair();
+        color: rgb(139, 142, 142);
+        font-style: italic;
+        line-height: 1.2;
+      }
+    }
+
+    .social {
+      margin-top: 23px;
+      display: flex;
+      justify-content: flex-end;
+
+      a {
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        margin: 0 5px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FFF;
+
+        span.social_icon {
+          color:#f2ac20;
+          font-size: 16px;
+          display: block;
+        }
+
+        &:hover {
+          background: #f2ac20;
+          span.social_icon {
+            color:#FFF;
+          }
+        }
+      }
+    }
+  }
+
+  .bottom-line {
+    height: 54px;
+    background: #f2ac20;
+    text-align: center;
+    line-height: 54px;
+    font-size: 14px;
+    position: relative;
+
+    .menu-footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      li {
+        margin: 0 10px;
+        margin-left: 26px;
+        position: relative;
+
+        &:first-child {
+          margin-left: 10px;
+          &::before {
+            display: none;
+
+          }
+        }
+
+        &::before {
+          content: '';
+          margin: 0 12px;
+          background: #000;
+          height: 4px;
+          width: 4px;
+          border-radius: 50%;
+          vertical-align: middle;
+          position: absolute;
+          left:0;
+          top:47%;
+          margin-left: -20px;
+        }
+      }
+    }
+
+
+    a {
+      color: #000;
+      -webkit-transition: opacity .3s ease;
+      -moz-transition: opacity .3s ease;
+      -ms-transition: opacity .3s ease;
+      -o-transition: opacity .3s ease;
+      transition: opacity .3s ease;
+
+      &:hover {
+        opacity: .7;
+      }
+    }
+
+  }
+}
+
+
+/* Blog
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+
+.blog_posts {
+
+  section.content {
+    padding: 38px 20px 50px 20px;
+  }
+
+  .breadcrumb {
+    margin-bottom: 10px;
+  }
+
+  article {
+
+    &.grid-item {
+      background: transparent!important;
+      margin: 0!important;
+    }
+
+    .left {
+      width: 10%;
+
+      h3 {
+        font-weight: 400;
+        font-size: 46px;
+        text-align: center;
+        color: #f2ac20;
+        margin-bottom: 5px;
+      }
+      span {
+        display: block;
+        font-weight: 400;
+        font-size: 11px;
+        color: #acacac;
+        text-align: center;
+      }
+    }
+
+    &:last-of-type .right {
+      padding-bottom: 0;
+    }
+
+    .right {
+      width: 90%;
+      border-left: 1px solid #e5e5e5;
+      position: relative;
+      padding-left: 45px;
+      padding-bottom: 40px;
+      padding-right: 40px;
+
+      &:before {
+        position: absolute;
+        content: '';
+        display: block;
+        left: -4px;
+        top: 30px;
+        width: 7px;
+        height: 7px;
+        background: #f2ac20;
+        border-radius: 50%;
+      }
+
+      /* Inner */
+      .inner {
+        background: #fff;
+        padding: 35px 42% 35px 35px;
+        position: relative;
+
+        &:before {
+          display: block;
+          content: '';
+          position: absolute;
+          background: url("../images/taxipress/article-left.png") no-repeat center;
+          width: 10px;
+          height: 123px;
+          top: 10px;
+          left: -10px;
+        }
+        &:after {
+          display: block;
+          content: '';
+          position: absolute;
+          background: url("../images/taxipress/article-right.png") no-repeat center;
+          width: 6px;
+          height: 72px;
+          right: -6px;
+          bottom: 10px;
+        }
+        .shadow-bottom {
+          position: absolute;
+          background: url("../images/taxipress/article-bottom.png") no-repeat center;
+          width: 217px;
+          height: 7px;
+          left: 10px;
+          bottom: -7px;
+        }
+
+        .text a {
+          display: block;
+          font-size: 27px;
+          .font-Playfair();
+          color: rgb(46, 47, 75);
+          line-height: 1.2;
+          text-transform: none;
+          margin-top: 0;
+          margin-bottom: 10px;
+          .transition(opacity .3s ease);
+
+          &:hover {
+            opacity: .7;
+          }
+        }
+        p {
+          color: #acacac;
+          font-size: 12px;
+        }
+        .by {
+          font-size: 12px;
+          font-family: "Arial";
+          color: rgb(172, 172, 172);
+          border-right: 1px solid #e2e2e2;
+          display: inline-block;
+          padding-right: 15px;
+          margin-right: 10px;
+          margin-top: 25px;
+
+          span {
+            color: #cf5d48;
+
+            font-weight: 400;
+          }
+        }
+        .category {
+          display: inline-block;
+          font-size: 12px;
+          font-family: "Arial";
+          color: rgb(172, 172, 172);
+          margin-top: 25px;
+
+          a {
+            color:inherit;
+          }
+        }
+
+        .img {
+          position: absolute;
+          right: -40px;
+          top: 0px;
+          width: 326px;
+          height: 193px;
+        }
+
+        .read {
+          position: absolute;
+          right: 55px;
+          bottom: 35px;
+          font-size: 14px;
+
+          color: rgb(207, 93, 72);
+          text-decoration: underline;
+
+          &:after {
+            position: absolute;
+            content: '';
+            display: block;
+            background: url("../images/taxipress/readmore-silver.png") no-repeat center;
+            width: 13px;
+            height: 13px;
+            right: -22px;
+            top: 50%;
+            margin-top: -7px;
+            .transition(all .3s ease);
+          }
+
+          &:hover {
+            text-decoration: none;
+
+            &:after {
+              background: url("../images/taxipress/readmore.png") no-repeat center;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .pagination {
+    margin-top: 50px;
+  }
+}
+
+
+
+
+/* Blog
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+.story .post_info_line {
+  font-style: normal!important;
+  color:#acacac;
+
+  &::before {
+    display: none;
+  }
+
+  a {
+    color: #cf5d48;
+  }
+}
+body .story  blockquote {
+  font-size:19px!important;
+  color:#000!important;
+  font-style: italic!important;
+  line-height: 1.2!important;
+  text-align: right!important;
+  border:0!important;
+
+  p {
+    color:inherit!important;
+    font-size:inherit!important;
+    font-family: inherit!important;
+    border:0!important;
+
+    &:last-child {
+      margin-bottom: 0!important;
+    }
+  }
+
+  &::before {
+    display: none!important;
+  }
+}
+body.single-post , body.single-works {
+  .single_blog_posts {
+    max-width: 100%!important;
+
+    .single_post .story {
+      padding: 0 90px 90px 90px;
+
+      .single_featured_image {
+        margin: 0 -90px 0 -90px;
+      }
+    }
+  }
+
+    /* Content */
+  section.content {
+    padding: 0;
+    background: #fff;
+
+    img {
+      width: 100%;
+    }
+
+    p {
+      font-size: 14px;
+      font-family: "Arial";
+      color: rgb(99, 99, 99);
+      line-height: 1.714;
+      text-align: left;
+      padding: 0 30px;
+    }
+
+  }
+  .comments .comments_name .comments_separator {
+    display: none;
+  }
+  .comments .comments_name .comments_title {
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    line-height: 40px;
+    text-transform: none;
+    display: inline-block;
+    height: 40px;
+    margin-bottom: 0;
+    padding-left: 70px;
+    font-weight: 400;
+  }
+  .comments .comments_name {
+    margin-bottom: 35px;
+  }
+  .comments .comment-item .commenter-avatar img {
+    border-radius:100%;
+  }
+  /* Comments */
+  .comments {
+    background: url("../images/taxipress/pattern3.png") repeat;
+    padding: 55px 0 20px 0;
+    position: relative;
+
+
+
+    p {
+      padding: 0!important;
+    }
+
+
+    .comment {
+      margin-top: 25px;
+      .transition(all .3s ease);
+      font-weight: 400;
+
+      .comment-item {
+        border: 0!important;
+        padding-bottom: 0!important;
+        margin-bottom: 0!important;
+      }
+
+      .info-content {
+        padding-bottom: 20px;
+        border-bottom: 1px dashed #d6d3c7;
+
+        p {
+          font-size: 14px;
+          font-family: "Arial";
+          color: #636363;
+          line-height: 1.714;
+        }
+      }
+
+      .info-meta {
+        padding: 20px 0;
+        color: #b0ac97;
+        font-size: 11px;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 0;
+
+        .author{
+          font-size: 17px;
+          color: rgb(0, 0, 0);
+          display: inline-block;
+          margin-right: 10px;
+          font-weight: 400;
+        }
+        span.reply-link {
+          float: right;
+          font-size: 18px;
+          color: rgb(207, 93, 72);
+          visibility: hidden;
+          font-weight: 400;
+
+          a {
+            color:inherit;
+            font-weight: 400;
+          }
+
+          &:hover {
+            opacity: .7;
+          }
+        }
+      }
+
+      &:hover .info-meta span.reply-link {
+        visibility: visible;
+      }
+
+    }
+  }
+
+  /* Leave a Comment */
+  .leave-a-comment {
+    margin-top: 30px;
+    width: 80%;
+
+    .comment-form {
+      padding-left: 70px;
+      box-sizing: border-box;
+    }
+
+    label {
+      line-height: 45px;
+      color: #fff;
+      font-family: Arial;
+      font-size: 13px;
+      color: #8b8e8e;
+      margin-bottom: 10px;
+      display: block;
+      text-align: right;
+    }
+
+    input, textarea {
+      width: 100%;
+      height: 45px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border: none;
+      margin-bottom: 20px;
+      background: #0C1010;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    textarea {
+      height: 120px;
+    }
+
+    input[type='submit'] {
+      display: inline-block;
+
+      background: #f2ac20;
+      font-weight: 700;
+      color: #fff;
+      font-size: 18px;
+      text-transform: none;
+      padding-left: 23px;
+      padding-right: 23px;
+      text-align: left;
+      letter-spacing: 0.05em;
+      width:auto;
+    }
+  }
+}
+
+/* About
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+.content_wrapper.flex_container {
+  margin: 0 auto;
+}
+.content_wrapper {
+  width: 100%;
+}
+.text_justify {
+  line-height: 1.6;
+  text-align: justify;
+
+  p {
+    line-height: 1.6;
+    text-align: justify;
+  }
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+  .vc_row.vc_custom_1554545827335 {
+    padding-bottom: 0!important;
+  }
+  .olins_booking_home header .left img {
+    max-width: 300px;
+    height: auto;
+    top: 280px;
+  }
+  .wrap {
+    width: 800px !important;
+  }
+
+  /* Home */
+
+  nav.main {
+    margin: 90px auto 0;
+    width: 670px;
+  }
+  nav.main:before {
+    width: 640px;
+  }
+  nav.main .logo {
+    bottom: 75px;
+  }
+  nav.main ul.first > li {
+    margin-right: 7px;
+    margin-left: 7px;
+
+    &::before {
+      display: none;
+    }
+  }
+  nav.main ul.first > li.show-tablet {
+    display: block;
+  }
+  nav.main .col-6.left,
+  nav.main .col-6.right {
+    padding: 0;
+  }
+
+  .home section.our-services .columns .col-3 {
+    width: 50%;
+    padding: 0 4px !important;
+    margin-bottom: 10px;
+  }
+
+  /* Blog     */
+  /* ## ## ## */
+  .blog_posts article .right .inner .img {
+    width: 280px;
+  }
+  .blog_posts article .right .inner .img img {
+    width: 100%;
+  }
+  .blog_posts article .right .inner .text a {
+    font-size: 22px;
+  }
+
+
+  body.single-post h2.post_title,
+  body.single-works h2.post_title {
+    font-size: 35px;
+  }
+  body.single-post .leave-a-comment,
+  body.single-works .leave-a-comment {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 830px) {
+  .wrap {
+    width: 600px !important;
+  }
+
+  nav.main .col-6.left, nav.main .col-6.right {
+    display: none;
+  }
+  nav.main {
+    width: 550px;
+  }
+  nav.main:before {
+    width: 520px;
+  }
+  nav.main .logo {
+    background-size: 100%;
+    width: 180px;
+    margin-left: -90px;
+    bottom: 53px;
+  }
+  .call-us {
+    margin-left: 95px;
+  }
+  .call-us p {
+    width: 100%;
+  }
+
+  nav.main .mobile-button {
+    display: block;
+  }
+
+
+  /* Blog */
+  .blog_posts section.content {
+    padding: 38px 0px 50px 0px;
+  }
+  .blog_posts article .right {
+    padding-left: 25px;
+    padding-right: 0;
+  }
+  .blog_posts article .left h3 {
+    font-size: 30px;
+  }
+  .blog_posts article .right .inner .img {
+    position: static;
+  }
+  .blog_posts article .right .inner {
+    padding: 35px 35px 35px 35px;
+  }
+  .blog_posts .pagination .col-10 a {
+    font-size: 14px;
+    padding: 0 8px;
+  }
+  body.single-post h2.post_title,
+  body.single-works h2.post_title {
+    font-size: 23px;
+  }
+  body.single-post .padding,
+  body.single-works .padding {
+    padding: 0 30px;
+  }
+}
+
+
+@media (max-width: 630px) {
+  .vc_custom_heading.vc_custom_1554287922187 {
+    padding-left: 0!important;
+    padding-right: 0!important;
+    font-size:24px!important;
+  }
+  .vc_column-inner.vc_custom_1554287402544,.vc_column-inner.vc_custom_1554287411854{
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+  .wrap, body.home section.our-services .columns{
+    margin: 0 auto;
+    width: 300px !important;
+    min-width: 300px;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  body.home {
+    background: url("../images/taxipress/pattern1.png") repeat;
+  }
+  .call-us {
+    position: static;
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+    width: auto;
+  }
+  .call-us p {
+    text-align: center;
+  }
+  nav.main {
+    width: 280px;
+  }
+  nav.main:before {
+    width: 250px;
+  }
+
+
+  /* Footer */
+  footer .content .col-4 {
+    width: 100%;
+  }
+  footer .content .col-4:nth-child(3) {
+    text-align: center;
+    p {
+      text-align: center;
+    }
+  }
+  footer .content .col-4:nth-child(1) {
+    p {
+      text-align: center;
+    }
+  }
+
+  .call-us {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  body.all section.content {
+    margin-top: 20px;
+  }
+  body.services section.content h2:before, body.services section.content h2:after, body.all section.content > h2:before, body.all section.content > h2:after {
+    display: none;
+  }
+
+
+
+
+  .blog_posts article .right {
+    border-left: none;
+  }
+  .blog_posts article .right {
+    padding-left: 18px;
+  }
+  .blog_posts article .right .inner .img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .blog_posts article .right .inner .img img {
+    width: 100%;
+  }
+  .blog_posts article .right .inner {
+    padding: 20px!important;
+  }
+  .blog_posts article .right .inner .read {
+    position: static;
+    display: block;
+    text-align: right;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  .blog_posts article .right .inner .read:after {
+    display: none;
+  }
+
+  body.single-post h2,
+  body.single-works h2 {
+    font-size: 17px;
+    padding: 0;
+  }
+  body.single-post .content p,
+  body.single-works .content p {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  body.single-post .single_blog_posts .single_post .story ,
+  body.single-works .single_blog_posts .single_post .story {
+    padding: 0;
+  }
+  .single_featured_image {
+    margin: 0!important;
+  }
+  body.single-post h2.post_title,
+  body.single-works h2.post_title {
+    font-size:18px!important;
+  }
+  body.single-post .comments .comments_name .comments_title,
+  body.single-works .comments .comments_name .comments_title {
+    font-size:18px;
+    padding-left: 0;
+  }
+  body.single-post .leave-a-comment .comment-form,
+  body.single-works .leave-a-comment .comment-form {
+    padding-left: 0;
+  }
+}
+
+.olins_simple_form  {
+  input, textarea {
+    width: 100%;
+    height: 45px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 20px;
+    background: #0C1010;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 400;
+    font-style: normal!important;
+  }
+
+  textarea {
+    height: 120px;
+  }
+
+  input[type='submit'] {
+    display: inline-block;
+
+    background: #f2ac20;
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px;
+    text-transform: none;
+    padding-left: 23px;
+    padding-right: 23px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    width:auto;
+  }
+}

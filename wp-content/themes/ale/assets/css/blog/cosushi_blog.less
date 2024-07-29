@@ -1,0 +1,105 @@
+.cosushi_blog_item {
+    &.grid-item {
+        background: transparent!important;
+    }
+    .image {
+        margin-bottom:30px;
+
+        img {
+            transition:all 300ms ease-in-out;
+        }
+
+        a {
+            position: relative;
+            overflow: hidden;
+            display: block;
+
+            &:hover {
+                opacity:1;
+
+                img {
+                    opacity:0.5;
+                    transition:all 300ms ease-in-out;
+                }
+                span.open_post {
+                    top:50%;
+                    transition:all 300ms ease-in-out;
+                }
+            }
+
+            span.open_post {
+                transition:all 300ms ease-in-out;
+                position: absolute;
+                top:150%;
+                left:50%;
+                margin-top:-30px;
+                margin-left:-30px;
+                width: 40px;
+                height: 40px;
+                display: block;
+                background: rgba(0,0,0,0.2);
+                text-align: center;
+                line-height: 40px;
+                border:1px solid #C9AB82;
+                transform:rotate(45deg);
+                color: #C9AB82;
+                font-size:36px;
+
+                .fa {
+                    transform:rotate(-45deg);
+                }
+            }
+        }
+    }
+    .text {
+        .post_category {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 15px;
+            letter-spacing: 0.2em;
+            color: #FFFFFF;
+
+            a {
+                color:inherit;
+
+                &:hover {
+                    color:#C9AB82;
+                }
+            }
+        }
+        h2 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 20px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: #C9AB82;
+            margin-bottom:20px;
+
+            a {
+                color:inherit;
+            }
+        }
+        .string {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF; 
+        }
+    }
+}
+
+.story .post_info_line::before {
+    display: none;
+}
+.story .post_info_line {
+    color:inherit;
+    font-size: 18px;
+    font-style: normal;
+    a {
+        color:inherit;
+    }
+}

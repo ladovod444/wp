@@ -1,0 +1,15 @@
+body .booking-rooms select {
+  color: #cc0000;
+  background: #0a7aff;
+}
+
+body {
+  background: black;
+  color: white;
+  min-height: 100%;
+}
+body .blog-post {
+  border: 1px solid red;
+}
+
+/*# sourceMappingURL=style.css.map */

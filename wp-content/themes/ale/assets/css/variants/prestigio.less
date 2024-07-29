@@ -1,0 +1,823 @@
+@import '../elements.less';
+
+/* Settings
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+.center {
+  width: 960px;
+  margin: 0 auto;
+}
+
+@red: #e44b2e;
+@dark: #353535;
+
+::selection {
+  background: @red; /* Safari */
+}
+::-moz-selection {
+  background: @red; /* Firefox */
+}
+
+.font-PT-sans() {
+  font-family: 'PT Sans', sans-serif;
+}
+.font-Open-sans() {
+  font-family: 'Open Sans', sans-serif;
+}
+.font-Arial() {
+  font-family: 'Arial';
+}
+
+.grayscale-y() {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+  -webkit-filter: grayscale(100%);
+}
+
+.grayscale-n() {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+  -webkit-filter: grayscale(0%);
+}
+
+.grayscale {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+  -webkit-filter: grayscale(100%);
+  .transition(all 1s ease);
+}
+p {
+  font-size:12px;
+  line-height: 24px;
+  color:inherit;
+}
+h2 {
+  .font-Arial();
+  margin: 0;
+  font-size: 35px;
+  color: @dark;
+  padding: 15px 0;
+  letter-spacing: 0.340em;
+  padding-left: 0.340em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Header
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+.admin-bar nav.header {
+  top: 32px;
+}
+@media screen and (max-width: 782px) {
+  .admin-bar nav.header {
+    top: 0;
+    position: absolute;
+  }
+}
+nav.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 53px;
+  background: rgba(26,26,26,1);
+  background: -moz-linear-gradient(top, rgba(26,26,26,1) 0%, rgba(14,14,14,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(26,26,26,1)), color-stop(100%, rgba(14,14,14,1)));
+  background: -webkit-linear-gradient(top, rgba(26,26,26,1) 0%, rgba(14,14,14,1) 100%);
+  background: -o-linear-gradient(top, rgba(26,26,26,1) 0%, rgba(14,14,14,1) 100%);
+  background: -ms-linear-gradient(top, rgba(26,26,26,1) 0%, rgba(14,14,14,1) 100%);
+  background: linear-gradient(to bottom, rgba(26,26,26,1) 0%, rgba(14,14,14,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a1a1a', endColorstr='#0e0e0e', GradientType=0 );
+  text-align: center;
+  z-index: 9999;
+
+  .center {
+    height: 100%;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .drop-menu {
+    display: none;
+  }
+
+  a {
+    display: inline-block;
+    color: #b5b5b5;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 14px;
+    .border-radius(5px, 5px, 5px, 5px);
+
+    -webkit-transition: color .3s ease, background .3s ease;
+    -moz-transition: color .3s ease, background .3s ease;
+    -ms-transition: color .3s ease, background .3s ease;
+    -o-transition: color .3s ease, background .3s ease;
+    transition: color .3s ease, background .3s ease;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover, &.mPS2id-highlight {
+      color: #fff;
+      background: #000;
+      .box-shadow(0 1px 0 rgba(255, 255, 255, 0.07))
+    }
+  }
+}
+
+
+.prestigio_twit {
+  .border-radius(5px, 5px, 5px, 5px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 37px;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: -6px;
+    top: 50%;
+    margin-top: -5px;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-right: 4px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 4px solid transparent;
+  }
+
+  p {
+    margin: 0;
+    color: #ececec;
+    .font-Open-sans();
+    font-size: 13px;
+    font-style: italic;
+  }
+}
+
+
+/* Subscribe
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+.story .post_title {
+  letter-spacing: 0.05em;
+  font-style: normal;
+}
+.mc4wp-form {
+  .text {
+    width: 250px;
+    border: none;
+    .border-radius(5px, 5px, 5px, 5px);
+    padding: 7px 11px;
+    .font-Arial();
+    font-size: 11px;
+    color: #333;
+    height: 38px;
+  }
+  .subscribe {
+    border:0;
+    .border-radius(5px, 5px, 5px, 5px);
+    background: #e44b2e;
+    width: 129px;
+    height: 36px;
+    .font-Arial();
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: none;
+    color: #fff;
+    letter-spacing: -0.01em;
+    margin-left: 18px;
+    .box-sizing();
+    .box-shadow(0 3px 0 0px #bd2e13);
+    .transition(all .3s ease);
+
+    &:hover {
+      opacity: 1;
+      background: #e36952;
+    }
+  }
+}
+
+
+/* Strech
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+.stretchRight {
+  animation-name: stretchRight;
+  -webkit-animation-name: stretchRight;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease-out;
+  transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  -webkit-transform-origin: 0% 0%;
+}
+
+
+/* Skills Strech
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+.stretchRight {
+  animation-name: stretchRight;
+  -webkit-animation-name: stretchRight;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease-out;
+  transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  -webkit-transform-origin: 0% 0%;
+}
+
+@keyframes stretchRight {
+  0% {
+    transform: scaleX(0.3);
+  }
+  40% {
+    transform: scaleX(1.02);
+  }
+  60% {
+    transform: scaleX(0.98);
+  }
+  80% {
+    transform: scaleX(1.01);
+  }
+  100% {
+    transform: scaleX(0.98);
+  }
+  80% {
+    transform: scaleX(1.01);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+@-webkit-keyframes stretchRight {
+  0% {
+    -webkit-transform: scaleX(0.3);
+  }
+  40% {
+    -webkit-transform: scaleX(1.02);
+  }
+  60% {
+    -webkit-transform: scaleX(0.98);
+  }
+  80% {
+    -webkit-transform: scaleX(1.01);
+  }
+  100% {
+    -webkit-transform: scaleX(0.98);
+  }
+  80% {
+    -webkit-transform: scaleX(1.01);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+  }
+}
+
+
+.olins_simple_form {
+  input, textarea {
+    .box-sizing();
+    .border-radius(5px, 5px, 5px, 5px);
+    border: none;
+
+    padding: 0 13px;
+    .font-Arial();
+    font-size: 11px;
+    color: #333;
+  }
+
+  .name {
+    height: 39px;
+    width: 48.8%;
+    float: left;
+  }
+
+  .email {
+    height: 39px;
+    width: 48.8%;
+    float: right;
+  }
+
+  .message {
+    margin: 11px 0 11px;
+    width: 100%;
+    height: 95px;
+    padding: 13px;
+  }
+
+  .submit {
+    width: 100%;
+    height: 39px;
+    background: @red;
+    padding: 0;
+
+    .font-Arial();
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: none;
+    color: #fff;
+    letter-spacing: -0.01em;
+
+    .box-shadow(0 -3px 0 0px #bd2e13);
+    .transition(all .3s ease);
+
+    &:hover {
+      opacity: 1;
+      background: #e36952;
+    }
+  }
+}
+
+
+/* Footer
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+footer {
+  width: 100%;
+  height: 50px;
+  background: #131313;
+
+  .left{
+    float: left;
+    line-height: 50px;
+    .font-Arial();
+    font-size: 13px;
+    color: #adadad;
+    margin: 0;
+  }
+  .right {
+    float: right;
+
+    .soc a {
+      display: inline-block;
+      margin-top: 8px;
+      float: left;
+      width: 29px;
+      height: 29px;
+      .border-radius(50%, 50%, 50%, 50%);
+      border: 3px solid #4b4b4b;
+      margin-right: 8px;
+      color:#4b4b4b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+
+      .transition(all .3s ease);
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        border: 3px solid @red;
+        color:@red;
+      }
+
+    }
+  }
+}
+
+
+
+
+@media (max-width: 1030px) {
+
+  .center {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  // Top Slider
+  .olins_prestigio_top .top-background .top-slider {
+    width: 750px;
+    margin-left: -375px;
+
+    ul > li  {
+      &:before { border-width: 0 15px 15px 0; }
+      .info { top: 50px; left: 50px; }
+    }
+  }
+
+
+  // Team
+  section.team {
+    .col-2 {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .col-10 {
+      width: 100%;
+    }
+
+    .our {
+      margin-top: 0px;
+      display: inline-block;
+      text-align: left;
+      padding-right: 10px;
+    }
+    .team {
+      display: inline-block;
+      text-align: left;
+      padding-right: 10px;
+    }
+
+    span.prev, span.next {
+      &.prev {
+        right: auto;
+        left: 220px;
+        top: 30px;
+        margin-top: -15px;
+      }
+      &.next {
+        right: auto;
+        left: 250px;
+        top: 30px;
+        margin-top: -15px;
+      }
+    }
+
+    .team-slider {
+      width: 100%;
+
+      .col-3 {
+        height: 270px;
+      }
+    }
+  }
+
+}
+
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+@media (max-width: 830px) {
+  .center {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  // Nav
+  nav .center { display: none;}
+
+  nav .drop-menu{
+    z-index: 102;
+    width: 150px;
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    margin-left: -75px;
+    display: block!important;
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 5px 5px 5px 5px;
+    background: #000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+
+    > a {
+      margin: 0;
+      color: #b5b5b5;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      display: block;
+      &:hover { opacity: 0.7; }
+    }
+
+    ul.ul-drop{
+      width: 150px !important;
+      height: auto;
+      display: none;
+      padding: 10px 0;
+
+      li{
+        width: 100%;
+        position: relative;
+        text-align: center;
+
+        a{
+          margin-top: 4px;
+          padding: 4px 15px;
+          font-size: 12px;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  // Top Slider
+  .olins_prestigio_top .top-background .top-slider {
+    width: 600px;
+    margin-left: -300px;
+
+    ul > li  {
+      &:before { border-width: 0 15px 15px 0; }
+      .info { top: 20px; left: 30px; }
+    }
+  }
+
+  // About
+  section.about {
+    margin-top: 130px;
+  }
+
+
+
+  // Blog
+  section.blog h2 span {
+    &.prev {
+      left: 18%;
+    }
+    &.next {
+      right: 18%;
+    }
+  }
+  section.blog .blog-slider a:hover > .hover h3  { margin-top: 30px; }
+  section.team .team-slider .col-3 .hover a { margin: 22px 4px 0; }
+
+  // Subscribe
+  section.subscribe h3 {
+    display: inline-block;
+    float: none;
+    width: 100%;
+    font-size: 26px;
+    line-height: 15px;
+    padding-right: 0;
+    margin-top: 45px;
+  }
+  section.subscribe .col-6 {
+    width: 100%;
+  }
+  section.subscribe form {
+    margin-top:  5px;
+    padding-left: 0;
+  }
+
+  .olins_prestigio_team {
+
+    section.team .team-slider .col-3 {
+      height: 240px;
+    }
+  }
+
+
+  // Testimonials
+  section.testimonials h2 span {
+    &.prev {
+      left: 10%;
+    }
+    &.next {
+      right: 10%;
+    }
+  }
+  section.testimonials {
+    margin-top: 20px;
+    padding: 10px 0;
+
+    .flex-control-nav {
+      bottom: -20px;
+    }
+  }
+
+  // Gallery
+  section.gallery h2 span {
+    &.prev {
+      left: 20%;
+    }
+    &.next {
+      right: 20%;
+    }
+  }
+
+
+}
+
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+@media (max-width: 650px) {
+  .vc_row.vc_custom_1555004076497 {
+    padding-bottom: 0!important;
+  }
+
+  .vc_custom_1555407245181 {
+    .vc_custom_heading,.mc4wp-form-fields {
+      text-align: center!important;
+    }
+  }
+  .center {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  h2 { font-size: 25px; }
+
+  .olins_prestigio_top .top-background .logo {
+    img {
+      max-width: 50%;
+      height: auto;
+    }
+  }
+
+  .olins_prestigio_top .top-background .top-slider {
+    top: 400px;
+  }
+
+  // Top Slider
+  .olins_prestigio_top .top-background .top-slider {
+    width: 350px;
+    margin-left: -175px;
+
+    ul > li  {
+      &:before { border-width: 0 8px 8px 0; }
+      .info { display: none; }
+    }
+  }
+
+  // About
+  section.about {
+    margin-top: 20px;
+  }
+  section.about .items .col-4 {
+    width: 100%;
+    padding: 0 !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  // Blog
+  section.blog .blog-slider .col-3 {
+    margin-bottom: 10px;
+
+    .hover {
+      box-shadow: none !important;
+    }
+  }
+  .olins_prestigio_blog section.blog h2,.olins_prestigio_testimonials h2 {
+    font-size:20px;
+  }
+  .olins_prestigio_blog {
+    section.blog h2 span {
+      &.prev {
+        left: 8%;
+      }
+      &.next {
+        right: 8%;
+      }
+    }
+  }
+
+  section.blog .blog-slider .col-3 {
+    width: 50%;
+
+    // // // // // // //
+    &:nth-child(2n+1) {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    &:nth-child(2n+2) {
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+  }
+  section.blog .blog-slider a:hover > .hover h3  { margin-top: 55px; }
+
+  // Team
+  .olins_prestigio_team section.team .our {
+    margin-top: 0;
+  }
+  .olins_prestigio_team section.team span.prev.prev,  .olins_prestigio_team section.team span.next.next {
+    top:0!important;
+  }
+  .olins_prestigio_team {
+    overflow: hidden;
+
+    section.team .team-slider .col-3 {
+      width: 50%;
+      height: 280px;
+      margin-bottom: 10px;
+
+      // // // // // // //
+      &:nth-child(2n+1) {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      &:nth-child(2n+2) {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    }
+    section.team .team-slider .col-3 .hover {
+      bottom: 0;
+    }
+  }
+
+  // Testimonials
+  section.testimonials .testimonials-slider {
+    margin-top: 10px;
+  }
+  section.testimonials .testimonials-slider .col-4 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  section.testimonials h2 span {
+    &.prev {
+      left: -2%;
+    }
+    &.next {
+      right: -2%;
+    }
+  }
+
+  // Testimonials
+  section.testimonials .testimonials-slider .line { margin-top: 8px; margin-bottom: 8px;}
+  section.testimonials { height: 800px; }
+
+
+
+  footer .left { display: none;}
+  footer .right { float: none; width: 100%; }
+}
+
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+@media (max-width: 470px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .center {
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  h2 { font-size: 18px; }
+
+
+
+
+  // Blog
+  section.blog h2 span {
+    &.prev {
+      left: 0;
+    }
+    &.next {
+      right: 0;
+    }
+  }
+
+  section.testimonials {
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  section.blog .blog-slider a .hover { display: none; }
+
+  // Subscribe
+  section.subscribe h3 { font-size: 20px; margin-top: 20px; margin-bottom: 10px; span { font-size: 25px; } }
+  section.subscribe form .text { width: 100%; margin-bottom: 10px; }
+  section.subscribe form .subscribe { margin-left: 0; }
+
+  // Team
+  .olins_prestigio_team {
+    section.team .team-slider .col-3 {
+      height: 240px;
+    }
+    section.team .team-slider .col-3 .hover a {
+      margin: 22px 2px 0;
+    }
+  }
+  section.testimonials { background: none; }
+  section.testimonials h2{ color: #353535; }
+  section.testimonials .testimonials-slider h3 { color: #353535; }
+  section.testimonials .testimonials-slider p  { color: #353535; }
+
+
+
+  // Skills
+  section.skills { padding: 0; }
+  section.skills h2 { margin-top: 10px; }
+  section.skills .col-6 {
+    width: 100%;
+    padding: 0 !important;
+    margin-bottom: 10px;
+  }
+  section.skills .items { margin-top: 15px}
+
+
+  footer {
+    .right {
+      .soc a {
+        width: 20px;
+        height: 20px;
+        border: none !important;
+        margin-top: 12px;
+        margin-right: 12px;
+      }
+    }
+  }
+
+}

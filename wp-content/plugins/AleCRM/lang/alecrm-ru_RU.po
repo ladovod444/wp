@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: alecrm\n"
+"POT-Creation-Date: 2024-07-23 20:01+0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: My alecrm Team\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: alecrm.php:21
+msgid "Welcome to Alecrm"
+msgstr ""
+
+#: alecrm.php:22
+msgid "AleCRM options"
+msgstr "Опции АлеСРМ"
+
+#: alecrm.php:43
+msgid "Hello alecrm"
+msgstr "Прювет Алэ  "
+
+#: alecrm.php:88
+msgid "Alercms"
+msgstr ""
+
+#: alecrm.php:90
+msgid "Alercm"
+msgstr ""
+
+#: alecrm.php:92 alecrm.php:94
+msgid "Add Alercm"
+msgstr ""
+
+#: alecrm.php:96
+msgid "Edit Alercm"
+msgstr ""
+
+#: alecrm.php:98
+msgid "New Alercm"
+msgstr ""
+
+#: alecrm.php:100
+msgid "Viewwww Alercm"
+msgstr ""
+
+#: alecrm.php:102
+msgid "Find Alercm"
+msgstr ""
+
+#: alecrm.php:104
+msgid "Alercm not found"
+msgstr ""
+
+#: alecrm.php:106
+msgid "Not found "
+msgstr ""
+
+#: alecrm.php:110
+msgid "Alercm menu!"
+msgstr ""

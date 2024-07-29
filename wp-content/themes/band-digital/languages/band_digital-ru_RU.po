@@ -1,0 +1,345 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: band-digital\n"
+"POT-Creation-Date: 2024-07-22 13:24+0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: My Super Team\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: archive.php:14
+msgid "Category: "
+msgstr "Рубрика"
+
+#: archive.php:18
+msgid "Posts with tag: "
+msgstr "Посты с меткой"
+
+#: archive.php:22
+msgid "Posts of the author: "
+msgstr "Посты автора"
+
+#: archive.php:26
+msgid "Posts by date: "
+msgstr ""
+
+#: archive.php:108 home.php:89 search.php:92
+msgid "<span class=\"p-2 border\">« Prev</span>"
+msgstr ""
+
+#: archive.php:109 home.php:90 search.php:93
+msgid "<span class=\"p-2 border\">Next »</span>"
+msgstr ""
+
+#: archive.php:112 home.php:93 search.php:96
+msgid "Posts navigation"
+msgstr ""
+
+#: comments.php:44
+msgid "Reply<i class=\"fa fa-reply\"></i>"
+msgstr ""
+
+#: comments.php:80
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:83
+#, php-format
+msgid ""
+"<a href=\"%1$s\" aria-label=\"Logged in as %2$s. Edit your profile.\">Logged "
+"in as %2$s</a>. <a href=\"%3$s\">Log out?</a>"
+msgstr ""
+
+#: comments.php:86
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:94
+msgid "Leave a Reply"
+msgstr "Ответить"
+
+#: comments.php:95
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:100
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:101
+msgid "Post Comment!"
+msgstr ""
+
+#: functions.php:112
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:113
+msgid "Footer Left Menu"
+msgstr ""
+
+#: functions.php:114
+msgid "Footer Right Menu"
+msgstr ""
+
+#: functions.php:117
+msgid "Mobile Menu"
+msgstr ""
+
+#: functions.php:170
+msgid "Sidebar blog"
+msgstr ""
+
+#: functions.php:183
+msgid "Sidebar footer text"
+msgstr ""
+
+#: functions.php:196
+msgid "Sidebar footer contacts"
+msgstr ""
+
+#: functions.php:209
+msgid "Sidebar footer contacts short"
+msgstr ""
+
+#: functions.php:222
+msgid "Sidebar services"
+msgstr ""
+
+#: functions.php:267
+msgid "Services"
+msgstr "Услуги!"
+
+#: functions.php:268
+msgid "Service"
+msgstr ""
+
+#: functions.php:269
+msgid "Add Service"
+msgstr "Добавить Услугу"
+
+#: functions.php:270
+msgid "Добавление Service"
+msgstr ""
+
+#: functions.php:271
+msgid "Редактирование Service"
+msgstr ""
+
+#: functions.php:272
+msgid "Новое Service"
+msgstr ""
+
+#: functions.php:273
+msgid "Смотреть Service"
+msgstr ""
+
+#: functions.php:274
+msgid "Искать Service"
+msgstr ""
+
+#: functions.php:275 functions.php:314 functions.php:353 functions.php:388
+msgid "Не найдено"
+msgstr ""
+
+#: functions.php:276 functions.php:315 functions.php:354 functions.php:389
+msgid "Не найдено в корзине"
+msgstr ""
+
+#: functions.php:306
+msgid "Partners"
+msgstr ""
+
+#: functions.php:307
+msgid "Partner"
+msgstr ""
+
+#: functions.php:308
+msgid "Добавить Partner"
+msgstr ""
+
+#: functions.php:309
+msgid "Добавление Partner"
+msgstr ""
+
+#: functions.php:310
+msgid "Редактирование Partner"
+msgstr ""
+
+#: functions.php:311
+msgid "Новое Partner"
+msgstr ""
+
+#: functions.php:312
+msgid "Смотреть Partner"
+msgstr ""
+
+#: functions.php:313
+msgid "Искать Partner"
+msgstr ""
+
+#: functions.php:345
+msgid "Prices"
+msgstr ""
+
+#: functions.php:346
+msgid "Price"
+msgstr ""
+
+#: functions.php:347
+msgid "Добавить Price"
+msgstr ""
+
+#: functions.php:348
+msgid "Добавление Price"
+msgstr ""
+
+#: functions.php:349
+msgid "Редактирование Price"
+msgstr ""
+
+#: functions.php:350
+msgid "Новое Price"
+msgstr ""
+
+#: functions.php:351
+msgid "Смотреть Price"
+msgstr ""
+
+#: functions.php:352
+msgid "Искать Price"
+msgstr ""
+
+#: functions.php:380
+msgid "Testimonials"
+msgstr ""
+
+#: functions.php:381
+msgid "Testimonial"
+msgstr ""
+
+#: functions.php:382
+msgid "Добавить Testimonial"
+msgstr ""
+
+#: functions.php:383
+msgid "Добавление Testimonial"
+msgstr ""
+
+#: functions.php:384
+msgid "Редактирование Testimonial"
+msgstr ""
+
+#: functions.php:385
+msgid "Новое Testimonial"
+msgstr ""
+
+#: functions.php:386
+msgid "Смотреть Testimonial"
+msgstr ""
+
+#: functions.php:387
+msgid "Искать Testimonial"
+msgstr ""
+
+#: search.php:12
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single_U.php:23
+msgid "Previous:"
+msgstr ""
+
+#: single_U.php:24
+msgid "Next:"
+msgstr ""
+
+#: walkers/bootstrap_walker_comment.php:245
+msgid "Pingback:"
+msgstr ""
+
+#: walkers/bootstrap_walker_comment.php:245
+#: walkers/bootstrap_walker_comment.php:449
+msgid "Edit"
+msgstr ""
+
+#: walkers/bootstrap_walker_comment.php:297
+#: walkers/bootstrap_walker_comment.php:401
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: walkers/bootstrap_walker_comment.php:299
+#: walkers/bootstrap_walker_comment.php:403
+msgid ""
+"Your comment is awaiting moderation. This is a preview; your comment will be "
+"visible after it has been approved."
+msgstr ""
+
+#: walkers/bootstrap_walker_comment.php:321
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: walkers/bootstrap_walker_comment.php:338
+#: walkers/bootstrap_walker_comment.php:443
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: walkers/bootstrap_walker_comment.php:344
+msgid "(Edit)"
+msgstr ""
+
+#: walkers/bootstrap_walker_comment.php:429
+#, php-format
+msgid "%s <span class=\"says\">says</span>"
+msgstr ""
+
+#: widgets/Contacts_Widget.php:73 widgets/Download_Widget.php:62
+#: widgets/Service_Box_Widget.php:68 widgets/Text_Widget.php:58
+msgid "Title:"
+msgstr ""
+
+#: widgets/Contacts_Widget.php:78
+msgid "Email:"
+msgstr ""
+
+#: widgets/Contacts_Widget.php:83
+msgid "Phone:"
+msgstr ""
+
+#: widgets/Contacts_Widget.php:88
+msgid "Address:"
+msgstr ""
+
+#: widgets/Download_Widget.php:67 widgets/Service_Box_Widget.php:73
+#: widgets/Text_Widget.php:63
+msgid "Description:"
+msgstr ""
+
+#: widgets/Download_Widget.php:72
+msgid "File name:"
+msgstr ""
+
+#: widgets/Download_Widget.php:77
+msgid "File:"
+msgstr ""
+
+#: widgets/Service_Box_Widget.php:63
+msgid "Number:"
+msgstr ""

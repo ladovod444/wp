@@ -1,0 +1,94 @@
+.kitty_blog_item  {
+    position: relative;
+    background: transparent!important;
+
+    a:hover {
+        opacity:1!important;
+    }
+
+    .post_item_mask {
+        position: absolute;
+        width:100%;
+        height:100%;
+        border-radius:30px;
+        background: #F4F7C5;
+        top:10px;
+        left:10px;
+        z-index: -1;
+        transition:all 300ms ease-in-out;
+    }
+    .post_item_content {
+        background: #FFF;
+        border-radius:30px;
+        padding:20px;
+        box-sizing: border-box;
+        z-index: 5;
+        transition:all 300ms ease-in-out;
+
+        .image {
+            border-radius:30px;
+            overflow: hidden;
+            margin-bottom:35px;
+        }
+        .text {
+            padding:10px;
+
+            .post_category {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 28px;
+                color: #7D8D9C;
+                transition:all 300ms ease-in-out;
+
+                a {
+                    color:inherit;
+
+                    &:hover {
+                        color:#EA907A;
+                    }
+                }
+            }
+            h3 {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 28px;
+                color: #373737;
+                margin-bottom:14px;
+                margin-top:14px;
+
+                a {
+                    color:inherit;
+
+                    &:hover {
+                        color:#232323;
+                    }
+                }
+            }
+            .string {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 28px;
+                color: #373737;
+                padding-bottom:20px;
+            }
+        }
+    }
+
+    &:hover {
+        .post_item_mask {
+            background: #AACDBE;
+            transition:all 300ms ease-in-out;
+        }
+        .post_item_content {
+            background: #F4F7C5;
+            transition:all 300ms ease-in-out;
+        }
+        .text .post_category {
+            color:#373737;
+            transition:all 300ms ease-in-out;
+        }
+    }
+}

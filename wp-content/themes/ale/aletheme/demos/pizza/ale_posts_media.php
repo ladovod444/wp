@@ -1,0 +1,11 @@
+<?php
+Ale_Demo_Media::add_image_to_media_gallery('ale_p1',"https://alethemes.com/olins_base/media/pizza/p1.jpg");
+Ale_Demo_Media::add_image_to_media_gallery('ale_p2',"https://alethemes.com/olins_base/media/pizza/p2.jpg");
+Ale_Demo_Media::add_image_to_media_gallery('ale_s1',"https://alethemes.com/olins_base/media/pizza/slide1.jpg");
+Ale_Demo_Media::add_image_to_media_gallery('ale_s2',"https://alethemes.com/olins_base/media/pizza/slide2.jpg");
+Ale_Demo_Media::add_image_to_media_gallery('ale_m1',"https://alethemes.com/olins_base/media/pizza/m1.jpg");
+Ale_Demo_Media::add_image_to_media_gallery('ale_m2',"https://alethemes.com/olins_base/media/pizza/m2.jpg");
+Ale_Demo_Media::add_image_to_media_gallery('ale_m3',"https://alethemes.com/olins_base/media/pizza/m3.jpg");
+Ale_Demo_Media::add_image_to_media_gallery('ale_m4',"https://alethemes.com/olins_base/media/pizza/m4.jpg");
+Ale_Demo_Media::add_image_to_media_gallery('ale_m5',"https://alethemes.com/olins_base/media/pizza/m5.jpg");
+Ale_Demo_Media::add_image_to_media_gallery('ale_m6',"https://alethemes.com/olins_base/media/pizza/m6.jpg");
