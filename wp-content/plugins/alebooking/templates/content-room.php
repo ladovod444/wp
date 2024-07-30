@@ -40,7 +40,7 @@ $instance = $data->instance;
     </div>
 
 	<?php $instance->get_taxonomy_for_room_archive( 'location', $post->ID ); ?>
-	<?php $instance->get_taxonomy_for_room_archive( 'type', $post->ID ); ?>
+	<?php $instance->get_taxonomy_for_room_archive( 'room_type', $post->ID ); ?>
 
 
 	<a href="<?php echo get_the_permalink(); ?>" class="read-more">Читать статью <i

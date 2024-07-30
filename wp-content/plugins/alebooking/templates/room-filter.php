@@ -6,9 +6,9 @@
 
 		</select>
 
-		<select name="type">
+		<select name="room_type">
 			<option value="<?php echo esc_html__( 'Select type', 'alebooking' ); ?>"><?php echo esc_html__( 'Select type', 'alebooking' ); ?></option>
-			<?php $data->instance->get_terms_hierarchical( 'type' ); ?>
+			<?php $data->instance->get_terms_hierarchical( 'room_type' ); ?>
 
 		</select>
 

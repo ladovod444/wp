@@ -26,8 +26,7 @@
 							echo get_the_date( 'j F Y' ); ?>
 						<?php endif; ?>
 
-						<?php if ( is_tax( [ 'location', 'type' ] ) && isset( $data->taxonomy ) ): ?>
-							<?php //echo $taxonomy; die(); ?>
+						<?php if ( is_tax( [ 'location', 'room_type' ] ) && isset( $data->taxonomy ) ): ?>
 							<?php echo __( 'Rooms by ' . $data->taxonomy->taxonomy . ': ' );
 							echo $data->taxonomy->name; ?>
 						<?php endif; ?>

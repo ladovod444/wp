@@ -256,7 +256,7 @@ class AleBooking {
 			}
 		}
 
-		if ( is_tax( 'location' ) || is_tax( 'type' ) ) {
+		if ( is_tax( 'location' ) || is_tax( 'room_type' ) ) {
 
 			$theme_files     = [ 'archive-room.php', 'alebooking/archive-room-value.php' ];
 			$exists_template = locate_template( $theme_files, false );
@@ -275,6 +275,9 @@ class AleBooking {
 		register_post_type( 'room', [
 			'public'      => true,
 			'label'       => esc_html__( 'Room', 'alebooking' ),
+
+			// Adds Gutenberg editor Support
+			'show_in_rest' => true,
 			'supports'    => [
 				'title',
 				'editor',
@@ -306,6 +309,8 @@ class AleBooking {
 			'add_new_item'      => esc_html__( 'Add New Location', 'alebooking' ),
 			'new_item_name'     => esc_html__( 'New Location Name', 'alebooking' ),
 			'menu_name'         => esc_html__( 'Location', 'alebooking' ),
+			// Adds Gutenberg editor Support
+
 		);
 
 		$args = [
@@ -315,6 +320,20 @@ class AleBooking {
 			'show_admin_column' => true,
 			'query_var'         => true,
 			'rewrite'           => array( 'slug' => 'room/location' ),
+			'show_in_rest' => true,
+//			'supports'    => [
+//				'title',
+//				'editor',
+//				'author',
+//				'thumbnail',
+//				'excerpt',
+//				'trackbacks',
+//				'custom-fields',
+//				'comments',
+//				'revisions',
+//				'page-attributes',
+//				'post-formats'
+//			],
 		];
 		register_taxonomy( 'location', 'room', $args );
 
@@ -339,16 +358,19 @@ class AleBooking {
 			'show_ui'           => true,
 			'show_admin_column' => true,
 			'query_var'         => true,
-			'rewrite'           => array( 'slug' => 'room/type' ),
+			'rewrite'           => array( 'slug' => 'room/room-type' ),
+			'show_in_rest' => true,
 		];
-		register_taxonomy( 'type', 'room', $args_type );
+		register_taxonomy( 'room_type', 'room', $args_type );
 	}
 
 	public function get_terms_hierarchical( $tax_name ) {
+		//echo $tax_name; die();
 		$taxonomy_terms = get_terms( $tax_name, [ 'hide_empty' => true, 'parent' => 0 ] );
 
 		if ( ! empty( $taxonomy_terms ) ) {
 			$selected = (int) $_POST[$tax_name] ?? '';
+
 			foreach ( $taxonomy_terms as $term ) {
 				if ($term->term_id == $selected) {
 					echo '<option value="' . $term->term_id . '" selected="selected">' . $term->name . '</option>';

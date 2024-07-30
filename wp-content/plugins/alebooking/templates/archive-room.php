@@ -5,7 +5,7 @@
 
 $instance = new AleBooking( 't' );
 if ( is_tax(
-	[ 'location', 'type' ]
+	[ 'location', 'room_type' ]
 ) ) {
 	$taxonomy = get_queried_object();
 }
@@ -81,11 +81,13 @@ $templates->get_template_part( 'room', 'header' );
 								];
 							}
 
-							if ( ! empty( $_POST['type'] ) && $_POST['type'] != 'Select type' ) {
+							if ( ! empty( $_POST['room_type'] ) && $_POST['room_type'] != 'Select type' ) {
 								$args['tax_query'][] = [
-									'taxonomy' => 'type',
-									'terms'    => $_POST['type']
+									'taxonomy' => 'room_type',
+									'terms'    => $_POST['room_type']
 								];
+
+                                //var_dump($args); die();
 							}
 
 							$rooms_listing = new WP_Query( $args );
