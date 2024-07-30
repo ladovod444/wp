@@ -32,6 +32,13 @@ $instance = $data->instance;
 	   class="h4 "><?php the_title(); ?></a>
 	<p class="mt-3"><?php the_excerpt(); ?></p>
 
+    <div class="metabox">
+        <?php
+         $price = get_post_meta($post->ID, "alebooking_price", true);
+         echo esc_html__('Room price', 'alebooking'); echo $price;
+        ?>
+    </div>
+
 	<?php $instance->get_taxonomy_for_room_archive( 'location', $post->ID ); ?>
 	<?php $instance->get_taxonomy_for_room_archive( 'type', $post->ID ); ?>
 

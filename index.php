@@ -1,4 +1,18 @@
 <?php
+
+//$limit = 6;
+//$check_arr = [];
+//for ($a = 1; $a <= $limit; $a++) {
+//	$rand = mt_rand(1, 45); //rand(1, 49);
+//	if (in_array($rand, $check_arr)) {
+//		$rand = mt_rand(1, 45);
+//	}
+//	$check_arr[] = $rand;
+//	echo $rand . ' ';
+//}
+//die();
+
+// https://github.com/ladovod444/wp
 //
 //function test() {
 //	static $a;
