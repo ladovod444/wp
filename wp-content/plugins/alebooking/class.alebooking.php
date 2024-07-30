@@ -67,7 +67,7 @@ class AleBooking {
 		  <tbody>
 		  <tr>
 		      <th><label for="alebooking_price"> ' . esc_html__('Room price', 'alebooking') . '</label></th>
-		      <td><input type="text" id="alebooking_price" name="alebooking_price" value="' . esc_attr__($price) . '" /></td>
+		      <td><input type="number" id="alebooking_price" name="alebooking_price" value="' . esc_attr__($price) . '" /></td>
 		    </tr>
 		    <tr>
 		      <th><label for="alebooking_size"> ' . esc_html__('Room size', 'alebooking') . '</label></th>
@@ -108,7 +108,7 @@ class AleBooking {
 			delete_post_meta($post_id, "alebooking_price");
 		} else {
 			//$price = get_post_meta( $post->ID, "alebooking_price", true );
-			update_post_meta( $post_id, "alebooking_price", sanitize_text_field($_REQUEST['alebooking_price']) );
+			update_post_meta( $post_id, "alebooking_price", intval( sanitize_text_field($_REQUEST['alebooking_price'])) );
 		}
 
 		if ( is_null( $_REQUEST['alebooking_size'] ) ) {

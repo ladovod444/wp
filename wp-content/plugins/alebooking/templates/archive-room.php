@@ -2,6 +2,7 @@
 <?php get_header(); ?>
 
 <?php
+
 $instance = new AleBooking( 't' );
 if ( is_tax(
 	[ 'location', 'type' ]
@@ -15,12 +16,14 @@ $templates = new Ale_Booking_Template_Loader();
 
 <!--MAIN BANNER AREA START -->
 <?php
-$templates
-	// Pass needed data.
-	->set_template_data( [
-		'taxonomy' => $taxonomy,
-	] )
-	->get_template_part( 'room', 'header' );
+if (isset($taxonomy)) {
+	$templates
+		// Pass needed data.
+		->set_template_data( [
+			'taxonomy' => $taxonomy,
+		] );
+}
+$templates->get_template_part( 'room', 'header' );
 ?>
 <!--MAIN HEADER AREA END -->
 
@@ -31,23 +34,15 @@ $templates
             <h1> <?php echo isset( get_option( 'booking_settings_options' )['title_for_rooms'] ) ? get_option( 'booking_settings_options' )['title_for_rooms'] : 'NO TITLE'; ?> </h1>
 
 			<?php if ( ! is_tax( [ 'location', 'type' ] ) ): ?>
-                <div class="filter">
-                    <form method="post" action="<?php echo get_post_type_archive_link( 'room' ); ?>">
-                        <select name="location">
-                            <option value="<?php echo esc_html__( 'Select location', 'alebooking' ); ?>"><?php echo esc_html__( 'Select location', 'alebooking' ); ?></option>
-							<?php $instance->get_terms_hierarchical( 'location' ); ?>
 
-                        </select>
-
-                        <select name="type">
-                            <option value="<?php echo esc_html__( 'Select type', 'alebooking' ); ?>"><?php echo esc_html__( 'Select type', 'alebooking' ); ?></option>
-							<?php $instance->get_terms_hierarchical( 'type' ); ?>
-
-                        </select>
-
-                        <input type="submit" name="submit" value="<?php echo esc_html__( 'Filter', 'alebooking' ); ?>">
-                    </form>
-                </div>
+				<?php
+				$templates
+//					// Pass needed data.
+					->set_template_data( [
+						'instance'   => $instance,
+					] )
+					->get_template_part( 'room', 'filter' );
+				?>
 			<?php endif; ?>
 
             <div class="row">
@@ -62,8 +57,22 @@ $templates
 								'posts_per_page' => get_option( 'booking_settings_options' )['post_per_page'] ?? - 1,
 //							'orderby'        => 'publish_date',
 //							'order'          => 'ASC',
-								'tax_query'      => [ 'relation' => 'AND' ]
+								'tax_query'      => [ 'relation' => 'AND' ],
+								'meta_query'      => [ 'relation' => 'AND' ],
 							];
+
+                            if ( ! empty( $_POST['price_down'] ) && ! empty( $_POST['price_up'] ) ) {
+	                            $args['meta_query'][] = [
+		                            'key' => 'alebooking_price',
+                                    'value' => [
+	                                    $_POST['price_down'], $_POST['price_up'],
+                                    ],
+		                            'type' => 'numeric',
+                                    'compare' => 'BETWEEN',
+	                            ];
+                            }
+
+                            //var_dump($args); die();
 
 							if ( ! empty( $_POST['location'] ) && $_POST['location'] != 'Select location' ) {
 								$args['tax_query'][] = [

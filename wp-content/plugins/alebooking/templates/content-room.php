@@ -35,7 +35,7 @@ $instance = $data->instance;
     <div class="metabox">
         <?php
          $price = get_post_meta($post->ID, "alebooking_price", true);
-         echo esc_html__('Room price', 'alebooking'); echo $price;
+         echo esc_html__('Room price: ', 'alebooking'); echo $price;
         ?>
     </div>
 
