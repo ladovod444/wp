@@ -14,6 +14,7 @@
 
 		<input type="text" name="price_down" placeholder="Min price" value="<?php echo $_POST['price_down'] ?? '' ?>" />
 		<input type="text" name="price_up" placeholder="Max price" value="<?php echo $_POST['price_up'] ?? '' ?>" />
+		<input type="text" name="beds_count" placeholder="Minimum beds" value="<?php echo $_POST['beds_count'] ?? '' ?>" />
 
 		<input type="submit" name="submit" value="<?php echo esc_html__( 'Filter', 'alebooking' ); ?>">
 	</form>

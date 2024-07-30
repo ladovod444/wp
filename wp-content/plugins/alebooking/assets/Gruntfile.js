@@ -10,13 +10,13 @@ module.exports = function(grunt) {
 
         sass: {
             build: {
-                // options: {
-                //     style: 'expanded'
-                // },
                 options: {
-                    style: 'compressed',
-                    sourceMap: false
+                    style: 'expanded'
                 },
+                // options: {
+                //     style: 'compressed',
+                //     sourceMap: false
+                // },
                 files: {
                      'front/styles.css': 'front/master.scss'
                     //'front/styles.css': ['front/scss/*.scss']

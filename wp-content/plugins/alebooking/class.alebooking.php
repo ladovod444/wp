@@ -8,11 +8,101 @@
 class AleBooking {
 	const TEST_MESS = 'Ale Test!?';
 	public string $message;
+	//public string $message;
 
 	function __construct( $message ) {
 		$this->message = $message;
 
 	}
+
+	// Register class metabox fields.
+	// See https://github.com/bainternet/My-Meta-Box/blob/master/class-usage-demo.php
+	function register_meta_box() {
+		if (is_admin()) {
+			/*
+			 * prefix of meta keys, optional
+			 * use underscore (_) at the beginning to make keys hidden, for example $prefix = '_ba_';
+			 *  you also can make prefix empty to disable it
+			 *
+			 */
+			//$prefix = 'ba_';
+			$prefix = 'alebooking_';
+			/*
+			 * configure your meta box
+			 */
+			$config = array(
+				'id'             => 'alebooking_settings_2',
+				// meta box id, unique per meta box
+				'title'          => 'Simple Meta Box fields',
+				// meta box title
+				//'pages'          => array( 'post', 'page' ),
+				'pages'          => array( 'room' ),
+				// post types, accept custom post types as well, default is array('post'); optional
+				'context'        => 'normal',
+				// where the meta box appear: normal (default), advanced, side; optional
+				'priority'       => 'high',
+				// order of meta box: high (default), low; optional
+				'fields'         => array(),
+				// list of meta fields (can be added by field arrays)
+				'local_images'   => false,
+				// Use local or hosted images (meta box images for add/remove)
+				'use_with_theme' => false
+				//change path if used with theme set to true, false for a plugin or anything else for a custom path(default false).
+			);
+
+
+			/*
+			 * Initiate your meta box
+			 */
+			$my_meta = new AT_Meta_Box( $config );
+
+			/*
+			 * Add fields to your meta box
+			 */
+
+			//text field
+			$my_meta->addText( $prefix . 'beds_count', array( 'name' => esc_html__('Beds Count ', 'alebooking') ) );
+			//$my_meta->addText( $prefix . 'text_field_id', array( 'name' => 'My Text ' ) );
+			//textarea field
+//			$my_meta->addTextarea( $prefix . 'textarea_field_id', array( 'name' => 'My Textarea ' ) );
+//			//checkbox field
+//			$my_meta->addCheckbox( $prefix . 'checkbox_field_id', array( 'name' => 'My Checkbox ' ) );
+//			//select field
+//			$my_meta->addSelect( $prefix . 'select_field_id', array(
+//				'selectkey1' => 'Select Value1',
+//				'selectkey2' => 'Select Value2'
+//			), array( 'name' => 'My select ', 'std' => array( 'selectkey2' ) ) );
+//			//radio field
+//			$my_meta->addRadio( $prefix . 'radio_field_id', array(
+//				'radiokey1' => 'Radio Value1',
+//				'radiokey2' => 'Radio Value2'
+//			), array( 'name' => 'My Radio Filed', 'std' => array( 'radionkey2' ) ) );
+			//Image field
+//			$my_meta->addImage( $prefix . 'image_field_id', array( 'name' => 'My Image ' ) );
+//			$my_meta->addColor($prefix.'color_field_id',array('name'=> 'My Color '));
+//			//file upload field
+//			$my_meta->addFile( $prefix . 'file_field_id', array( 'name' => 'My File' ) );
+//			//file upload field with type limitation
+//			$my_meta->addFile( $prefix . 'file_pdf_field_id', array(
+//				'name'      => 'My File limited to PDF Only',
+//				'ext'       => 'pdf',
+//				'mime_type' => 'application/pdf'
+//			) );
+			/*
+			 * Don't Forget to Close up the meta box Declaration
+			 */
+			//Finish Meta Box Declaration
+			$my_meta->Finish();
+		}
+	}
+//	function register_meta_box () {
+//		$custom_metabox = new WPAlchemy_MetaBox(array
+//		(
+//			'id' => '_custom_meta',
+//			'title' => 'My Custom Meta',
+//			'template' => ALEBOOKING__PLUGIN_DIR . '/custom/meta.php'
+//		));
+//	}
 
 	public function register( $file ) {
 		add_action( 'init', [ $this, 'custom_post_type' ] );
@@ -43,6 +133,9 @@ class AleBooking {
 		add_action( 'admin_menu', [ $this, 'add_meta_box_for_room' ] );
 
 		add_action( 'save_post_room', [ $this, 'save_meta_data'], 10, 2 );
+
+		//add_action('init', [ $this, 'register_meta_box']);
+		$this->register_meta_box();
 	}
 
 	public function add_meta_box_for_room() {

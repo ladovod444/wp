@@ -12,9 +12,9 @@ if (!defined('WP_UNINSTALL_PLUGIN')) {
 //global $wpdb;
 //$wpdb->query("DELETE FROM {$wpdb->posts} WHERE posts post_type='room'");
 
-$rooms = get_posts(['post_type' => 'room', 'numberposts' => -1]);
-
-foreach ($rooms as $room) {
-	wp_delete_post($room->ID, true);
-}
+//$rooms = get_posts(['post_type' => 'room', 'numberposts' => -1]);
+//
+//foreach ($rooms as $room) {
+//	wp_delete_post($room->ID, true);
+//}
 //wp_delete_post();

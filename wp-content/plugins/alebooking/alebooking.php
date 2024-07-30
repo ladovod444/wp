@@ -30,13 +30,23 @@ if (!class_exists('AleBooking')) {
 	require_once( ALEBOOKING__PLUGIN_DIR . 'class.alebooking.php' );
 }
 
-// Load templates
+// Load Class Loader for templates
 if (!class_exists('Gamajo_Template_Loader')) {
 	require_once( ALEBOOKING__PLUGIN_DIR . 'includes/class-gamajo-template-loader.php' );
 }
 
 if (!class_exists('Ale_Booking_Template_Loader')) {
 	require_once( ALEBOOKING__PLUGIN_DIR . 'includes/class-alebooking-template-loader.php' );
+}
+
+// Load templates
+if (!class_exists('WPAlchemy_MetaBox')) {
+	require_once( ALEBOOKING__PLUGIN_DIR . 'includes/MetaBox.php' );
+}
+
+//Load Meta box class
+if (!class_exists('AT_Meta_Box')) {
+	require_once( ALEBOOKING__PLUGIN_DIR . 'includes/meta-box-class/class-alebooking-meta-box.php' );
 }
 
 //function ale_say_hello() {

@@ -72,6 +72,17 @@ $templates->get_template_part( 'room', 'header' );
 	                            ];
                             }
 
+							if ( ! empty( $_POST['beds_count'] ) ) {
+								$args['meta_query'][] = [
+									'key' => 'alebooking_beds_count',
+									'value' => [
+										$_POST['beds_count'],
+									],
+									'type' => 'numeric',
+									'compare' => '>=',
+								];
+							}
+
                             //var_dump($args); die();
 
 							if ( ! empty( $_POST['location'] ) && $_POST['location'] != 'Select location' ) {

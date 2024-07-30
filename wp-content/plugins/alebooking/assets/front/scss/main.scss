@@ -1,6 +1,16 @@
+:root {
+  --wrapper-padding: 10px;
+}
+
+body {
+  /*color: #09790a;*/
+  color: $simpleBodyColor;
+}
+
+
 .booking-rooms select {
   padding: 10px;
-  margin: 10px;
+  margin: var(--wrapper-padding);
 }
 
 .taxonomy-tag {
