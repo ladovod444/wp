@@ -16,10 +16,9 @@ include_once 'fields/WP_Customize_Range.php';
 // add_theme_support
 if ( ! function_exists( 'band_digital_setup' ) ) {
 	function band_digital_setup() {
-
-
 		load_theme_textdomain( 'band_digital', get_template_directory() . '/languages' );
 
+		// Возможность добавлять custom logo в настройках темы
 		add_theme_support( 'custom-logo', [
 			'height'               => 50,
 			'width'                => 130,
@@ -32,12 +31,15 @@ if ( ! function_exists( 'band_digital_setup' ) ) {
 		// Add dynamic title
 		add_theme_support( 'title-tag' );
 
+		// Возможность добавлять featured image для поста
 		add_theme_support( 'post-thumbnails' );
 
+		// Добавлен кастом image style
 		add_image_size('band-digital', 310, 210, false);
 
 		set_post_thumbnail_size(900, 700, true);
 
+		// html5 support для сущностей
 		add_theme_support( 'html5', array(
 			'comment-list',
 			'comment-form',
@@ -155,9 +157,6 @@ function band_digital_menus() {
 }
 
 add_action( 'init', 'band_digital_menus' );
-
-
-
 
 /*
 add_filter('nav_menu_css_class', 'custom_nav_menu_css_class', 10, 1);

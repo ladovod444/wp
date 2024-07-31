@@ -7,12 +7,54 @@
 
 class AleBooking {
 	const TEST_MESS = 'Ale Test!?';
-	public string $message;
 	//public string $message;
 
-	function __construct( $message ) {
-		$this->message = $message;
+//	function __construct( $message ) {
+//		$this->message = $message;
+//	}
 
+
+//	function register_meta_box () {
+//		$custom_metabox = new WPAlchemy_MetaBox(array
+//		(
+//			'id' => '_custom_meta',
+//			'title' => 'My Custom Meta',
+//			'template' => ALEBOOKING__PLUGIN_DIR . '/custom/meta.php'
+//		));
+//	}
+
+	public function register( $file ) {
+		add_action( 'init', [ $this, 'custom_post_type' ] );
+		add_action( 'admin_enqueue_scripts', [ $this, 'enqueue_admin' ] );
+		add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_front' ] );
+
+		// Hook Add menu item for admin left sidebar
+		add_action( 'admin_menu', [ $this, 'add_menu_page' ] );
+
+		// Load template.
+		add_filter( 'template_include', [ $this, 'room_template' ] );
+		// Can be checked on http://wp:802/rooms/
+
+		add_action( 'admin_init', [ $this, 'settings_init' ] );
+		// Add links to plugins page.
+		// So set to alebooking.php
+		add_filter(
+			'plugin_action_links_' . plugin_basename( $file ),
+			[ $this, 'add_plugin_setting_link' ]
+		//'add_plugin_setting_link'
+		); // alebooking/alebooking.php
+		//echo 'plugin_action_links_' . plugin_basename(__FILE__); die();
+		//echo plugin_basename(__FILE__); die(); // alebooking/class.alebooking.php
+		// alebooking/alebooking.php
+
+		//echo plugins_url(__FILE__); die();
+
+		add_action( 'admin_menu', [ $this, 'add_meta_box_for_room' ] );
+
+		add_action( 'save_post_room', [ $this, 'save_meta_data'], 10, 2 );
+
+		//add_action('init', [ $this, 'register_meta_box']);
+		$this->register_meta_box();
 	}
 
 	// Register class metabox fields.
@@ -94,48 +136,6 @@ class AleBooking {
 			//Finish Meta Box Declaration
 			$my_meta->Finish();
 		}
-	}
-//	function register_meta_box () {
-//		$custom_metabox = new WPAlchemy_MetaBox(array
-//		(
-//			'id' => '_custom_meta',
-//			'title' => 'My Custom Meta',
-//			'template' => ALEBOOKING__PLUGIN_DIR . '/custom/meta.php'
-//		));
-//	}
-
-	public function register( $file ) {
-		add_action( 'init', [ $this, 'custom_post_type' ] );
-		add_action( 'admin_enqueue_scripts', [ $this, 'enqueue_admin' ] );
-		add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_front' ] );
-
-		// Hook Add menu item for admin left sidebar
-		add_action( 'admin_menu', [ $this, 'add_menu_page' ] );
-
-		// Load template.
-		add_filter( 'template_include', [ $this, 'room_template' ] );
-		// Can be checked on http://wp:802/rooms/
-
-		add_action( 'admin_init', [ $this, 'settings_init' ] );
-		// Add links to plugins page.
-		// So set to alebooking.php
-		add_filter(
-			'plugin_action_links_' . plugin_basename( $file ),
-			[ $this, 'add_plugin_setting_link' ]
-		//'add_plugin_setting_link'
-		); // alebooking/alebooking.php
-		//echo 'plugin_action_links_' . plugin_basename(__FILE__); die();
-		//echo plugin_basename(__FILE__); die(); // alebooking/class.alebooking.php
-		// alebooking/alebooking.php
-
-		//echo plugins_url(__FILE__); die();
-
-		add_action( 'admin_menu', [ $this, 'add_meta_box_for_room' ] );
-
-		add_action( 'save_post_room', [ $this, 'save_meta_data'], 10, 2 );
-
-		//add_action('init', [ $this, 'register_meta_box']);
-		$this->register_meta_box();
 	}
 
 	public function add_meta_box_for_room() {
@@ -297,11 +297,6 @@ class AleBooking {
 //	static function uninstall() {
 //		// Do something on delete.
 //	}
-
-	public function getAle() {
-		//return self::TEST_MESS;
-		return $this->message;
-	}
 
 	// Подключаем скрипты и стили для админа.
 	public function enqueue_admin() {

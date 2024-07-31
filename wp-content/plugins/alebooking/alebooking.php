@@ -49,17 +49,28 @@ if (!class_exists('AT_Meta_Box')) {
 	require_once( ALEBOOKING__PLUGIN_DIR . 'includes/meta-box-class/class-alebooking-meta-box.php' );
 }
 
-//function ale_say_hello() {
-//	//echo 'Hello Ale!!!';
-//	if (class_exists('AleBooking')) {
-//		$cl = new AleBooking('Test Albook');
-//		echo $cl->getAle();
-//	}
-//}
-////
 //add_action('admin_init', 'ale_say_hello');
+
+// Подключение класса с основным функционалом.
 if ( class_exists( 'AleBooking' ) ) {
 	$alebooking = new AleBooking( 'Test Albook' );
+
+	// Вызов метода с регистрацией
+	// custom_post_type - создание типа поста - 'Room' и таксономий 'location' и 'room_type'
+	// Подключение скриптов для админки admin_enqueue_scripts
+	// Подключение скриптов для фронта admin_enqueue_scripts
+	// Создание страницы настроек плагина add_action( 'admin_menu', [ $this, 'add_menu_page' ] );
+	//  SEE http://wp:802/wp-admin/admin.php?page=alebooking_settings
+	// Добавление возможности использования кастом темплейта add_filter( 'template_include', [ $this, 'room_template' ] );
+	// settings_init - Регистрация секции и опция для страницы настроек плагина
+	//     SEE http://wp:802/wp-admin/admin.php?page=alebooking_settings
+
+	// Добавление метабокса 'Room settings' для типа данных room add_meta_box_for_room
+	// для полей price и size See http://wp:802/wp-admin/post.php?post=260&action=edit
+
+	// Использование хука save_post_[POST_TYPE] save_post_room для сохранения данных
+	//   save_meta_data  для полей room_beds и size
+
 	$alebooking->register(__FILE__);
 }
 
